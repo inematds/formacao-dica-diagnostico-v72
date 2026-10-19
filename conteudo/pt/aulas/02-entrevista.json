@@ -1,0 +1,209 @@
+{
+  "slug": "entrevista",
+  "num": 2,
+  "menu": "Entrevista",
+  "titulo": "A entrevista com o dono: preparar em 20 minutos, as 15 perguntas, o silêncio",
+  "titulo_curto": "A entrevista com o dono",
+  "minutos": 20,
+  "lead": "O diagnóstico já foi combinado; agora é a conversa que decide se ele vai ser bom. Você chega preparado, pede para gravar dizendo para quê, faz 15 perguntas sempre na mesma ordem e deixa o dono falar. A dor real aparece num caso da semana passada, quase nunca na primeira resposta.",
+  "objetivo": "conduzir a entrevista de diagnóstico com as 15 perguntas, pedir gravação com consentimento claro e separar dor real de dor falsa.",
+  "competencias": ["preparar-entrevista", "pedir-consentimento-de-gravacao", "separar-dor-real-de-falsa", "encerrar-com-proximo-passo"],
+  "aprende": [
+    {"t": "Preparar a conversa em 20 minutos"},
+    {"t": "Pedir para gravar dizendo finalidade, ferramenta e prazo"},
+    {"t": "Fazer as 15 perguntas em 5 blocos e usar o silêncio"},
+    {"t": "Treinar numa entrevista simulada com a dona da clínica"}
+  ],
+  "hero_alt": "Dona de uma clínica fala gesticulando enquanto a consultora escuta com o caderno no colo.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "O caminho da entrevista",
+      "sub": "Cinco momentos, sempre nesta ordem. Clique em cada um.",
+      "estilo": "escada",
+      "nos": [
+        {"icone": "lupa", "titulo": "Preparar", "sub": "20 min",
+         "detalhe": "Site, perfil nas redes, avaliações no Google Maps e uma mensagem ao WhatsApp da empresa (com o dono sabendo) para ver como respondem. Saia com 3 hipóteses de dor e 2 perguntas específicas do negócio."},
+        {"icone": "cadeado", "titulo": "Consentir", "sub": "minuto 1",
+         "detalhe": "Antes da pergunta 1, peça para gravar e diga para quê, onde fica, se uma ferramenta de IA vai transcrever e quando você apaga. Peça que ele não cite paciente ou cliente pelo nome."},
+        {"icone": "lista", "titulo": "Perguntar", "sub": "5 blocos", "forte": true,
+         "detalhe": "15 perguntas: contexto, fluxo, gargalo, sonho, medo. Sempre nesta ordem: o dono começa falando do que gosta e só chega no medo quando já confia em você."},
+        {"icone": "relogio", "titulo": "Escutar", "sub": "silêncio",
+         "detalhe": "Regra prática do consultor: ele fala a maior parte do tempo. Repita a palavra dele, peça \"me conta mais\" e conte até três antes de falar."},
+        {"icone": "calendario", "titulo": "Encerrar", "sub": "com data",
+         "detalhe": "Resuma em 3 frases, pergunte \"é isso?\", diga o que vai entregar e quando, e marque a devolutiva ali mesmo. Nada de solução nesta conversa."}
+      ],
+      "legenda": "Esta é a entrevista de entrega. A call que vende o diagnóstico é outra e está na Vendas com IA 2."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Os 5 blocos de perguntas",
+      "sub": "Três perguntas por bloco. A ordem importa mais que a redação.",
+      "passos": [
+        {"titulo": "Contexto e fluxo", "sub": "perguntas 1 a 6",
+         "texto": ["Começa pelo que o dono gosta de contar: o que a empresa faz, como começou, quem é a equipe.", "Depois o caminho do cliente, do primeiro contato ao pagamento, e o que para quando ele não está."]},
+        {"titulo": "Gargalo", "sub": "perguntas 7 a 9",
+         "texto": ["Só depois de o dono estar à vontade: a tarefa mais chata da semana, onde se perde cliente, o que se refaz toda semana.", "Aqui aparecem as candidatas a assistente. Anote, não proponha."]},
+        {"titulo": "Sonho e medo", "sub": "perguntas 10 a 15",
+         "texto": ["Sonho antes do medo: o que precisa estar diferente em 12 meses, o que faria com tempo livre.", "Por último: o que já deu errado com tecnologia, o que preocupa na IA e quem mais precisa concordar."]},
+        {"titulo": "Dor real ou falsa", "sub": "o teste das 3",
+         "texto": ["Dor real tem caso recente, custo (em tempo, cliente perdido ou dinheiro) e alguma pressa. Dor falsa soa como palestra: \"queria melhorar tudo um pouco\".", "Na dúvida, faça três perguntas: \"me dá um exemplo da última vez\", \"quanto isso te custa em tempo ou cliente\", \"se nada mudar, como estará em 6 meses\"."],
+         "exemplo": {"rot": "Quando ele não sabe o número", "texto": "Não chute. Combine uma contagem simples por uma semana (um papel na recepção, uma marca por mensagem perdida) e use esse número no relatório."}}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para a entrevista",
+      "sub": "Copie, adapte ao nicho e leve impresso. Troque o que está entre < > pelo seu.",
+      "blocos": [
+        {"rot": "roteiro-15-perguntas.md", "icone": "lista",
+         "conteudo": "# Entrevista de diagnóstico — <negócio> — <data>\n# Preparação (20 min): 3 hipóteses de dor + 2 perguntas específicas\nHipóteses: 1) <...> 2) <...> 3) <...>\nPerguntas específicas: a) <...> b) <...>\n\n## Bloco 1 — Contexto\n1. Me conta em uma frase o que a <empresa> faz e para quem.\n2. Há quanto tempo vocês funcionam? Como começou?\n3. Quantas pessoas são hoje? Qual é o seu papel no dia a dia?\n\n## Bloco 2 — Fluxo\n4. Me descreve o caminho de um <cliente/paciente> desde que conhece vocês até pagar.\n5. Por quais canais ele fala com vocês? Quantas mensagens chegam num dia normal?\n6. Quando você não está, o que para?\n\n## Bloco 3 — Gargalo\n7. Qual a coisa mais chata da semana que você gostaria de não fazer?\n8. Onde vocês perdem <cliente/paciente>: antes, durante ou depois do atendimento?\n9. Tem alguma tarefa que você refaz toda semana?\n\n## Bloco 4 — Sonho\n10. Daqui a 12 meses, o que precisa estar diferente para você ficar satisfeita(o)?\n11. Se ganhasse algumas horas livres por semana, no que usaria?\n12. Que tipo de <cliente/paciente> você queria ter mais?\n\n## Bloco 5 — Medo\n13. Já tentou alguma tecnologia que não deu certo? O que aconteceu?\n14. O que te preocupa quando pensa em IA atendendo <cliente/paciente>?\n15. Quem mais precisa concordar para a gente avançar?\n\n## Frases literais (anotar entre aspas)\n- \"<...>\"\n## Números que ele citou / que vamos contar\n- <...>"},
+        {"rot": "consentimento-gravacao.txt", "icone": "cadeado",
+         "conteudo": "Antes de começar: posso gravar a nossa conversa?\nÉ só para eu não perder nenhuma frase sua quando montar o relatório.\n- Quem ouve: só eu.\n- Ferramenta: <nome da ferramenta> vai transformar o áudio em texto.\n- Onde fica: <pasta/conta>, sem compartilhar com ninguém.\n- Quando apago: o áudio em <N> dias; o texto fica só até o relatório ser entregue.\nUm pedido: não diga nome de paciente ou cliente; fale \"uma paciente\", \"um cliente\".\nSe preferir que eu não grave, sem problema: anoto à mão.\nPosso gravar?\n\n[registro] Consentimento dado em <data, hora>, por <nome>, para <finalidade>."},
+        {"rot": "encerramento.txt", "icone": "calendario",
+         "conteudo": "Resumo: \"Deixa eu te devolver em 3 frases o que entendi: <1>, <2>, <3>.\"\nValidação: \"É isso? Ficou faltando algo importante?\"\nEntrega: \"Em <N> dias úteis eu te mostro uma página com o que achei e uma recomendação.\"\nAgenda: \"Qual o seu próximo horário livre para eu te apresentar ao vivo?\"\nTarefa: \"Até lá, a recepção marca num papel <o que vamos contar>, tudo bem?\""}
+      ],
+      "saida": {"selo": "simulacao", "abas": [
+        {"rot": "Como conferir", "html": "<ul><li>O roteiro tem as 15 perguntas com as palavras do nicho (paciente, comprador, cliente).</li><li>O consentimento diz finalidade, ferramenta, onde fica e quando apaga.</li><li>O encerramento tem data de devolutiva e uma tarefa de contagem, quando faltar número.</li></ul>"},
+        {"rot": "Por que tanto cuidado com a gravação", "html": "<p>A voz e o que o dono conta são dados pessoais. Numa clínica, a conversa pode chegar em dado de saúde de paciente, que a LGPD (Lei 13.709/2018, art. 5º, II) chama de dado sensível. Por isso o pedido para não citar nomes e o prazo para apagar. Para escolher a ferramenta de transcrição pelo lado dos dados, veja o Data guard do curso Auditor (link no fim da aula).</p>"}
+      ]}
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Entrevista simulada: a dona da Vila Serena",
+      "sub": "Conversa simulada e fictícia, para treinar. Escolha o que você diria; o comentário aparece logo depois.",
+      "personagem": {"nome": "Dona da Clínica Vila Serena (fictícia)", "papel": "fisioterapia e estética · 9 pessoas"},
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "Pode começar. Só tenho uns quarenta minutos, às três chega paciente.",
+          "opcoes": [
+            {"t": "Antes da primeira pergunta: posso gravar? É para não perder suas frases. Uma ferramenta transforma o áudio em texto, eu apago o áudio em 30 dias e peço que você não diga nome de paciente.", "vai": "dor", "nota": 2,
+             "comenta": "Consentimento completo: para quê, com que ferramenta, até quando, e o cuidado com dado de paciente. Leva vinte segundos e evita problema depois."},
+            {"t": "Vou deixar o celular gravando aqui, tudo bem?", "vai": "dor", "nota": 1,
+             "comenta": "Você pediu, o que já é melhor que gravar escondido. Mas ela não sabe para quê, se uma IA vai transcrever, nem quando você apaga."},
+            {"t": "Então vamos direto: qual é o maior problema? Já tenho umas ideias de assistente para vocês.", "vai": "fim-solucao", "nota": 0,
+             "comenta": "Você chegou com a solução antes de ouvir. A dona vai responder em função da sua ideia, e o diagnóstico vira confirmação do que você já queria vender."}
+          ]
+        },
+        "dor": {
+          "cliente": "Pode, sim. Olha, o problema é que a gente precisa melhorar tudo um pouquinho. Todo mundo fala de IA, né? Não quero ficar para trás.",
+          "opcoes": [
+            {"t": "Perfeito, a IA melhora tudo. Começo pelo atendimento.", "vai": "fim-solucao", "nota": 0,
+             "comenta": "\"Melhorar tudo um pouquinho\" e \"não quero ficar para trás\" são sinais de dor falsa. Aceitar assim é comprar um projeto sem alvo."},
+            {"t": "Me conta a última vez, nesta semana, em que alguma coisa deu errado no atendimento.", "vai": "caso", "nota": 2,
+             "comenta": "Pergunta com âncora no tempo e objeto concreto. É a primeira das três perguntas do teste de dor real."},
+            {"t": "Me conta como funciona o atendimento de vocês?", "vai": "caso", "nota": 1,
+             "comenta": "Boa intenção, mas aberta demais: sem pedir um caso específico, a resposta tende a vir em adjetivo."}
+          ]
+        },
+        "caso": {
+          "cliente": "Segunda passada uma paciente nova mandou mensagem às sete da noite perguntando de pilates para dor nas costas. Ninguém viu. Na terça ela já tinha marcado em outro lugar.",
+          "opcoes": [
+            {"t": "Quantas vezes isso acontece por semana?", "vai": "numero", "nota": 1,
+             "comenta": "Pergunta boa, mas cedo: você cortou a fala dela. Três segundos de silêncio costumam trazer o resto da história."},
+            {"t": "Ninguém viu... (e espera, em silêncio)", "vai": "silencio", "nota": 2,
+             "comenta": "Repetir a palavra dela e esperar é a técnica mais barata da entrevista. Ela vai completar sozinha."},
+            {"t": "Então o problema é fora do horário. Um assistente no WhatsApp resolve isso.", "vai": "fim-solucao", "nota": 0,
+             "comenta": "Um caso não é diagnóstico. Você ainda não sabe quanto acontece, quem responde à noite nem o que o assistente poderia dizer."}
+          ]
+        },
+        "silencio": {
+          "cliente": "...e o pior é que eu respondo de noite pelo meu celular, quando lembro. Mas preço de pacote eu não deixo ninguém falar, porque muda conforme o convênio.",
+          "opcoes": [
+            {"t": "Isso do preço por convênio a IA aprende sozinha com as conversas antigas.", "vai": "fim-solucao", "nota": 0,
+             "comenta": "O que ninguém escreveu não chega à IA. Preço que muda por convênio é justamente a regra que você vai ter de tirar da cabeça dela (aulas 4 e 5)."},
+            {"t": "Anotei: \"respondo de noite, quando lembro\". Você já tentou resolver isso de outro jeito?", "vai": "numero", "nota": 1,
+             "comenta": "Frase literal anotada e pergunta de dor real (\"já tentou\"). Faltou o tamanho do problema."},
+            {"t": "Anotei suas palavras. E quanto isso custa hoje: quantas mensagens ficam sem resposta numa semana, e alguém consegue contar?", "vai": "numero", "nota": 2,
+             "comenta": "Frase literal anotada e pergunta de tamanho, a segunda do teste. Se ela não souber, você já abriu a porta para combinar uma contagem."}
+          ]
+        },
+        "numero": {
+          "cliente": "Já pus mensagem automática de ausência e não adiantou. Número eu não sei: ninguém conta. Uns dias são muitos, outros nem tanto.",
+          "opcoes": [
+            {"t": "Vou estimar umas cinquenta por semana, é o normal em clínica.", "vai": "fim-inventa", "nota": 0,
+             "comenta": "Número inventado no relatório é o começo da desconfiança. Se o dono não sabe, ninguém sabe ainda: é preciso contar."},
+            {"t": "Sem problema. Durante uma semana, a recepção marca num papel cada mensagem que chega depois das 18h. Eu uso esse número no relatório.", "vai": "encerra", "nota": 2,
+             "comenta": "Quando falta número, a resposta é uma contagem simples combinada, não um palpite. O papel na recepção vira a linha de base."},
+            {"t": "Vou colocar \"muitas mensagens perdidas\" no relatório.", "vai": "encerra", "nota": 0,
+             "comenta": "Adjetivo não sustenta recomendação. Na devolutiva, \"muitas\" vira discussão; uma contagem de uma semana vira acordo."}
+          ]
+        },
+        "encerra": {
+          "cliente": "Já são quase três horas. E aí, o que você acha que a gente faz?",
+          "opcoes": [
+            {"t": "Te mando o relatório quando ficar pronto.", "vai": "fim-solto", "nota": 1,
+             "comenta": "Sem data, a conversa esfria. Faltou resumir, validar e marcar a devolutiva ali mesmo."},
+            {"t": "Acho que um assistente no WhatsApp resolve. Te mando um orçamento.", "vai": "fim-solucao", "nota": 0,
+             "comenta": "Solução e preço na entrevista atropelam o diagnóstico. Primeiro o mapa; preço é outra conversa."},
+            {"t": "Deixa eu resumir em 3 frases o que ouvi... É isso? Em 5 dias úteis te mostro uma página com o que achei. Qual o seu próximo horário livre?", "vai": "fim-bom", "nota": 2,
+             "comenta": "Resumo, validação, promessa com prazo e devolutiva na agenda. Ela sai sabendo o que vem e quando."}
+          ]
+        },
+        "fim-solucao": {"fim": true, "titulo": "Receita antes do exame",
+          "texto": "Você saiu com uma ideia de solução, não com um diagnóstico. Sem caso, sem número e sem as regras da casa, qualquer assistente vai responder errado com toda a segurança, e a dona vai culpar a IA."},
+        "fim-inventa": {"fim": true, "titulo": "Número de palpite",
+          "texto": "O relatório vai dizer um número que ninguém mediu. Na primeira semana de uso, a conta não fecha e a dona passa a duvidar do resto do diagnóstico."},
+        "fim-solto": {"fim": true, "titulo": "Boa conversa, sem próximo passo",
+          "texto": "Você ouviu bem e tem material, mas saiu sem data. A semana da dona enche, a devolutiva escorrega e a contagem combinada não começa."},
+        "fim-bom": {"fim": true, "titulo": "Diagnóstico com chão",
+          "texto": "Você sai com a dor real descrita por um caso da semana, uma frase literal da dona, uma contagem de uma semana combinada e a devolutiva marcada. O relatório da aula 8 começa daqui."}
+      },
+      "licao": "Consentimento claro, caso recente e silêncio trazem a dor real. O número que o dono não sabe vira contagem combinada, nunca palpite."
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática: o seu roteiro",
+      "sub": "Use a Vila Serena (fictícia) ou um negócio real que autorizou você.",
+      "exercicios": [
+        {"id": "e1", "titulo": "E1 · Roteiro adaptado ao nicho", "min": "20 min",
+         "texto": "Copie o roteiro das 15 perguntas e troque as palavras pelo vocabulário do nicho (paciente, aluno, comprador). Preencha as 3 hipóteses e as 2 perguntas específicas da Vila Serena.",
+         "pronto": "o roteiro tem as 15 perguntas nos 5 blocos, na ordem, com o vocabulário do nicho e as hipóteses preenchidas."},
+        {"id": "e2", "titulo": "E2 · Script de consentimento", "min": "10 min",
+         "texto": "Adapte o script de consentimento com a ferramenta que você usa de verdade e um prazo de apagar que você vai cumprir.",
+         "pronto": "o script diz finalidade, ferramenta, onde fica e quando apaga, e tem a linha de registro do consentimento."},
+        {"id": "e3", "titulo": "E3 · Conversa simulada", "min": "10 min",
+         "texto": "Faça a entrevista simulada desta aula até chegar ao fim \"Diagnóstico com chão\".",
+         "pronto": "o seu melhor placar na conversa simulada é o máximo de pontos."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste o que aprendeu",
+      "perguntas": [
+        {"p": "Por que o bloco do medo vem por último na entrevista?",
+         "opcoes": ["Porque é a parte menos importante da conversa e pode ser cortada se faltar tempo.", "Porque o dono só fala do que preocupa depois de confiar em você.", "Porque medo não aparece no relatório.", "Porque é a pergunta mais curta do roteiro."],
+         "certa": 1, "explica": "A ordem cria confiança: contexto, fluxo, gargalo, sonho e só então medo. Abrir pelo medo fecha o dono logo no começo.", "ref": "passos"},
+        {"p": "O dono diz \"queria melhorar tudo um pouquinho\". O que você faz?",
+         "opcoes": ["Pede um exemplo da última vez em que algo deu errado.", "Aceita e propõe começar pelo atendimento.", "Encerra a entrevista por falta de dor.", "Mostra o que um assistente consegue fazer."],
+         "certa": 0, "explica": "É sinal de dor falsa, mas não motivo para desistir. O teste das 3 perguntas começa pedindo um caso recente.", "ref": "simconversa", "cert": true},
+        {"p": "O dono não sabe quantas mensagens ficam sem resposta. O que entra no relatório?",
+         "opcoes": ["Uma estimativa média do setor.", "A palavra \"muitas\", para não errar.", "O número que uma contagem de uma semana mostrar.", "Nada sobre isso."],
+         "certa": 2, "explica": "Sem número, combine uma contagem simples (um papel na recepção) e use o resultado. Palpite e adjetivo não sustentam a recomendação.", "ref": "passos"},
+        {"p": "O que um consentimento de gravação completo diz ao dono?",
+         "opcoes": ["Que todo consultor grava e é obrigatório.", "Só que a conversa será gravada.", "Que a gravação será usada depois para treinar o assistente de IA que você vai montar.", "Para que grava, que ferramenta transcreve, onde fica e quando apaga."],
+         "certa": 3, "explica": "Finalidade, ferramenta, local e prazo. Numa clínica, ainda peça para não citar nome de paciente: dado de saúde é dado sensível na LGPD.", "ref": "codigo", "cert": true}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Prepare e peça", "texto": "20 minutos de pesquisa, 3 hipóteses, 2 perguntas específicas. No minuto 1, consentimento com finalidade, ferramenta e prazo."},
+        {"t": "Ordem e silêncio", "texto": "15 perguntas em 5 blocos, sonho antes do medo. Repita a palavra dele e espere."},
+        {"t": "Caso, número, data", "texto": "Dor real tem caso recente e tamanho. Número que falta vira contagem. A conversa termina com a devolutiva na agenda."}
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {"t": "A call de descoberta que vende o diagnóstico (Vendas com IA 2, aula 2)", "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/aulas/call-descoberta/", "icone": "chat"},
+        {"t": "Data guard: dados, fornecedores e modelos (prof2030-auditor, aula 6)", "href": "https://inematds.github.io/prof2030-auditor/aulas/data-guard/", "icone": "escudo"},
+        {"t": "Dados, LGPD e escolha de fornecedor (prof2030-base, aula 5)", "href": "https://inematds.github.io/prof2030-base/aulas/dados-lgpd/", "icone": "cadeado"},
+        {"t": "LGPD, texto da lei (Planalto)", "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm", "icone": "arquivo"}
+      ]
+    }
+  ]
+}

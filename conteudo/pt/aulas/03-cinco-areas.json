@@ -1,0 +1,118 @@
+{
+  "slug": "cinco-areas",
+  "num": 3,
+  "menu": "5 áreas",
+  "titulo": "As 5 áreas: atendimento, vendas, marketing, gestão, financeiro",
+  "titulo_curto": "As 5 áreas do negócio",
+  "minutos": 18,
+  "lead": "Sem pontuação, a sua sugestão parece opinião. Com nota, vira diagnóstico que o dono consegue discutir. Você passa pelas 5 áreas com 3 perguntas cada, dá nota de 0 a 3 em dor, urgência e prontidão, e escreve ao lado por que deu aquela nota.",
+  "objetivo": "pontuar as 5 áreas do negócio (dor, urgência, prontidão) com critério escrito para cada nota e escolher onde olhar primeiro.",
+  "competencias": ["mapear-cinco-areas", "pontuar-com-criterio", "priorizar-area"],
+  "aprende": [
+    {"t": "As 3 perguntas de cada área"},
+    {"t": "Os sintomas que o dono já naturalizou"},
+    {"t": "A matriz 0–3 com o critério de cada nota"},
+    {"t": "Por que o financeiro pede sempre aprovação humana"}
+  ],
+  "hero_alt": "Cinco folhas de papel lado a lado numa mesa de madeira, com post-its e uma caneta.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "As 5 áreas do pequeno negócio",
+      "sub": "Clique em cada área: perguntas, sintomas e cuidado.",
+      "nos": [
+        {"icone": "chat", "titulo": "Atendimento", "sub": "a porta",
+         "detalhe": "Perguntas: quanto tempo leva para responder uma mensagem nova? Quantos canais estão ativos? Quem responde fora do horário? Sintomas: dono preso ao celular à noite, mensagem perdida entre canais, \"vou perguntar e te aviso\"."},
+        {"icone": "alvo", "titulo": "Vendas", "sub": "o funil",
+         "detalhe": "Perguntas: quantos contatos chegam por mês e de onde? Quanto tempo do \"oi\" até a proposta? Quem faz o retorno de quem não respondeu, e em quantos dias? Sintomas: proposta escrita do zero toda vez, retorno esquecido, ninguém sabe de onde veio o cliente."},
+        {"icone": "megafone", "titulo": "Marketing", "sub": "a vitrine",
+         "detalhe": "Perguntas: quantos posts por semana, há calendário? Anuncia, em qual canal? Sabe qual canal traz cliente? Sintomas: posta quando lembra, anúncio impulsionado sem alvo, não sabe de onde vem o cliente."},
+        {"icone": "camadas", "titulo": "Gestão", "sub": "o retrabalho",
+         "detalhe": "Perguntas: a equipe pergunta as mesmas coisas várias vezes? Que tarefa você refaz toda semana? Quando você sai de férias, o que para? Sintomas: tudo passa pelo dono, procedimento só na cabeça de uma pessoa."},
+        {"icone": "grafico", "titulo": "Financeiro", "sub": "o sensível", "forte": true,
+         "detalhe": "Perguntas: você sabe o resultado do mês passado? Como confere banco com sistema? Quem cobra quem atrasou, e em quantos dias? Sintomas: \"vou puxar o relatório e te mando\", cobrança só quando vira problema. Aqui, toda automação passa por aprovação humana."}
+      ],
+      "legenda": "Este mapeamento é do negócio inteiro. Para mapear um processo a fundo, veja a Gestão de IA · Processos (link no fim)."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "A matriz 0–3, com critério escrito",
+      "sub": "Três notas por área. O critério vem antes da nota.",
+      "passos": [
+        {"titulo": "Dor", "sub": "dói quanto?",
+         "texto": ["0 = o dono não vê problema. 1 = reclama em geral, sem caso. 2 = conta um caso recente. 3 = conta caso recente e diz quanto custa (tempo, cliente perdido) ou já tentou resolver.", "A nota sai do que ele disse na entrevista, não da sua impressão."]},
+        {"titulo": "Urgência", "sub": "para quando?",
+         "texto": ["0 = pode esperar mais de um semestre. 1 = este trimestre. 2 = este mês. 3 = está atrapalhando agora e ele pediu prazo.", "Urgência sem dor é ansiedade; dor sem urgência entra no mapa de 12 meses."]},
+        {"titulo": "Prontidão", "sub": "tem com o quê?",
+         "texto": ["0 = nada escrito, ninguém sabe. 1 = está na cabeça de alguém disponível. 2 = parte em planilha ou sistema. 3 = organizado num lugar só, com alguém que cuida.", "Prontidão baixa não descarta a área: indica que o primeiro passo é arrumar a informação."]},
+        {"titulo": "Somar e conversar", "sub": "a nota é dele",
+         "texto": ["Some as três notas por área e mostre a tabela ao dono na devolutiva. Ele concorda ou corrige cada nota.", "Quando o dono corrige uma nota com um caso, o critério fica mais firme. Quando corrige sem caso, registre e mantenha o seu critério."],
+         "exemplo": {"rot": "Comparação (fictícia)", "texto": "Na Imobiliária Ponto Firme (4 corretores), vendas pontuou mais que atendimento: a proposta sai no dia seguinte à visita. Na Vila Serena, atendimento lidera por causa das mensagens da noite."}}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo: matriz das 5 áreas",
+      "sub": "Uma linha por área; a coluna de critério é obrigatória. Troque o que está entre < > pelo seu.",
+      "blocos": [
+        {"rot": "matriz-5-areas.md", "icone": "grafico",
+         "conteudo": "# Matriz das 5 áreas — <negócio> — <data>\n# Escala: 0 a 3. Critério = o que o dono disse que justifica a nota.\n\n| Área | Dor | Critério da dor | Urgência | Critério da urgência | Prontidão | Critério da prontidão | Total |\n|---|---|---|---|---|---|---|---|\n| Atendimento | <0-3> | <caso ou frase do dono> | <0-3> | <prazo citado> | <0-3> | <onde está a informação> | <soma> |\n| Vendas | | | | | | | |\n| Marketing | | | | | | | |\n| Gestão | | | | | | | |\n| Financeiro | | | | | | | |\n\nOnde olhar primeiro: <área> — porque <motivo em 1 linha>\nNota que o dono corrigiu: <área, de X para Y, motivo>"},
+        {"rot": "Exemplo parcial (fictício)", "icone": "lista",
+         "conteudo": "# Matriz das 5 áreas — Clínica Vila Serena (fictícia)\n\n| Área | Dor | Critério da dor | Urgência | Critério | Prontidão | Critério | Total |\n|---|---|---|---|---|---|---|---|\n| Atendimento | 3 | caso da paciente que marcou em outro lugar + \"respondo de noite, quando lembro\" | 3 | pediu para resolver antes das férias | 1 | preços e convênios na cabeça da equipe | 7 |\n| Financeiro | 1 | \"a gente se vira\", sem caso | 1 | sem prazo | 2 | extrato do banco + planilha da sócia | 4 |\n\nOnde olhar primeiro: atendimento — maior dor e urgência; prontidão baixa pede arrumar as regras antes (aulas 4 e 5)."}
+      ],
+      "saida": {"selo": "simulacao", "abas": [
+        {"rot": "Como conferir", "html": "<ul><li>As 5 áreas têm as 3 notas.</li><li>Cada nota tem um critério escrito com palavra ou caso do dono.</li><li>A linha \"onde olhar primeiro\" tem motivo, não só a maior soma.</li></ul>"},
+        {"rot": "Erros comuns", "html": "<ul><li>Dar nota 3 em dor sem caso recente.</li><li>Pular o financeiro porque o dono não falou dele: pergunte, ele costuma reconhecer quando você toca.</li><li>Ler prontidão baixa como \"não dá\": é o primeiro trabalho.</li></ul>"}
+      ]}
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática: a matriz da Vila Serena",
+      "sub": "Use o que a dona disse na entrevista simulada da aula 2 e invente o resto como fictício.",
+      "exercicios": [
+        {"id": "e1", "titulo": "E1 · Matriz completa", "min": "25 min",
+         "texto": "Preencha a matriz das 5 áreas para a Clínica Vila Serena (fictícia). Para as áreas que a entrevista simulada não cobriu, escreva o critério como \"fictício: ...\".",
+         "pronto": "a matriz tem as 5 áreas com nota 0–3 em dor, urgência e prontidão, e o critério de cada nota escrito ao lado."},
+        {"id": "e2", "titulo": "E2 · Onde olhar primeiro", "min": "5 min",
+         "texto": "Escreva a linha \"onde olhar primeiro\" com a área e o motivo, e diga o que a prontidão dessa área pede antes de qualquer assistente.",
+         "pronto": "a linha cita uma área, um motivo em uma frase e o primeiro passo de arrumação, se a prontidão for 0 ou 1."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste o que aprendeu",
+      "perguntas": [
+        {"p": "O dono diz que o atendimento \"podia ser melhor\", sem nenhum caso. Que nota de dor?",
+         "opcoes": ["3, porque atendimento é sempre crítico.", "2, para não desanimar o dono.", "0, porque não citou número.", "1: reclama em geral, sem caso recente."],
+         "certa": 3, "explica": "Pelo critério escrito, queixa sem caso é 1. Dar nota alta por hábito é o que transforma a matriz em opinião.", "ref": "passos", "cert": true},
+        {"p": "Atendimento tem prontidão 1 (regras na cabeça da equipe). O que isso significa?",
+         "opcoes": ["Que o primeiro passo é escrever as regras, antes de qualquer assistente.", "Que a área deve sair do mapa.", "Que basta um assistente aprender sozinho com as conversas antigas do WhatsApp.", "Que a nota está errada."],
+         "certa": 0, "explica": "Prontidão baixa não descarta a área; indica o primeiro trabalho. As aulas 4 e 5 ensinam a tirar essas regras do dono.", "ref": "passos"},
+        {"p": "Por que o financeiro pede aprovação humana em toda automação?",
+         "opcoes": ["Porque é a área com mais mensagens.", "Porque erro ali mexe com dinheiro e com a relação com o cliente.", "Porque a lei proíbe automatizar cobrança.", "Porque o dono não sabe usar planilha."],
+         "certa": 1, "explica": "Cobrança, conciliação e relatório erram com custo alto. A promessa é preparar e deixar pronto para aprovar, nunca \"fechar sozinho\".", "ref": "diagrama"},
+        {"p": "Para que mostrar a matriz ao dono na devolutiva?",
+         "opcoes": ["Para provar que você trabalhou muito.", "Para justificar o preço.", "Para ele concordar ou corrigir cada nota, e a prioridade virar dele.", "Para ele escolher sozinho a ferramenta de IA que prefere usar no negócio."],
+         "certa": 2, "explica": "A nota discutida vira compromisso. Correção com caso deixa o critério mais firme.", "ref": "passos"}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "5 áreas, 3 perguntas", "texto": "Atendimento, vendas, marketing, gestão e financeiro, sempre na mesma ordem."},
+        {"t": "Critério antes da nota", "texto": "Dor, urgência e prontidão de 0 a 3, cada nota com o caso ou a frase do dono que a justifica."},
+        {"t": "Prontidão é tarefa", "texto": "Nota baixa de prontidão não descarta a área: diz que o primeiro passo é arrumar a informação."}
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {"t": "Mapear um processo a fundo (Gestão de IA · Processos, aula 3)", "href": "https://inematds.github.io/gestao-ia-processos-v72/aulas/mapear/", "icone": "camadas"},
+        {"t": "Escolher o primeiro processo (Gestão de IA · Processos, aula 2)", "href": "https://inematds.github.io/gestao-ia-processos-v72/aulas/primeiro-processo/", "icone": "alvo"},
+        {"t": "Área Consultoria de IA", "href": "https://eventos.inema.pro/consultoria-ia/", "icone": "seta"}
+      ]
+    }
+  ]
+}

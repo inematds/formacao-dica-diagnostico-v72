@@ -1,0 +1,123 @@
+{
+  "slug": "caso-a-regra",
+  "num": 5,
+  "menu": "Regras",
+  "titulo": "De caso a regra: validar com 3 casos novos e guardar no pacote de contexto",
+  "titulo_curto": "De caso a regra",
+  "minutos": 18,
+  "lead": "O padrão dos casos ainda está na sua língua. Agora ele vira regra SE/ENTÃO com as palavras do dono, passa por três casos que ele não usou para ensinar você e vai para um arquivo com dono, data e versão. É esse arquivo que qualquer assistente vai ler depois, e é ele que fica com a empresa.",
+  "objetivo": "transformar o padrão dos casos em regras SE/ENTÃO, testá-las em 3 casos novos e guardá-las num arquivo com dono e data.",
+  "competencias": ["escrever-regra-se-entao", "validar-regra-com-casos-novos", "manter-pacote-de-contexto"],
+  "aprende": [
+    {"t": "Escrever regra SE/ENTÃO verificável"},
+    {"t": "Ler a regra para o dono e aceitar o ajuste"},
+    {"t": "Testar em 3 casos novos, no papel"},
+    {"t": "Guardar no pacote de contexto com dono, data e versão"}
+  ],
+  "hero_alt": "Mãos escrevendo regras curtas num caderno pautado, ao lado de três fichas de papel.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "O ciclo da regra",
+      "sub": "Cada regra passa pelos cinco passos antes de ir para o arquivo.",
+      "nos": [
+        {"icone": "lista", "titulo": "Padrão", "sub": "da aula 4",
+         "detalhe": "Comece pelo que se repetiu nos 3 casos (3 de 3 ou 2 de 3). O que apareceu uma vez só fica de fora por enquanto."},
+        {"icone": "caneta", "titulo": "SE/ENTÃO", "sub": "a regra",
+         "detalhe": "SE [condição que dá para ver na mensagem] ENTÃO [ação específica]. Use as palavras do dono. Nada de \"atender bem\" ou \"depende\"."},
+        {"icone": "chat", "titulo": "Ler ao dono", "sub": "é assim?",
+         "detalhe": "Leia a regra em voz alta e pergunte: \"é exatamente assim que você faria?\". O ajuste que ele fizer é a regra real."},
+        {"icone": "check", "titulo": "3 casos novos", "sub": "no papel", "forte": true,
+         "detalhe": "Pegue 3 casos que não foram usados para criar a regra. Para cada um: o que a regra manda fazer? O dono faria igual? Quando os 3 batem, a regra está madura."},
+        {"icone": "memoria", "titulo": "Arquivo", "sub": "dono e data",
+         "detalhe": "A regra madura vai para o arquivo de regras da empresa, com quem responde por ela, a data e a versão. Esse arquivo é parte do pacote de contexto que a empresa guarda."}
+      ],
+      "volta": "regra que falha num caso novo volta para o SE/ENTÃO",
+      "legenda": "Sem validação, a primeira semana do assistente revela o erro na frente do cliente."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Boa regra, regra ruim",
+      "sub": "O teste: alguém que não conhece a empresa consegue aplicar?",
+      "passos": [
+        {"titulo": "Condição visível", "sub": "dá para ver",
+         "texto": ["A condição tem de aparecer no que o cliente escreveu ou no sistema: \"pergunta preço\", \"cita cirurgia\", \"é a primeira vez\".", "\"Quando o cliente parece sério\" não é condição: ninguém vê isso."]},
+        {"titulo": "Ação específica", "sub": "sem depende",
+         "texto": ["A ação diz o que fazer e, quando importa, o que não fazer: \"perguntar o convênio; não enviar valor\".", "Ação com duas saídas vira duas regras."],
+         "exemplo": {"rot": "Narrativa → regra (fictícia)", "texto": "\"Quando perguntam preço de pacote, nunca mando valor; pergunto o convênio, porque muda.\" → SE pergunta preço de pacote E não disse o convênio ENTÃO perguntar o convênio; NÃO enviar valor."}},
+        {"titulo": "Exceção com dono", "sub": "quem decide",
+         "texto": ["Toda regra que pode dar errado com custo alto aponta para uma pessoa: \"SE cita cirurgia recente ENTÃO chamar a fisioterapeuta\".", "No arquivo, cada regra tem quem responde por ela."]},
+        {"titulo": "Sinais de regra madura", "sub": "quando parar",
+         "texto": ["O dono aprova os 3 casos novos sem ajuste, ou o ajuste é de palavra, não de estrutura.", "Ele já consegue prever o que a regra vai fazer antes de você mostrar."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos: regra, teste e arquivo",
+      "sub": "O arquivo de regras é texto simples: qualquer ferramenta lê. Troque o que está entre < > pelo seu.",
+      "blocos": [
+        {"rot": "teste-regra.md", "icone": "check",
+         "conteudo": "# Teste da regra <RNN> — <data>\nRegra: SE <condição> ENTÃO <ação>\n\n| Caso novo (sem nome) | O que a regra manda | O que o dono faria | Bate? |\n|---|---|---|---|\n| <caso 1> | <...> | <...> | sim/não |\n| <caso 2> | <...> | <...> | sim/não |\n| <caso 3> | <...> | <...> | sim/não |\n\nAjuste do dono: <palavra ou estrutura; o que mudou>\nResultado: madura / volta para o SE/ENTÃO"},
+        {"rot": "regras-NEGOCIO.md", "icone": "memoria",
+         "conteudo": "# Regras de <área> — <negócio>\nDono do arquivo: <nome e papel>   Versão: <v1>   Atualizado em: <data>\nOrigem: casos coletados com <dono> em <data>; testadas em 3 casos novos cada.\nNão guarde aqui nome, telefone ou dado de saúde de cliente.\n\n## R01 — <nome curto>\nSE: <condição visível>\nENTÃO: <ação>\nNÃO: <o que não fazer, se houver>\nQuem responde: <pessoa>\nTestada em: <data> (3/3)\n\n## R02 — <nome curto>\n...\n\n## Histórico\n- <data> v1: criação com <N> regras\n- <data> v2: <o que mudou e por quê>"},
+        {"rot": "Exemplo (fictício)", "icone": "lista",
+         "conteudo": "# Regras de atendimento — Clínica Vila Serena (fictícia)\nDono do arquivo: a dona (proprietária)   Versão: v1   Atualizado em: <data>\n\n## R01 — Convênio antes do preço\nSE: pergunta preço de pacote E não disse o convênio\nENTÃO: perguntar qual convênio ou se é particular\nNÃO: enviar valor antes disso\nQuem responde: recepção\nTestada em: <data> (3/3)\n\n## R02 — Cirurgia recente\nSE: cita cirurgia nos últimos 6 meses\nENTÃO: dizer que a fisioterapeuta vai responder e avisar a fisioterapeuta\nQuem responde: fisioterapeuta de plantão\nTestada em: <data> (3/3, ajuste de palavra)"}
+      ],
+      "saida": {"selo": "simulacao", "abas": [
+        {"rot": "Como conferir", "html": "<ul><li>Cada regra tem SE, ENTÃO e quem responde.</li><li>Cada regra tem uma tabela de teste com 3 casos novos e o resultado.</li><li>O arquivo tem dono, versão e data no topo, e nenhum dado pessoal de cliente.</li></ul>"},
+        {"rot": "Onde guardar", "html": "<p>Num lugar da empresa, não só no seu computador: uma pasta compartilhada do negócio, com a dona como dona do arquivo. O consultor sai; as regras ficam.</p><p>Como organizar esse pacote de contexto (o que entra, quem atualiza, de quanto em quanto tempo) é assunto da Gestão de IA · Recursos, aula 3. Se o arquivo citar exemplos de conversas, tire nomes e dados de saúde: o cuidado da LGPD vale também para os seus rascunhos.</p>"}
+      ]}
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática: 5 regras testadas",
+      "sub": "Continue a Vila Serena (fictícia) a partir do padrão da aula 4.",
+      "exercicios": [
+        {"id": "e1", "titulo": "E1 · Cinco regras SE/ENTÃO", "min": "20 min",
+         "texto": "A partir do padrao.md, escreva 5 regras no modelo. Inclua pelo menos uma exceção que chama uma pessoa.",
+         "pronto": "o arquivo tem 5 regras, cada uma com condição visível, ação específica e quem responde."},
+        {"id": "e2", "titulo": "E2 · Três casos novos por regra", "min": "30 min",
+         "texto": "Para cada regra, escreva 3 casos novos (fictícios, diferentes dos da aula 4) e preencha a tabela de teste. Ajuste a regra que falhar e teste de novo.",
+         "pronto": "as 5 regras têm tabela de teste com 3 casos novos e o resultado \"madura\"."},
+        {"id": "e3", "titulo": "E3 · Arquivo com dono e versão", "min": "5 min",
+         "texto": "Monte o regras-vila-serena.md com o cabeçalho completo e o histórico.",
+         "pronto": "o arquivo tem dono, versão, data e histórico no topo, e uma busca por nome ou telefone não acha nada."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste o que aprendeu",
+      "perguntas": [
+        {"p": "Qual destas é uma condição de regra que dá para verificar?",
+         "opcoes": ["Quando o paciente parece interessado.", "Quando o atendimento for importante.", "Quando a pessoa pergunta preço e não disse o convênio.", "Quando fizer sentido."],
+         "certa": 2, "explica": "A condição tem de estar visível na mensagem ou no sistema. \"Parece interessado\" e \"faz sentido\" ninguém consegue checar.", "ref": "passos", "cert": true},
+        {"p": "Por que testar a regra em casos que não foram usados para criá-la?",
+         "opcoes": ["Para descobrir se ela funciona fora dos exemplos que a originaram.", "Porque os casos antigos já foram apagados.", "Para ter mais material e exemplos para preencher o relatório de uma página.", "Porque o dono pediu."],
+         "certa": 0, "explica": "Regra testada só nos próprios exemplos sempre acerta. O caso novo mostra se ela generaliza.", "ref": "diagrama", "cert": true},
+        {"p": "O dono ouve a regra e muda uma palavra. O que isso indica?",
+         "opcoes": ["Que a regra deve ser descartada.", "Que você entendeu errado o caso e precisa refazer a entrevista do começo.", "Que é preciso coletar mais 10 casos.", "Que a regra está perto de madura; o ajuste revela o jeito real dele."],
+         "certa": 3, "explica": "Ajuste de palavra é sinal de regra madura. Ajuste de estrutura manda a regra de volta ao SE/ENTÃO.", "ref": "passos"},
+        {"p": "Onde o arquivo de regras deve ficar?",
+         "opcoes": ["Só no computador do consultor, para proteger o trabalho.", "Num lugar da empresa, com a dona como dona do arquivo.", "Dentro do assistente, sem cópia.", "Num grupo de WhatsApp da equipe."],
+         "certa": 1, "explica": "As regras são conhecimento da empresa. Se ficam só com o consultor, a empresa depende dele para sempre.", "ref": "codigo"}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "SE/ENTÃO com as palavras dele", "texto": "Condição visível, ação específica, o que não fazer e quem responde."},
+        {"t": "3 casos novos", "texto": "A regra só está madura quando acerta casos que não a criaram, com o dono conferindo."},
+        {"t": "Arquivo da empresa", "texto": "Dono, versão, data e histórico. Sem nome nem dado de saúde de cliente."}
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {"t": "Conhecimento da empresa como ativo: o pacote de contexto (Gestão de IA · Recursos, aula 3)", "href": "https://inematds.github.io/gestao-ia-recursos-v72/aulas/contexto/", "icone": "memoria"},
+        {"t": "Data guard: para onde o dado pode ir (prof2030-auditor, aula 6)", "href": "https://inematds.github.io/prof2030-auditor/aulas/data-guard/", "icone": "escudo"}
+      ]
+    }
+  ]
+}

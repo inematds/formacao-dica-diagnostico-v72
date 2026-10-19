@@ -1,0 +1,158 @@
+{
+  "slug": "relatorio",
+  "num": 8,
+  "menu": "Relatório",
+  "titulo": "O relatório de uma página na língua do dono + plano de 30 dias",
+  "titulo_curto": "Relatório e plano de 30 dias",
+  "minutos": 20,
+  "lead": "Relatório longo não é lido. O dono quer saber o que você achou, o que recomenda, o que fica de fora e o que acontece em cada semana. Tudo numa página, com as palavras dele, sem sigla. Esta aula junta o que você fez no curso e gera o seu plano com datas.",
+  "objetivo": "escrever o relatório de uma página na língua do dono, com 3 achados, 1 recomendação, o que fica de fora e marcos semanais.",
+  "competencias": ["escrever-relatorio-uma-pagina", "traduzir-para-o-dono", "planejar-30-dias"],
+  "aprende": [
+    {"icone": "arquivo", "t": "O esqueleto de uma página"},
+    {"icone": "chat", "t": "Trocar jargão pela língua do dono"},
+    {"icone": "calendario", "t": "O plano de 4 semanas com marco visível"},
+    {"icone": "alvo", "t": "Juntar o curso inteiro num plano com datas"}
+  ],
+  "hero_alt": "Dona de uma pequena clínica lê uma única folha impressa enquanto a consultora aponta um trecho.",
+  "secoes": [
+    {
+      "tipo": "mapa",
+      "titulo": "O mapa do diagnóstico",
+      "sub": "As quatro entregas que viram o relatório. Clique num exercício para ver o \"pronto quando\".",
+      "degraus": [
+        {"aula": "entrevista", "icone": "chat", "quando": "Semana 1", "titulo": "Entrevista", "sub": "15 perguntas e consentimento",
+         "saida": "Roteiro, frases literais e uma contagem combinada.",
+         "passo": "A base de tudo: sem caso recente e sem número contado, o resto do diagnóstico vira opinião."},
+        {"aula": "cinco-areas", "icone": "grafico", "quando": "Semana 1", "titulo": "Matriz", "sub": "5 áreas com critério",
+         "saida": "Onde olhar primeiro, com motivo.",
+         "passo": "Requer a entrevista. As notas saem do que o dono disse, e ele confere na devolutiva."},
+        {"aula": "caso-a-regra", "icone": "memoria", "quando": "Semana 2", "titulo": "Regras", "sub": "casos e SE/ENTÃO",
+         "saida": "Arquivo de regras testadas, com dono e data.",
+         "passo": "Requer a matriz. Três casos, o padrão e as regras testadas em casos novos (aulas 4 e 5)."},
+        {"aula": "mapa-oportunidades", "icone": "alvo", "quando": "Semana 2", "titulo": "Recomendação", "sub": "6 eixos e risco",
+         "saida": "Uma recomendada, os cortes e o checklist de risco.",
+         "passo": "Requer as regras. Pontuar, cortar com motivo e checar dado e canal (aulas 6 e 7) antes de escrever a página."}
+      ],
+      "resultado": {"titulo": "Ao final do diagnóstico", "texto": "Uma página que o dono entende, com uma recomendação segura e um plano de 30 dias.", "total": "10 exercícios"},
+      "rolagem_fim": {"titulo": "O diagnóstico inteiro", "texto": "Entrevista, matriz, regras e recomendação. Cada entrega usa a anterior; o relatório só junta o que já existe."},
+      "legenda": "Ordem obrigatória: cada entrega usa o que a anterior produziu."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Escrever na língua do dono",
+      "sub": "Quatro regras que valem para a página inteira.",
+      "passos": [
+        {"titulo": "Resultado, não tecnologia", "sub": "verbo de rotina",
+         "texto": ["Troque o substantivo técnico pelo que muda na segunda-feira dele.", "\"Assistente com base de conhecimento\" vira \"responde igual à recepção, usando a sua tabela de convênios\"."]},
+        {"titulo": "As palavras dele", "sub": "entre aspas",
+         "texto": ["Cite o dono pelo menos duas vezes, com a frase literal anotada na entrevista.", "Ele lê e reconhece o próprio problema, dito do jeito dele."]},
+        {"titulo": "O limite dito antes", "sub": "sem mágica",
+         "texto": ["Diga o que a IA não faz: não decide por ele, não acerta tudo no começo, não sabe o que não está escrito, não atualiza sozinha.", "Por isso o plano começa com aprovação humana. Dito antes, isso tranquiliza; descoberto depois, vira reclamação."]},
+        {"titulo": "O teste do avô", "sub": "antes de enviar",
+         "texto": ["Leia em voz alta para alguém que não é da área. Se a pessoa perguntar \"o que é isso?\", reescreva.", "Você diria essa frase no balcão da padaria? Se não, é jargão."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos: relatório, tradução e checklist",
+      "sub": "O relatório cabe numa página. Escopo sem preço: preço é conversa da Vendas com IA. Troque o que está entre < > pelo seu.",
+      "blocos": [
+        {"rot": "relatorio-1-pagina.md", "icone": "arquivo",
+         "conteudo": "# Diagnóstico — <negócio> — <data>\nPreparado por <consultor> para <dono>\n\n## 1. O que eu ouvi (3 a 5 frases)\n<situação nas palavras do dono, com 1 frase literal entre aspas>\n\n## 2. Três achados\n1. <achado> — <evidência: caso, contagem, nota da matriz>\n2. <achado> — <evidência>\n3. <achado> — <evidência>\n\n## 3. A recomendação (uma só)\n<o que fazer, em que área, com que resultado observável em 30 dias>\nNível de automação no começo: <1 / 2 / 3>   Quem aprova: <pessoa>\n\n## 4. O que fica de fora, e por quê\n- <candidata>: <não precisa de IA / não agora> — <motivo>\n\n## 5. Plano de 30 dias\nSemana 1: <marco visível>\nSemana 2: <marco visível>\nSemana 3: <marco visível>\nSemana 4: <marco visível>\n\n## 6. Escopo\nInclui: <...>\nNão inclui: <...>\nRiscos e regras conferidos em <data>: <dado pessoal, canal>"},
+        {"rot": "traducao-para-o-dono.txt", "icone": "chat",
+         "conteudo": "\"Assistente com base de conhecimento\"   → \"responde igual à recepção, usando a sua tabela\"\n\"Fluxo de qualificação com transbordo\"   → \"separa quem quer marcar e chama você quando é exceção\"\n\"Automação disparada por evento\"          → \"a mensagem sai sozinha quando a consulta é marcada\"\n\"Exemplos para o modelo aprender\"         → \"aprende com casos seus e repete o seu jeito\"\n\"Aprovação humana em fases\"               → \"no começo, nada sai sem você ou a recepção aprovar\""},
+        {"rot": "checklist-antes-de-enviar.txt", "icone": "check",
+         "conteudo": "[ ] Cabe em uma página\n[ ] Nenhuma sigla técnica sem explicação\n[ ] Pelo menos 2 frases literais do dono, entre aspas\n[ ] Cada achado tem evidência (caso, contagem ou nota)\n[ ] Uma recomendação, não várias\n[ ] O que fica de fora está escrito, com motivo\n[ ] Cada semana tem um marco que o dono consegue ver\n[ ] O limite da IA está dito\n[ ] Nenhum número sem origem; nenhum dado pessoal de cliente\n[ ] Passou no teste do avô"},
+        {"rot": "Plano de 30 dias (exemplo fictício)", "icone": "calendario",
+         "conteudo": "Clínica Vila Serena (fictícia) — dúvidas da noite no WhatsApp\nSemana 1: contagem da semana pronta (linha de base) e arquivo de regras aprovado pela dona\nSemana 2: assistente montado em teste, conferido contra 15 casos escritos\nSemana 3: no ar em nível 1: a recepção aprova de manhã cada resposta preparada à noite\nSemana 4: recepção e dona treinadas; comparação com a contagem da semana 1; decisão de seguir, ajustar ou desligar"}
+      ],
+      "saida": {"selo": "simulacao", "abas": [
+        {"rot": "Como conferir", "html": "<ul><li>O relatório cabe em uma página e passou nos 10 itens do checklist.</li><li>Há 3 achados com evidência, 1 recomendação e pelo menos 1 corte com motivo.</li><li>As 4 semanas têm marco visível, e a semana 4 tem uma decisão: seguir, ajustar ou desligar.</li></ul>"},
+        {"rot": "Erros comuns", "html": "<ul><li>Relatório de 12 páginas com tabela de tudo.</li><li>Três recomendações concorrendo.</li><li>Número de economia sem origem (\"vai poupar 10 horas\").</li><li>Valor em reais no diagnóstico: preço e proposta seguem a Vendas com IA.</li></ul>"}
+      ]}
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Gere o seu plano com datas",
+      "sub": "Escolha a data de início e quanto tempo você tem por semana. O plano lista as práticas das 8 aulas na ordem.",
+      "curso": "DICA 1 · Diagnóstico",
+      "horas_padrao": 4,
+      "degraus": [
+        {"titulo": "Aula 1 · O método DICA", "aula": "metodo-dica"},
+        {"titulo": "Aula 2 · A entrevista", "aula": "entrevista"},
+        {"titulo": "Aula 3 · As 5 áreas", "aula": "cinco-areas"},
+        {"titulo": "Aula 4 · Casos recentes", "aula": "caso-recente"},
+        {"titulo": "Aula 5 · De caso a regra", "aula": "caso-a-regra"},
+        {"titulo": "Aula 6 · O mapa de oportunidades", "aula": "mapa-oportunidades"},
+        {"titulo": "Aula 7 · Risco, dado e canal", "aula": "risco-dado"},
+        {"titulo": "Aula 8 · O relatório", "aula": "relatorio"}
+      ],
+      "txt": {
+        "titulo": "Plano — DICA 1 · Diagnóstico",
+        "inicio": "Início",
+        "ritmo": "Ritmo",
+        "termino": "Término previsto",
+        "ate": "até",
+        "pronto": "pronto quando",
+        "semanas": "semanas",
+        "travou": "## O que travou e a regra que criei",
+        "h": "h por semana",
+        "exs": "exercícios"
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática: o relatório da Vila Serena",
+      "sub": "A entrega final do curso.",
+      "exercicios": [
+        {"id": "e1", "titulo": "E1 · Relatório de uma página", "min": "40 min",
+         "texto": "Monte o relatório da Clínica Vila Serena (fictícia) com o que você produziu nas aulas 2 a 7, usando o modelo. Marque no topo que a empresa é fictícia.",
+         "pronto": "o relatório cabe em 1 página e tem 3 achados com evidência, 1 recomendação, o que fica de fora com motivo e 4 marcos semanais."},
+        {"id": "e2", "titulo": "E2 · Checklist e teste do avô", "min": "15 min",
+         "texto": "Passe o relatório pelo checklist de 10 itens e leia em voz alta para alguém de fora da área.",
+         "pronto": "os 10 itens estão marcados e a pessoa que ouviu consegue dizer, com as palavras dela, o que você recomendou."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste final",
+      "sub": "Quatro perguntas sobre o diagnóstico inteiro.",
+      "perguntas": [
+        {"p": "Quantas recomendações o relatório de uma página traz?",
+         "opcoes": ["Uma, com o que fica de fora explicado.", "Todas as que a matriz pontuou.", "Três, para o próprio dono escolher qual prefere.", "Nenhuma: só os achados."],
+         "certa": 0, "explica": "Uma recomendação clara. Várias concorrendo parecem lista de compras; os cortes com motivo mostram critério.", "ref": "codigo", "cert": true},
+        {"p": "Qual é a ordem das entregas do diagnóstico?",
+         "opcoes": ["Relatório, matriz, entrevista, regras.", "Regras, entrevista, recomendação, matriz.", "Entrevista, matriz, regras, recomendação.", "Recomendação, regras, matriz, entrevista."],
+         "certa": 2, "explica": "Cada entrega usa a anterior: sem entrevista não há nota com critério; sem regras escritas não há recomendação segura.", "ref": "mapa", "cert": true},
+        {"p": "\"Assistente com base de conhecimento\" na língua do dono vira:",
+         "opcoes": ["\"Sistema de inteligência artificial generativa.\"", "\"Responde igual à recepção, usando a sua tabela.\"", "\"Robô autônomo de atendimento.\"", "\"Plataforma de automação integrada.\""],
+         "certa": 1, "explica": "Resultado com verbo de rotina, não tecnologia. Passa no teste do avô.", "ref": "passos"},
+        {"p": "O que a semana 4 do plano de 30 dias precisa ter?",
+         "opcoes": ["A assinatura do contrato de manutenção.", "O lançamento de todos os projetos do mapa.", "Um relatório completo de 12 páginas com tabelas de todas as cinco áreas do negócio.", "Uma comparação com a linha de base e a decisão de seguir, ajustar ou desligar."],
+         "certa": 3, "explica": "O piloto termina medindo contra a contagem da semana 1 e decidindo com o dono. O que vem depois é o curso 2.", "ref": "codigo"}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "O curso em três frases",
+      "itens": [
+        {"t": "Ouvir antes de propor", "texto": "Entrevista com consentimento, caso recente e silêncio; número que falta vira contagem."},
+        {"t": "Critério escrito", "texto": "Matriz das 5 áreas, regras SE/ENTÃO testadas e 6 eixos com o que não recomendar."},
+        {"t": "Uma página", "texto": "Na língua do dono, com risco conferido, uma recomendação e quatro semanas com marco."}
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Continue por aqui",
+      "links": [
+        {"t": "DICA 2 · Implantar, Capacitar e Acompanhar (próximo curso)", "href": "https://inematds.github.io/formacao-dica-entrega-v72/", "icone": "seta"},
+        {"t": "Piloto de 30 dias com agente (prof2030-consultor, aula 5)", "href": "https://inematds.github.io/prof2030-consultor/aulas/piloto-30-dias/", "icone": "calendario"},
+        {"t": "Uma página para a diretoria (prof2030-base, aula 8)", "href": "https://inematds.github.io/prof2030-base/aulas/diretoria/", "icone": "arquivo"},
+        {"t": "Preço, proposta e primeiro cliente (Vendas com IA 4)", "href": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/", "icone": "alvo"},
+        {"t": "Mapa do Cliente: versão anterior (2026, só PT)", "href": "https://inematds.github.io/mapacliente/", "icone": "voltar"},
+        {"t": "Área Consultoria de IA", "href": "https://eventos.inema.pro/consultoria-ia/", "icone": "camadas"}
+      ]
+    }
+  ]
+}

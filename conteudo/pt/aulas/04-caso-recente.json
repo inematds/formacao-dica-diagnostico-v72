@@ -1,0 +1,120 @@
+{
+  "slug": "caso-recente",
+  "num": 4,
+  "menu": "Casos",
+  "titulo": "O que o dono sabe e não escreve: \"me conta um caso recente\"",
+  "titulo_curto": "Me conta um caso recente",
+  "minutos": 16,
+  "lead": "Pergunte \"como você qualifica um paciente novo?\" e o dono responde \"depende\". Peça \"me conta o último paciente novo que chegou\" e ele narra, passo a passo, as decisões que toma sem perceber. Três casos do mesmo tipo mostram o padrão que vai virar regra na próxima aula.",
+  "objetivo": "coletar 3 casos recentes do mesmo tipo com o template de caso e marcar o que se repete entre eles.",
+  "competencias": ["extrair-conhecimento-tacito", "coletar-caso-recente", "identificar-padrao"],
+  "aprende": [
+    {"t": "Por que o dono não consegue explicar o que faz"},
+    {"t": "A pergunta-narrativa: tempo, objeto e passo a passo"},
+    {"t": "O template de caso em 6 campos"},
+    {"t": "A regra do 3: de anedota a padrão"}
+  ],
+  "hero_alt": "Dono de uma padaria de bairro, de avental, conta uma história apoiado no balcão enquanto uma consultora anota.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Do caso ao padrão",
+      "sub": "A regra vem narrada, não formulada. Clique em cada passo.",
+      "nos": [
+        {"icone": "relogio", "titulo": "Âncora", "sub": "esta semana",
+         "detalhe": "Comece pelo tempo: \"nesta semana\", \"o último\". Memória recente traz detalhe; \"em geral\" traz resumo."},
+        {"icone": "usuario", "titulo": "Objeto", "sub": "um caso só",
+         "detalhe": "Peça um caso concreto: \"o último paciente novo\", \"a última reclamação\", \"a última cobrança\". Um de cada vez."},
+        {"icone": "chat", "titulo": "Narrar", "sub": "passo a passo",
+         "detalhe": "\"Me conta passo a passo.\" O dono entra no automático e esquece que está sendo entrevistado. Se ele responder \"depende\", insista: \"pensa num específico, da semana passada\"."},
+        {"icone": "caneta", "titulo": "Decisão", "sub": "o porquê",
+         "detalhe": "Em cada ponto em que ele escolheu algo, pergunte \"e como você decidiu isso?\". Essa resposta é a regra escondida."},
+        {"icone": "lista", "titulo": "Repetir", "sub": "3 casos", "forte": true,
+         "detalhe": "Regra prática do consultor: um caso é anedota, três do mesmo tipo começam a mostrar o padrão. Marque o que se repete."}
+      ],
+      "volta": "o padrão marcado vira regra na aula 5",
+      "legenda": "Conhecimento tácito é o que o dono sabe fazer mas nunca escreveu. A técnica muda, e a informação aparece."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Tácito e explícito",
+      "sub": "Seu trabalho é passar a coluna da esquerda para a direita.",
+      "passos": [
+        {"titulo": "O que não funciona", "sub": "pergunta abstrata",
+         "texto": ["\"Como você qualifica um paciente?\", \"me explica seu processo\", \"quais critérios você usa?\".", "O dono não mente; ele só não sabe descrever o que faz no automático."]},
+        {"titulo": "O que funciona", "sub": "pergunta-narrativa",
+         "texto": ["\"Me conta a última avaliação que você marcou. Do primeiro contato até a pessoa sentar aqui.\"", "\"Pensa na última pessoa que reclamou. Como foi essa conversa?\""],
+         "exemplo": {"rot": "Tácito → explícito", "texto": "\"Sei quando o paciente é sério\" → \"quando ele pergunta horário antes de perguntar preço, costuma marcar\"."}},
+        {"titulo": "Escolher o tipo de caso", "sub": "da área prioritária",
+         "texto": ["Colete casos da área que liderou a matriz da aula 3. Na Vila Serena (fictícia): primeiro atendimento pelo WhatsApp.", "Três casos de tipos diferentes não mostram padrão nenhum."]},
+        {"titulo": "Cuidar do dado", "sub": "sem nome",
+         "texto": ["Caso não precisa de nome: \"uma paciente de 50 anos, com dor lombar\" basta.", "Se for olhar conversas reais no WhatsApp para achar casos, faça junto com o dono e não copie nome, telefone nem dado de saúde para o seu arquivo."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos: perguntas-narrativa e template de caso",
+      "sub": "Copie um template por caso. Troque o que está entre < > pelo seu.",
+      "blocos": [
+        {"rot": "perguntas-narrativa.txt", "icone": "chat",
+         "conteudo": "- Me conta o último <cliente/paciente> novo que chegou. Do primeiro contato até <o que acontece no fim>.\n- Pensa no último <cliente/paciente> que reclamou. Como foi essa conversa?\n- Me conta a última <cobrança/proposta/remarcação> que você fez nesta semana.\n- E aí, como você decidiu <o ponto em que ele escolheu algo>?\n- Se ele disser \"depende\": mas pensa num específico, da semana passada."},
+        {"rot": "caso-NN.md", "icone": "arquivo",
+         "conteudo": "# Caso <NN> — tipo: <ex.: primeiro atendimento no WhatsApp> — <data do caso>\n\nContexto: <quem é o cliente, sem nome; como chegou>\nEntrada: <o que ele pediu ou disse, o mais literal possível>\nAnálise do dono: <o que o dono pensou e em que se baseou>\nAção: <o que o dono respondeu ou fez>\nResultado: <o que aconteceu depois>\nO que faria diferente: <se o dono mudaria algo>"},
+        {"rot": "padrao.md (exemplo fictício)", "icone": "lista",
+         "conteudo": "# Padrão — primeiro atendimento no WhatsApp — Clínica Vila Serena (fictícia)\n# 3 casos coletados com a dona; nenhum nome registrado.\n\n- Nos 3 casos: perguntou se a pessoa tem convênio ANTES de falar de preço.\n- Nos 3 casos: ofereceu avaliação inicial quando era a primeira vez.\n- Em 2 de 3: sugeriu horário no fim da tarde.\n- Em 1 de 3: chamou a fisioterapeuta porque a pessoa citou cirurgia recente.\n\n→ Candidatas a regra (aula 5): convênio antes do preço; avaliação para primeira vez; cirurgia recente = chamar a fisioterapeuta."}
+      ],
+      "saida": {"selo": "simulacao", "abas": [
+        {"rot": "Como conferir", "html": "<ul><li>Os 3 casos são do mesmo tipo e da área prioritária.</li><li>Cada caso tem os 6 campos, com a decisão do dono no campo \"Análise\".</li><li>O padrão marca o que se repete e quantas vezes (3 de 3, 2 de 3).</li></ul>"},
+        {"rot": "Erros comuns", "html": "<ul><li>Aceitar \"depende\" como resposta.</li><li>Misturar tipos de caso (um de cobrança, um de agendamento).</li><li>Registrar nome, telefone ou diagnóstico de cliente no arquivo de casos.</li></ul>"}
+      ]}
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática: 3 casos da Vila Serena",
+      "sub": "Você escreve os casos como fictícios, imitando o que a dona contaria.",
+      "exercicios": [
+        {"id": "e1", "titulo": "E1 · Três casos no template", "min": "25 min",
+         "texto": "Escolha um tipo de caso da área que liderou a sua matriz. Escreva 3 casos fictícios da Vila Serena no template, com a decisão da dona no campo \"Análise\". Se puder, faça com alguém que faça o papel da dona.",
+         "pronto": "existem 3 arquivos de caso do mesmo tipo, cada um com os 6 campos preenchidos e sem nenhum nome ou telefone."},
+        {"id": "e2", "titulo": "E2 · O padrão marcado", "min": "10 min",
+         "texto": "Compare os 3 casos e escreva o padrao.md com o que se repete e a contagem (3 de 3, 2 de 3).",
+         "pronto": "o padrao.md tem pelo menos 2 itens que aparecem em 2 ou 3 casos, com a contagem ao lado."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste o que aprendeu",
+      "perguntas": [
+        {"p": "Qual pergunta tem mais chance de revelar a regra que o dono usa?",
+         "opcoes": ["Quais critérios você usa para atender?", "Me conta o último paciente novo que chegou, passo a passo.", "Como é o seu processo de atendimento?", "O que um bom atendimento precisa ter?"],
+         "certa": 1, "explica": "Âncora no tempo, objeto concreto e convite a narrar. As outras pedem que o dono formule a regra sozinho, e ele responde \"depende\".", "ref": "diagrama", "cert": true},
+        {"p": "O dono responde \"ah, depende de cada caso\". O que fazer?",
+         "opcoes": ["Anotar \"depende\" como regra.", "Passar para a próxima área.", "Explicar o que é conhecimento tácito.", "Insistir num caso específico da semana passada."],
+         "certa": 3, "explica": "A primeira resposta genérica é resistência natural. O caso costuma vir na segunda tentativa.", "ref": "diagrama"},
+        {"p": "Por que os 3 casos precisam ser do mesmo tipo?",
+         "opcoes": ["Porque só o que se repete no mesmo tipo de situação vira padrão.", "Porque o template só aceita um tipo.", "Porque o dono se cansa quando precisa lembrar de tipos diferentes de situação.", "Porque a LGPD exige."],
+         "certa": 0, "explica": "Um caso de cobrança, um de agendamento e um de reclamação não mostram padrão nenhum. Três do mesmo tipo mostram o que se repete.", "ref": "passos"},
+        {"p": "Ao revisar conversas reais do WhatsApp atrás de casos, o que fica fora do seu arquivo?",
+         "opcoes": ["A decisão do dono.", "O resultado do caso.", "Nome, telefone e dado de saúde do cliente.", "A data do caso."],
+         "certa": 2, "explica": "O caso precisa da situação e da decisão, não de quem é a pessoa. Dado de saúde é sensível na LGPD; deixe fora.", "ref": "passos"}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Caso, não regra", "texto": "Peça o último caso, com âncora no tempo, e pergunte como ele decidiu cada ponto."},
+        {"t": "Template de 6 campos", "texto": "Contexto, entrada, análise do dono, ação, resultado e o que faria diferente."},
+        {"t": "Regra do 3", "texto": "Três casos do mesmo tipo mostram o padrão. Marque o que se repete e quantas vezes."}
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {"t": "Conhecimento da empresa como ativo (Gestão de IA · Recursos, aula 3)", "href": "https://inematds.github.io/gestao-ia-recursos-v72/aulas/contexto/", "icone": "memoria"},
+        {"t": "Mapear o que acontece de verdade (Gestão de IA · Processos, aula 3)", "href": "https://inematds.github.io/gestao-ia-processos-v72/aulas/mapear/", "icone": "lupa"}
+      ]
+    }
+  ]
+}
