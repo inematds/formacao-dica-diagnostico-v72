@@ -125,7 +125,7 @@
         {
           "rot": "consentimento-gravacao.txt",
           "icone": "cadeado",
-          "conteudo": "Antes de empezar: ¿puedo grabar nuestra conversación?\nEs solo para no perder ninguna frase tuya cuando arme el informe.\n- Quién escucha: solo yo (y la herramienta de transcripción procesa el audio).\n- Herramienta: <nombre de la herramienta> va a convertir el audio en texto; <guarda o no el audio; lo usa o no para entrenar>.\n- Dónde queda: <pasta/conta>, sin compartir con nadie.\n- Cuándo lo borro: el audio en <N> días; el texto queda solo hasta que se entregue el informe.\nUn pedido: no digas el nombre de pacientes ni clientes; di \"una paciente\", \"un cliente\".\nSi prefieres que no grabe, no hay problema: anoto a mano.\n¿Puedo grabar?\n\n[registro] Consentimiento dado el <data, hora>, por <nome>, para <finalidade>."
+          "conteudo": "Antes de empezar: ¿puedo grabar nuestra conversación?\nEs solo para no perder ninguna frase tuya cuando arme el informe.\n- Quién escucha: solo yo (y la herramienta de transcripción procesa el audio).\n- Herramienta: <nombre de la herramienta> va a convertir el audio en texto; <guarda o no el audio; lo usa o no para entrenar>.\n- Dónde queda: <carpeta/cuenta>, sin compartir con nadie.\n- Cuándo lo borro: el audio en <N> días; el texto queda solo hasta que se entregue el informe.\nUn pedido: no digas el nombre de pacientes ni clientes; di \"una paciente\", \"un cliente\".\nSi prefieres que no grabe, no hay problema: anoto a mano.\n¿Puedo grabar?\n\n[registro] Consentimiento dado el <fecha, hora>, por <nombre>, para <finalidad>."
         },
         {
           "rot": "encerramento.txt",
@@ -142,7 +142,7 @@
           },
           {
             "rot": "Por qué tanto cuidado con la grabación",
-            "html": "<p>La voz y lo que cuenta el dueño son datos personales. En una clínica, la conversación puede llegar a datos de salud de un paciente, que la LGPD (la ley de protección de datos de Brasil, Ley 13.709/2018, art. 5º, II) llama dato sensible.</p><p>Por eso se pide no citar nombres y se fija un plazo para borrar. Para elegir la herramienta de transcripción desde el lado de los datos, mira el Data guard del curso Auditor (enlace al final de la lección).</p>"
+            "html": "<p>La voz y lo que cuenta el dueño son datos personales. En una clínica, la conversación puede llegar a datos de salud de un paciente, que la LGPD (la ley de protección de datos de Brasil, Ley 13.709/2018, art. 5º, II) llama dato sensible.</p><p>Por eso se pide no citar nombres y se fija un plazo para borrar. Para elegir la herramienta de transcripción desde el lado de los datos, mira el Data guard del curso Auditor (enlace al final de la clase).</p>"
           }
         ]
       }
@@ -273,7 +273,7 @@
           ]
         },
         "encerra": {
-          "cliente": "Ya van casi tres horas. Y entonces, ¿qué crees que hacemos?",
+          "cliente": "Ya son casi las tres. Y entonces, ¿qué crees que hacemos?",
           "opcoes": [
             {
               "t": "Te envío el informe cuando esté listo.",
@@ -435,7 +435,7 @@
           "icone": "escudo"
         },
         {
-          "t": "Datos, LGPD y elección de proveedor (prof2030-base, clase 5)",
+          "t": "Datos, LGPD y eclase de proveedor (prof2030-base, clase 5)",
           "href": "https://inematds.github.io/prof2030-base/aulas/dados-lgpd/",
           "icone": "cadeado"
         },

@@ -81,15 +81,15 @@
           "titulo": "WhatsApp: cost",
           "sub": "per message",
           "texto": [
-            "Since 07/01/2025, Meta charges for the WhatsApp Business API per delivered message, with a rate by category (marketing, utility, authentication, service) and by country; service messages have a free tier each month. Check the current rate table before estimating cost.",
+            "Since July 1, 2025, Meta charges for the WhatsApp Business API per delivered message, with a rate by category (marketing, utility, authentication, service) and by country; service messages have a free tier each month. Check the current rate table before estimating cost.",
             "Free-form messages only within 24 hours after the customer wrote; outside that, only an approved template. And you only message people who agreed to receive messages."
           ]
         },
         {
           "titulo": "WhatsApp: AI",
-          "sub": "since 15/01/2026",
+          "sub": "since January 15, 2026",
           "texto": [
-            "Since 15/01/2026, the API terms prohibit general-purpose AI chatbots (an open assistant, like free conversation with a model) as the main function.",
+            "Since January 15, 2026, the API terms prohibit general-purpose AI chatbots (an open assistant, like free conversation with a model) as the main function.",
             "AI for service, scheduling, orders, and sales for the business itself is still allowed. Meta decides what counts as \"main,\" so the assistant's scope must be the business, not chat about any topic."
           ],
           "exemplo": {
@@ -124,7 +124,7 @@
           },
           {
             "rot": "Why the date matters",
-            "html": "<p>Platform rules change. Per-message pricing started on 01/07/2025 and the ban on general-purpose chatbots on 15/01/2026. Before each diagnosis, open the official pages (links at the end of the lesson) and note the date you checked.</p>"
+            "html": "<p>Platform rules change. Per-message pricing started on July 1, 2025 and the ban on general-purpose chatbots on January 15, 2026. Before each diagnosis, open the official pages (links at the end of the lesson) and note the date you checked.</p>"
           }
         ]
       }
@@ -181,7 +181,7 @@
           "cert": true
         },
         {
-          "p": "What changed on WhatsApp Business on 01/15/2026?",
+          "p": "What changed on WhatsApp Business on January 15, 2026?",
           "opcoes": [
             "It started charging per conversation.",
             "It banned any use of artificial intelligence in customer service, including for scheduling and answering questions.",
@@ -193,7 +193,7 @@
           "ref": "passos"
         },
         {
-          "p": "Since 07/01/2025, how does Meta charge for the WhatsApp Business API?",
+          "p": "Since July 1, 2025, how does Meta charge for the WhatsApp Business API?",
           "opcoes": [
             "Per month, at a fixed price, no matter how many messages the company sends.",
             "Per delivered message, with a rate by category and country.",
@@ -201,7 +201,7 @@
             "It doesn't charge small businesses."
           ],
           "certa": 1,
-          "explica": "Per-conversation pricing was replaced by per-message pricing on 07/01/2025. Check the current rate table before estimating cost.",
+          "explica": "Per-conversation pricing was replaced by per-message pricing on July 1, 2025. Check the current rate table before estimating cost.",
           "ref": "passos"
         }
       ]
@@ -220,7 +220,7 @@
         },
         {
           "t": "WhatsApp, with dates",
-          "texto": "Per message since 07/01/2025; general-purpose chatbots banned since 01/15/2026; 24-hour window and consent to receive messages."
+          "texto": "Per message since July 1, 2025; general-purpose chatbots banned since January 15, 2026; 24-hour window and consent to receive messages."
         }
       ]
     },
@@ -239,7 +239,7 @@
           "icone": "arquivo"
         },
         {
-          "t": "WhatsApp bans AI chatbots from its business API (9to5Mac, 10/20/2025)",
+          "t": "WhatsApp bans AI chatbots from its business API (9to5Mac, October 20, 2025)",
           "href": "https://9to5mac.com/2025/10/20/whatsapp-bans-ai-chatbots-from-using-its-business-api/",
           "icone": "arquivo"
         },

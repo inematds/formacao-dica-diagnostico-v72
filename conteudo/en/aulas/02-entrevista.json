@@ -142,7 +142,7 @@
           },
           {
             "rot": "Why so much care with recording",
-            "html": "<p>Your voice and what the owner tells you are personal data. At a clinic, the conversation can touch on a patient's health data, which LGPD (Brazil's data protection law) (Lei 13.709/2018, art. 5º, II) calls sensitive data.</p><p>That's why you ask them not to mention names, and why there's a deadline to delete. To choose the transcription tool with data in mind, see the Data guard in the Auditor course (link at the end of the lesson).</p>"
+            "html": "<p>Your voice and what the owner tells you are personal data. At a clinic, the conversation can touch on a patient's health data, which LGPD (Brazil's data protection law, Law 13,709/2018, art. 5, II) calls sensitive data.</p><p>That's why you ask them not to mention names, and why there's a deadline to delete. To choose the transcription tool with data in mind, see the Data guard in the Auditor course (link at the end of the lesson).</p>"
           }
         ]
       }
@@ -273,7 +273,7 @@
           ]
         },
         "encerra": {
-          "cliente": "It's almost three hours already. So, what do you think we should do?",
+          "cliente": "It's almost three o'clock. So, what do you think we should do?",
           "opcoes": [
             {
               "t": "I'll send you the report when it's ready.",

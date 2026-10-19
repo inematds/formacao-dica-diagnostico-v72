@@ -131,7 +131,7 @@
           ]
         },
         "encerra": {
-          "cliente": "Já são quase três horas. E aí, o que você acha que a gente faz?",
+          "cliente": "Já são quase três da tarde. E aí, o que você acha que a gente faz?",
           "opcoes": [
             {"t": "Te mando o relatório quando ficar pronto.", "vai": "fim-solto", "nota": 1,
              "comenta": "Sem data, a conversa esfria. Faltou resumir, validar e marcar a devolutiva ali mesmo."},

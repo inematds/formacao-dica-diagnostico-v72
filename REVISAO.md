@@ -128,12 +128,64 @@ Trocar por: "Ferramenta que conecta ao WhatsApp sem ser a API oficial da Meta (o
 
 ---
 
+## Reconferência do PT após as correções do autor (19/10/2026)
+
+- **G1 resolvido.** A aula 7, passo "Pequeno porte", agora diz "quem faz tratamento de alto risco perde essas simplificações (art. 3º)" e traz "um critério geral … **e** um específico (art. 4º)". Acrescentou "encarregado dispensado se houver canal para o titular (art. 11)", o que confere com a Res. 2/2022, e terminou em "confirme com um especialista".
+- **G2 resolvido.** O texto do canal não oficial agora diz "vai contra os termos de uso do WhatsApp, e o número da empresa pode ser bloqueado. Não recomende." Também explica o que é "provedor oficial".
+- **O menor 9 que eu sugeri estava desatualizado, e o autor fez certo em não seguir.** A página de preços da Meta (consultada em 19/10/2026) diz que, **desde 01/10/2026**, cada número de empresa tem **1.000 mensagens de serviço grátis por mês**. A frase do PT ("as mensagens de serviço têm uma faixa gratuita por mês") está correta. Sugestão opcional: acrescentar "(1.000 por mês por número, desde 01/10/2026)".
+- Conferi por amostra os menores 1 e 2. Na aula 6, o modelo agora tem critério 0–3 por eixo, sem R$. Na aula 5 E2, entraram o caso de borda, outra pessoa no papel da dona e o "pronto quando" correspondente. O menor 7 ficou como está, por decisão do autor; não bloqueia.
+- **Sugestão nova no PT, ligada à tradução (ver T2):** trocar "Já são quase três horas" por "Já são quase três da tarde". A frase é ambígua e os dois tradutores entenderam "três horas de duração".
+
 ## Amostra EN/ES
 
-pendente: tradução em andamento
+**O que li:** `en/` e `es/`: `curso.json` e as aulas 2 (modelos e simconversa), 7 (regras, LGPD e WhatsApp) e 8 (blocos de código e plano). Varri as 8 aulas inteiras atrás de restos de PT e de placeholders `<…>`. Também conferi se os links para os cursos irmãos em `/en/` e `/es/` respondem; os testados deram 200.
+
+**O que está bom**
+- A tradução é fiel e natural.
+  - EN: "insurance plan" para convênio, "front desk", "debrief", "grandparent test", "baseline" explicado na primeira aparição ("the starting point for comparing later").
+  - ES: "convenio", "recepción", "prueba del abuelo", "línea de base".
+- G1 e G2 chegaram certos nas duas línguas (art. 3º, critério geral **e** específico, "Don't recommend it" / "No la recomiendes").
+- A LGPD vem explicada na primeira menção, que fica na aula 2:
+  - EN: "LGPD (Brazil's data protection law)";
+  - ES: "LGPD (la ley de protección de datos de Brasil…)".
+- Vila Serena aparece como "(fictional)" / "(ficticia)" em todas as aparições conferidas.
+- O nome do curso irmão está correto: "Selling with AI" / "Ventas con IA".
+- O plano de 30 dias carrega "(course 2)" / "(curso 2)".
+- Os placeholders do relatório, do checklist e do roteiro estão traduzidos em EN e quase todos em ES.
+
+**Problemas encontrados**
+- **T1 · EN: as datas estão em dois formatos e uma fica errada para o leitor americano** (grave). Aula 7:
+  - "Since 07/01/2025" (formato EUA, certo);
+  - "since 15/01/2026" (formato BR);
+  - na aba "Why the date matters": "Per-message pricing started on **01/07/2025**" (formato BR), que um leitor americano lê como 7 de janeiro;
+  - quiz Q3 "01/15/2026" e Q4 "07/01/2025";
+  - resumo e link 9to5Mac no formato EUA.
+  
+  As datas são o fato central da aula. Correção: escrever o mês por extenso em toda a versão EN: "July 1, 2025", "January 15, 2026", "October 20, 2025".
+- **T2 · EN e ES: "Já são quase três horas" traduzido como duração** (grave para a coerência da simconversa). EN: "It's almost three hours already". ES: "Ya van casi tres horas". A dona disse que só tinha 40 minutos e que às três chegava paciente, então a fala precisa ser horário. Correção: EN "It's almost three o'clock." ES "Ya son casi las tres."
+- **T3 · ES: placeholders em PT dentro do modelo de consentimento** (aula 2, `consentimento-gravacao.txt`): `<pasta/conta>`, `<data, hora>`, `<nome>`, `<finalidade>`. Correção: `<carpeta/cuenta>`, `<fecha, hora>`, `<nombre>`, `<finalidad>`. É o único bloco com resto de PT; nos demais blocos ES os `< >` estão em espanhol.
+- T4 · EN aula 2, parênteses em dobro: "LGPD (Brazil's data protection law) (Lei 13.709/2018, art. 5º, II)". Correção: "LGPD (Brazil's data protection law, Law 13,709/2018, art. 5, II)", como já está na aula 7 EN.
+- T5 · ES: a mesma coisa tem dois nomes, "clase" (cerca de 70 vezes) e "lección" (2 vezes, por exemplo "enlace al final de la lección" na aula 2). Correção: padronizar em "clase".
+- T6 · EN/ES: os nomes de arquivo nos rótulos dos blocos continuam em PT (`ficha-5-linhas.md`, `roteiro-15-perguntas.md`, `consentimento-gravacao.txt`, `traducao-para-o-dono.txt`, `relatorio-1-pagina.md`). Não bloqueia, mas o aluno estrangeiro vai salvar arquivo com nome em português. Sugestão: traduzir os rótulos (`5-line-sheet.md`, `consent-recording.txt`…).
+- T7 · ES, aula 8, `traducao-para-o-dono.txt`: as frases para o dono usam "usted" ("lo llama a usted"), enquanto o curso fala com o aluno de "tú". Faz sentido, porque é a voz do consultor falando com o dono, então não precisa mexer. Só registro que é proposital.
+
+**Notas da amostra:** EN 7/10 (T1 e T2 abaixam), ES 8/10 (T2 e T3 abaixam). As três correções graves (T1, T2, T3) são de troca de texto: nada de estrutura, nenhuma re-tradução inteira.
 
 ---
 
-Leitura final: curso sólido, fiel ao miolo do mapacliente, limpo de números sem fonte e com a LGPD e o WhatsApp atualizados. G1 e G2 são correções de uma ou duas frases na aula 7 e precisam entrar antes de publicar. Corrigidos os dois e o menor 1, a nota sobe para 9.
+Leitura final: o PT ficou sólido. G1 e G2 estão corrigidos e conferidos, e os menores mais importantes entraram. EN e ES estão fiéis e no tom certo, mas **T1 (datas EN), T2 (hora da simconversa EN/ES) e T3 (placeholders PT no ES) precisam ser corrigidos antes de publicar**. Corrigidos os três, a nota final sobe para 9.
 
-Nota PT: 8/10
+Nota PT: 9/10
+
+Nota final: 8/10
+
+## Reconferência T1–T5 (19/10/2026)
+
+- **T1 resolvido.** Em `en/`, nenhuma data ficou no formato numérico (dd/mm/aaaa ou mm/dd/aaaa). A aula 7 EN usa "July 1, 2025" (5 vezes), "January 15, 2026" (5 vezes) e "October 20, 2025" (1 vez).
+- **T2 resolvido.** PT: "quase três da tarde". EN: "three o'clock". ES: "casi las tres". Não sobrou "three hours" nem "tres horas".
+- **T3 resolvido.** O consentimento ES usa `<carpeta/cuenta>`, `<fecha, hora>`, `<nombre>`, `<finalidad>`. Os placeholders em PT sumiram.
+- **T4 resolvido.** EN aula 2: "LGPD (Brazil's data protection law, Law 13,709/2018, art. 5, II)", com um parêntese só.
+- **T5 resolvido.** "Lección" agora só aparece em `ui.conv_licao` ("Lección:", a lição aprendida no fim da conversa simulada), que é o uso certo e não o nome da aula.
+- T6 (nomes de arquivo em PT) ficou como está, por decisão do autor. É menor e não bloqueia.
+
+Nota final (após correções): 9/10
