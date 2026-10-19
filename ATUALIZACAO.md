@@ -63,6 +63,12 @@ Conferência feita em **19/10/2026**, antes de escrever o conteúdo, como pede a
 - **O que entra:** 1 página com 3 achados, 1 recomendação, "o que fica de fora", plano de 4 semanas com marco visível; checklist de linguagem; **escopo** (inclui / não inclui) sem valor; gerador do plano.
 - **Cortado:** faixas de investimento, parcelas, 90%, roteiro de fechamento.
 
+### Ajustes depois da revisão independente (19/10/2026)
+- Res. CD/ANPD nº 2/2022, **art. 3º**: quem faz tratamento de alto risco perde o tratamento diferenciado; **art. 4º**: alto risco exige 1 critério geral **e** 1 específico; **art. 11**: encarregado dispensado se houver canal para o titular (mesma URL de F7, conferida em 19/10/2026). Entrou na aula 7.
+- Canal não oficial do WhatsApp: dito como contrário aos termos de uso, com risco de bloqueio do número, e "não recomende".
+- Eixo "Venda" do mapacliente virou **"Vontade do dono"** (aula 6), para não confundir com venda do consultor (assunto da Vendas com IA); os 6 eixos ganharam critério 0–3 escrito, sem R$.
+- Gratuidade do WhatsApp: "mensagens de serviço têm uma faixa gratuita por mês" (F1, seção "Mensajes gratuitos"), sem citar a regra antiga de conversas.
+
 ## Resumo para o retorno
 - Atualizado: WhatsApp por mensagem desde 01/07/2025 (F1), janela de 24 h e opt-in (F2), chatbot de uso geral proibido desde 15/01/2026 (F3, F4), dado de saúde sensível e consentimento destacado (F5), revisão humana (F6), regras ANPD para pequeno porte e critério de alto risco (F7); "prompt em 6 blocos" → pacote de contexto com dono e data.
 - Cortado por falta de fonte: 70% de abandono, 0,001%, 90%/70%/95% da entrevista, 60%/50%/2h/"triplicou"/90% das 5 áreas, 80% automático, 50% de ajuste, 95% dos 6 eixos, 80/20 do bot, ~10% de erro, todas as faixas em R$ e parcelas.

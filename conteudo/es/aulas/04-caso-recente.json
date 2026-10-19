@@ -1,0 +1,260 @@
+{
+  "slug": "caso-recente",
+  "num": 4,
+  "menu": "Casos",
+  "titulo": "Lo que el dueño sabe y no escribe: \"cuéntame un caso reciente\"",
+  "titulo_curto": "Cuéntame un caso reciente",
+  "minutos": 16,
+  "lead": "Pregunta \"¿cómo calificas a un paciente nuevo?\" y el dueño responde \"depende\". Pide \"cuéntame del último paciente nuevo que llegó\" y él narra, paso a paso, las decisiones que toma sin darse cuenta. Tres casos del mismo tipo muestran el patrón que se volverá regla en la próxima clase.",
+  "objetivo": "reunir 3 casos recientes del mismo tipo con la plantilla de caso y marcar lo que se repite entre ellos.",
+  "competencias": [
+    "extrair-conhecimento-tacito",
+    "coletar-caso-recente",
+    "identificar-padrao"
+  ],
+  "aprende": [
+    {
+      "t": "Por qué el dueño no logra explicar lo que hace"
+    },
+    {
+      "t": "La pregunta-narrativa: tiempo, objeto y paso a paso"
+    },
+    {
+      "t": "La plantilla de caso en 6 campos"
+    },
+    {
+      "t": "La regla del 3: de anécdota a patrón"
+    }
+  ],
+  "hero_alt": "El dueño de una panadería de barrio, con delantal, cuenta una historia apoyado en el mostrador mientras una consultora toma notas.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Del caso al patrón",
+      "sub": "La regla viene narrada, no formulada. Haz clic en cada paso.",
+      "nos": [
+        {
+          "icone": "relogio",
+          "titulo": "Ancla",
+          "sub": "esta semana",
+          "detalhe": "Empieza por el tiempo: \"esta semana\", \"el último\". La memoria reciente trae detalle; \"en general\" trae resumen."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Objeto",
+          "sub": "un solo caso",
+          "detalhe": "Pide un caso concreto: \"el último paciente nuevo\", \"el último reclamo\", \"el último cobro\". Uno a la vez."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Narrar",
+          "sub": "paso a paso",
+          "detalhe": "\"Cuéntame paso a paso.\" El dueño entra en piloto automático y olvida que lo están entrevistando. Si responde \"depende\", insiste: \"piensa en uno específico, de la semana pasada\"."
+        },
+        {
+          "icone": "caneta",
+          "titulo": "Decisión",
+          "sub": "el porqué",
+          "detalhe": "En cada punto en que eligió algo, pregunta \"¿y cómo decidiste eso?\". Esa respuesta es la regla escondida."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Repetir",
+          "sub": "3 casos",
+          "forte": true,
+          "detalhe": "Regla práctica del consultor: un caso es una anécdota, tres del mismo tipo empiezan a mostrar el patrón. Marca lo que se repite."
+        }
+      ],
+      "volta": "el patrón marcado se vuelve regla en la clase 5",
+      "legenda": "El conocimiento tácito es lo que el dueño sabe hacer pero nunca escribió. La técnica cambia, y la información aparece."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Tácito y explícito",
+      "sub": "Tu trabajo es pasar la columna de la izquierda a la derecha.",
+      "passos": [
+        {
+          "titulo": "Lo que no funciona",
+          "sub": "pregunta abstracta",
+          "texto": [
+            "\"¿Cómo calificas a un paciente?\", \"explícame tu proceso\", \"¿qué criterios usas?\".",
+            "El dueño no miente; solo que no sabe describir lo que hace en automático."
+          ]
+        },
+        {
+          "titulo": "Lo que funciona",
+          "sub": "pregunta-narrativa",
+          "texto": [
+            "\"Cuéntame la última evaluación que agendaste. Desde el primer contacto hasta que la persona se sentó aquí.\"",
+            "\"Piensa en la última persona que reclamó. ¿Cómo fue esa conversación?\""
+          ],
+          "exemplo": {
+            "rot": "Tácito → explícito",
+            "texto": "\"Sé cuándo el paciente va en serio\" → \"cuando pregunta el horario antes de preguntar el precio, suele agendar\"."
+          }
+        },
+        {
+          "titulo": "Elegir el tipo de caso",
+          "sub": "del área prioritaria",
+          "texto": [
+            "Reúne casos del área que lideró la matriz de la clase 3. En Vila Serena (ficticia): primera atención por WhatsApp.",
+            "Tres casos de tipos distintos no muestran ningún patrón."
+          ]
+        },
+        {
+          "titulo": "Cuidar los datos",
+          "sub": "sin nombre",
+          "texto": [
+            "El caso no necesita nombre: \"una paciente con dolor lumbar\" basta. Lo que no se puede es unir el dato de salud con quién es la persona (nombre, teléfono, foto).",
+            "Si vas a mirar conversaciones reales de WhatsApp para encontrar casos, hazlo junto con el dueño y no copies nombre, teléfono ni datos de salud a tu archivo."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos: preguntas-narrativa y plantilla de caso",
+      "sub": "Copia una plantilla por caso. Cambia lo que está entre < > por lo tuyo.",
+      "blocos": [
+        {
+          "rot": "perguntas-narrativa.txt",
+          "icone": "chat",
+          "conteudo": "- Cuéntame el último <cliente/paciente> nuevo que llegó. Desde el primer contacto hasta <lo que pasa al final>.\n- Piensa en el último <cliente/paciente> que reclamó. ¿Cómo fue esa conversación?\n- Cuéntame el último <cobro/propuesta/reprogramación> que hiciste esta semana.\n- Y entonces, ¿cómo decidiste <el punto en que eligió algo>?\n- Si dice \"depende\": pero piensa en uno específico, de la semana pasada."
+        },
+        {
+          "rot": "caso-NN.md",
+          "icone": "arquivo",
+          "conteudo": "# Caso <NN> — tipo: <ej.: primera atención por WhatsApp> — <fecha del caso>\n\nContexto: <quién es el cliente, sin nombre; cómo llegó>\nEntrada: <qué pidió o dijo, lo más literal posible>\nAnálisis del dueño: <qué pensó el dueño y en qué se basó>\nAcción: <qué respondió o hizo el dueño>\nResultado: <qué pasó después>\nQué haría diferente: <si el dueño cambiaría algo>"
+        },
+        {
+          "rot": "padrao.md (ejemplo ficticio)",
+          "icone": "lista",
+          "conteudo": "# Patrón — primera atención por WhatsApp — Clínica Vila Serena (ficticia)\n# 3 casos recopilados con la dueña; ningún nombre registrado.\n\n- En los 3 casos: preguntó si la persona tiene convenio ANTES de hablar de precio.\n- En los 3 casos: ofreció evaluación inicial cuando era la primera vez.\n- En 2 de 3: sugirió horario al final de la tarde.\n- En 1 de 3: llamó a la fisioterapeuta porque la persona mencionó una cirugía reciente.\n\n→ Candidatas a regla (clase 5): convenio antes del precio; evaluación para la primera vez; cirugía reciente = llamar a la fisioterapeuta."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Cómo revisar",
+            "html": "<ul><li>Los 3 casos son del mismo tipo y del área prioritaria.</li><li>Cada caso tiene los 6 campos, con la decisión del dueño en el campo \"Análisis\".</li><li>El patrón marca lo que se repite y cuántas veces (3 de 3, 2 de 3).</li></ul>"
+          },
+          {
+            "rot": "Errores comunes",
+            "html": "<ul><li>Aceptar \"depende\" como respuesta.</li><li>Mezclar tipos de caso (uno de cobranza, uno de agendamiento).</li><li>Registrar nombre, teléfono o diagnóstico de un cliente en el archivo de casos.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica: 3 casos de Vila Serena",
+      "sub": "Tú escribes los casos como ficticios, imitando lo que contaría la dueña.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Tres casos en el template",
+          "min": "25 min",
+          "texto": "Elige un tipo de caso del área que lideró tu matriz. Escribe 3 casos ficticios de Vila Serena en el template, con la decisión de la dueña en el campo \"Análisis\". Si puedes, hazlo con alguien que haga el papel de la dueña.",
+          "pronto": "existen 3 archivos de caso del mismo tipo, cada uno con los 6 campos completos y sin ningún nombre ni teléfono."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · El patrón marcado",
+          "min": "10 min",
+          "texto": "Compara los 3 casos y escribe el padrao.md con lo que se repite y el conteo (3 de 3, 2 de 3).",
+          "pronto": "el padrao.md tiene al menos 2 ítems que aparecen en 2 o 3 casos, con el conteo al lado."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba lo que aprendiste",
+      "perguntas": [
+        {
+          "p": "¿Qué pregunta tiene más probabilidad de revelar la regla que usa el dueño?",
+          "opcoes": [
+            "¿Qué criterios usas para decidir cómo atender a cada paciente nuevo?",
+            "Cuéntame el último paciente nuevo que llegó, paso a paso.",
+            "¿Cómo es tu proceso de atención?",
+            "¿Qué necesita tener una buena atención?"
+          ],
+          "certa": 1,
+          "explica": "Ancla en el tiempo, objeto concreto e invitación a narrar. Las otras piden que el dueño formule la regla por sí solo, y él responde \"depende\".",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "El dueño responde \"ah, depende de cada caso\". ¿Qué hacer?",
+          "opcoes": [
+            "Anotar \"depende\" como regla.",
+            "Pasar a la siguiente área.",
+            "Explicar qué es el conocimiento tácito.",
+            "Insistir en un caso específico de la semana pasada."
+          ],
+          "certa": 3,
+          "explica": "La primera respuesta genérica es resistencia natural. El caso suele llegar en el segundo intento.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "¿Por qué los 3 casos tienen que ser del mismo tipo?",
+          "opcoes": [
+            "Porque solo lo que se repite en el mismo tipo de situación se vuelve patrón.",
+            "Porque el template solo acepta un tipo.",
+            "Porque el dueño se cansa cuando tiene que recordar tipos distintos de situación.",
+            "Porque la LGPD (la ley de protección de datos de Brasil) lo exige."
+          ],
+          "certa": 0,
+          "explica": "Un caso de cobranza, uno de agendamiento y uno de reclamo no muestran ningún patrón. Tres del mismo tipo muestran lo que se repite.",
+          "ref": "passos"
+        },
+        {
+          "p": "Al revisar conversaciones reales de WhatsApp en busca de casos, ¿qué queda fuera de tu archivo?",
+          "opcoes": [
+            "La decisión que tomó el dueño y el motivo que dio para tomarla.",
+            "El resultado del caso.",
+            "Nombre, teléfono y cualquier dato que una la salud con la persona.",
+            "La fecha del caso."
+          ],
+          "certa": 2,
+          "explica": "El caso necesita la situación y la decisión, no quién es la persona. El dato de salud es sensible según la LGPD; déjalo fuera.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Caso, no regla",
+          "texto": "Pide el último caso, con ancla en el tiempo, y pregunta cómo decidió cada punto."
+        },
+        {
+          "t": "Template de 6 campos",
+          "texto": "Contexto, entrada, análisis del dueño, acción, resultado y qué haría diferente."
+        },
+        {
+          "t": "Regla del 3",
+          "texto": "Tres casos del mismo tipo muestran el patrón. Marca lo que se repite y cuántas veces."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "El conocimiento de la empresa como activo (Gestión de IA · Recursos, clase 3)",
+          "href": "https://inematds.github.io/gestao-ia-recursos-v72/es/aulas/contexto/",
+          "icone": "memoria"
+        },
+        {
+          "t": "Mapear lo que pasa de verdad (Gestión de IA · Procesos, clase 3)",
+          "href": "https://inematds.github.io/gestao-ia-processos-v72/es/aulas/mapear/",
+          "icone": "lupa"
+        }
+      ]
+    }
+  ]
+}

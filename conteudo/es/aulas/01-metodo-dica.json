@@ -1,0 +1,265 @@
+{
+  "slug": "metodo-dica",
+  "num": 1,
+  "menu": "Método",
+  "titulo": "El pequeño negocio no es una empresa pequeña: el método DICA",
+  "titulo_curto": "El método DICA",
+  "minutos": 14,
+  "lead": "Una clínica de 9 personas no es una empresa grande en miniatura. La dueña decide sola, no hay TI, WhatsApp es la puerta de todo y buena parte de las reglas vive en su cabeza. Por eso el diagnóstico va antes de cualquier herramienta, y con él empieza el método DICA.",
+  "objetivo": "describir el pequeño negocio en 5 líneas y ubicar el diagnóstico (D) dentro del método DICA antes de proponer cualquier IA.",
+  "competencias": [
+    "descrever-pequeno-negocio",
+    "situar-diagnostico-no-dica",
+    "separar-diagnostico-de-venda"
+  ],
+  "aprende": [
+    {
+      "t": "Qué cambia en un negocio donde el dueño decide todo"
+    },
+    {
+      "t": "Las cuatro letras de DICA y lo que sale de cada una"
+    },
+    {
+      "t": "La ficha de 5 líneas que abre todo diagnóstico"
+    },
+    {
+      "t": "Dónde entra la Formación DICA en el Profesional 2030"
+    }
+  ],
+  "hero_alt": "Dueño de un pequeño taller y una consultora mirando juntos un cuaderno en el mostrador.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "El método DICA",
+      "sub": "Cuatro etapas, en este orden. Este curso es la D. Haz clic en cada letra.",
+      "nos": [
+        {
+          "icone": "lupa",
+          "titulo": "Diagnosticar",
+          "sub": "este curso",
+          "forte": true,
+          "detalhe": "Entrevistar al dueño, puntuar las 5 áreas, sacar de su cabeza las reglas que nadie escribió y entregar un mapa de una página con una recomendación. De aquí salen: el informe y el plan de 30 días."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Implementar",
+          "sub": "curso 2",
+          "detalhe": "Elegir el primer asistente, escribir su playbook y conectarlo con aprobación por fases. Solo empieza cuando el diagnóstico dijo qué hacer y qué no hacer."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Capacitar",
+          "sub": "curso 2",
+          "detalhe": "Enseñar a la dueña y a una persona del equipo a usar, corregir y pedir ajustes. Sin eso, el asistente muere cuando el consultor se va."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Acompañar",
+          "sub": "curso 2",
+          "detalhe": "Un check-in corto cada semana, pocos indicadores y una alerta cuando algo se sale del carril, hasta que el asistente ande solo."
+        }
+      ],
+      "volta": "el acompañamiento trae la siguiente área para un nuevo diagnóstico",
+      "legenda": "Construir se volvió fácil; confiar en lo que se construyó, no. La D es donde empieza la confianza."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "El retrato del pequeño negocio",
+      "sub": "Cuatro rasgos que cambian la forma de diagnosticar.",
+      "passos": [
+        {
+          "titulo": "El dueño decide solo",
+          "sub": "sin comité",
+          "texto": [
+            "No hay directorio ni área de compras. Quien responde la entrevista es quien aprueba, paga y usa.",
+            "Eso acelera la decisión, pero todo depende de la agenda y del humor de una sola persona."
+          ],
+          "exemplo": {
+            "rot": "En la Clínica Vila Serena (ficticia)",
+            "texto": "La dueña atiende pacientes por la mañana y administra por la tarde. La conversación contigo cabe entre una cosa y la otra."
+          }
+        },
+        {
+          "titulo": "No hay TI",
+          "sub": "nadie se encarga",
+          "texto": [
+            "La contraseña del sistema, la cuenta de WhatsApp y la planilla quedan con quien las armó, a veces un sobrino.",
+            "Antes de pensar en integrar, descubre quién tiene acceso a qué."
+          ]
+        },
+        {
+          "titulo": "WhatsApp es la puerta",
+          "sub": "todo pasa por ahí",
+          "texto": [
+            "Agendamiento, dudas, reclamos y pagos llegan por el mismo celular.",
+            "Por eso las reglas de WhatsApp (clase 7) entran en el diagnóstico, y no solo en la construcción."
+          ]
+        },
+        {
+          "titulo": "La regla vive en la cabeza",
+          "sub": "nada escrito",
+          "texto": [
+            "El dueño sabe hacerlo, pero no sabe describirlo. El precio, la excepción y el \"estilo de la casa\" nunca se escribieron.",
+            "Las clases 4 y 5 enseñan a sacar eso de ahí sin pedirle que formule reglas por su cuenta."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo: la ficha de 5 líneas",
+      "sub": "Complétala antes de la entrevista con lo que ya sabes; lo demás se vuelve pregunta. Cambia lo que está entre < > por lo tuyo.",
+      "blocos": [
+        {
+          "rot": "ficha-5-linhas.md",
+          "icone": "arquivo",
+          "conteudo": "# Ficha de 5 líneas — <nombre del negocio> (<ciudad>, <fecha>)\n\n1. Quién decide: <nombre y rol; quién más necesita estar de acuerdo>\n2. Canal principal: <por dónde llega y habla el cliente: WhatsApp, teléfono, mostrador>\n3. Quién responde hoy: <persona, horario, qué pasa fuera del horario>\n4. Lo que no puede parar: <la actividad que, si se detiene un día, genera pérdida>\n5. Dónde vive la información: <sistema, planilla, cuaderno, cabeza de quién>\n\nNo sé todavía: <qué falta y en qué pregunta de la entrevista lo voy a descubrir>"
+        },
+        {
+          "rot": "Ejemplo completado (ficticio)",
+          "icone": "lista",
+          "conteudo": "# Ficha de 5 líneas — Clínica Vila Serena (ficticia)\n\n1. Quién decide: la dueña, sola; la socia opina sobre los gastos\n2. Canal principal: WhatsApp de la recepción (un celular)\n3. Quién responde hoy: la recepcionista, de 8h a 18h; de noche, la dueña desde su propio celular\n4. Lo que no puede parar: la agenda de las fisioterapeutas\n5. Dónde vive la información: la agenda en un sistema de la clínica; precios y convenios en la cabeza del equipo\n\nNo sé todavía: cuántos mensajes llegan por día (pregunta 5 de la entrevista)"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Cómo revisar",
+            "html": "<ul><li>Cada línea tiene una respuesta concreta (nombre, canal, lugar), no un adjetivo.</li><li>Hay al menos una línea \"no sé todavía\", ligada a una pregunta de la entrevista.</li><li>Ninguna línea habla de herramientas de IA.</li></ul>"
+          },
+          {
+            "rot": "Errores comunes",
+            "html": "<ul><li>Escribir la solución en la ficha (\"necesita un robot\").</li><li>Dejar la línea 1 vaga: \"la empresa decide\".</li><li>Inventar lo que no sabes en vez de marcar \"no sé todavía\".</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "video",
+      "titulo": "Video: consultoría de IA en la práctica",
+      "sub": "Cuatro minutos y medio: la conversación, el diagnóstico de una página y el ejemplo de una clínica.",
+      "chave": "consultoria-na-pratica"
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica: la ficha de Vila Serena",
+      "sub": "La Clínica Vila Serena es ficticia y te acompaña durante todo el curso.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Ficha de 5 líneas",
+          "min": "15 min",
+          "texto": "Copia el modelo y complétalo para la Clínica Vila Serena (fisioterapia y estética, 9 personas, dueña que atiende y administra, recepción por WhatsApp). Si atiendes un negocio de verdad, haz también el de ese negocio, con autorización.",
+          "pronto": "las 5 líneas tienen una respuesta concreta y al menos una está como \"no sé todavía\", con la pregunta que la va a responder."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · La D separada de la venta",
+          "min": "5 min",
+          "texto": "Escribe en una frase lo que entrega tu diagnóstico y en otra lo que no entrega (precio, construcción, promesa de resultado).",
+          "pronto": "las dos frases existen y la segunda cita al menos una cosa que queda para después del diagnóstico."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba lo que aprendiste",
+      "perguntas": [
+        {
+          "p": "En un pequeño negocio, la persona a la que entrevistas en el diagnóstico suele ser:",
+          "opcoes": [
+            "Un comité de compras con tres áreas.",
+            "El gerente de TI de la empresa.",
+            "El propio dueño, que decide, paga y usa.",
+            "Un representante del proveedor de sistemas."
+          ],
+          "certa": 2,
+          "explica": "Sin directorio y sin TI, el dueño es quien decide y quien usa. El error común es preparar la conversación como si fuera para una empresa grande, con términos técnicos y varias reuniones.",
+          "ref": "passos"
+        },
+        {
+          "p": "¿Qué sale de la etapa D del método DICA?",
+          "opcoes": [
+            "Un informe de una página con una recomendación y un plan de 30 días.",
+            "El asistente ya funcionando en el WhatsApp de la empresa, atendiendo a los clientes.",
+            "El contrato firmado con precio cerrado.",
+            "El entrenamiento del equipo en 90 minutos."
+          ],
+          "certa": 0,
+          "explica": "La D entrega el mapa y la recomendación. Construir es la I, enseñar es la C, y el precio es tema de Ventas con IA.",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "En la ficha de 5 líneas, la línea \"aún no sé\" sirve para:",
+          "opcoes": [
+            "Mostrarle al dueño que olvidó informar algo.",
+            "Llenarse después con una suposición.",
+            "Justificar que cobres más por el diagnóstico.",
+            "Conectar lo que falta con una pregunta de la entrevista."
+          ],
+          "certa": 3,
+          "explica": "Lo que no sabes se convierte en pregunta. Inventar la respuesta es el error que contamina el resto del diagnóstico.",
+          "ref": "codigo"
+        },
+        {
+          "p": "¿Por qué las reglas de WhatsApp entran ya en el diagnóstico?",
+          "opcoes": [
+            "Porque el diagnóstico ya elige la herramienta.",
+            "Porque casi todo en el pequeño negocio pasa por ahí, y la regla cambia lo que se puede recomendar.",
+            "Porque Meta exige un diagnóstico escrito antes de habilitar cualquier cuenta de empresa en la plataforma.",
+            "Porque WhatsApp es la única área que importa."
+          ],
+          "certa": 1,
+          "explica": "La agenda, las dudas y los pagos llegan por el mismo celular. Recomendar algo que la regla de la plataforma no permite es un error de diagnóstico, no de construcción.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Pequeño no es miniatura",
+          "texto": "Un dueño que decide solo, sin TI, con WhatsApp en el centro y la regla en la cabeza. El diagnóstico parte de ahí."
+        },
+        {
+          "t": "D antes de I",
+          "texto": "Diagnosticar, Implementar, Capacitar, Acompañar. Nada se construye antes de que la D diga qué hacer y qué no hacer."
+        },
+        {
+          "t": "Ficha de 5 líneas",
+          "texto": "Quién decide, canal, quién responde, qué no puede parar y dónde vive la información. Lo que falta se convierte en pregunta."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Profesional 2030: los cuatro roles",
+          "href": "https://eventos.inema.pro/prof2030/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Lo que tú no eres (prof2030-base, clase 7)",
+          "href": "https://inematds.github.io/prof2030-base/aulas/escopo/",
+          "icone": "escudo"
+        },
+        {
+          "t": "Los 4 roles (Ventas con IA 1, clase 1)",
+          "href": "https://inematds.github.io/formacao-vendas-ia-oportunidades-v72/es/aulas/escolha-o-papel/",
+          "icone": "usuario"
+        },
+        {
+          "t": "Página del video con guion",
+          "href": "https://inematds.github.io/consultoria-ia-na-pratica/videos/",
+          "icone": "video"
+        }
+      ]
+    }
+  ]
+}

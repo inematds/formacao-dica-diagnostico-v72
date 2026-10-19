@@ -1,0 +1,260 @@
+{
+  "slug": "caso-recente",
+  "num": 4,
+  "menu": "Cases",
+  "titulo": "What the owner knows and doesn't write down: \"tell me about a recent case\"",
+  "titulo_curto": "Tell me about a recent case",
+  "minutos": 16,
+  "lead": "Ask \"how do you qualify a new patient?\" and the owner answers \"it depends.\" Ask \"tell me about the last new patient who came in\" and they narrate, step by step, the decisions they make without noticing. Three cases of the same type show the pattern that will become a rule in the next lesson.",
+  "objetivo": "collect 3 recent cases of the same type with the case template and mark what repeats across them.",
+  "competencias": [
+    "extrair-conhecimento-tacito",
+    "coletar-caso-recente",
+    "identificar-padrao"
+  ],
+  "aprende": [
+    {
+      "t": "Why the owner can't explain what they do"
+    },
+    {
+      "t": "The narrative question: time, object, and step by step"
+    },
+    {
+      "t": "The case template in 6 fields"
+    },
+    {
+      "t": "The rule of 3: from anecdote to pattern"
+    }
+  ],
+  "hero_alt": "A neighborhood bakery owner, wearing an apron, tells a story leaning on the counter while a consultant takes notes.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From case to pattern",
+      "sub": "The rule is told as a story, not stated outright. Click each step.",
+      "nos": [
+        {
+          "icone": "relogio",
+          "titulo": "Anchor",
+          "sub": "this week",
+          "detalhe": "Start with time: \"this week,\" \"the last one.\" Recent memory brings detail; \"in general\" brings a summary."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Object",
+          "sub": "just one case",
+          "detalhe": "Ask for one concrete case: \"the last new patient,\" \"the last complaint,\" \"the last charge.\" One at a time."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Narrate",
+          "sub": "step by step",
+          "detalhe": "\"Walk me through it step by step.\" The owner slips into autopilot and forgets they're being interviewed. If they answer \"it depends,\" push: \"think of one specific case, from last week.\""
+        },
+        {
+          "icone": "caneta",
+          "titulo": "Decision",
+          "sub": "the why",
+          "detalhe": "At every point where they chose something, ask \"and how did you decide that?\" That answer is the hidden rule."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Repeat",
+          "sub": "3 cases",
+          "forte": true,
+          "detalhe": "A consultant's rule of thumb: one case is an anecdote, three of the same kind start to show the pattern. Mark what repeats."
+        }
+      ],
+      "volta": "the marked pattern becomes a rule in lesson 5",
+      "legenda": "Tacit knowledge is what the owner knows how to do but has never written down. The technique changes, and the information shows up."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Tacit and explicit",
+      "sub": "Your job is to move things from the left column to the right.",
+      "passos": [
+        {
+          "titulo": "What doesn't work",
+          "sub": "abstract question",
+          "texto": [
+            "\"How do you qualify a patient?\", \"explain your process to me\", \"what criteria do you use?\".",
+            "The owner isn't lying; they just don't know how to describe what they do on autopilot."
+          ]
+        },
+        {
+          "titulo": "What works",
+          "sub": "narrative question",
+          "texto": [
+            "\"Tell me about the last evaluation you booked. From first contact until the person sat down here.\"",
+            "\"Think of the last person who complained. How did that conversation go?\""
+          ],
+          "exemplo": {
+            "rot": "Tacit → explicit",
+            "texto": "\"I can tell when a patient is serious\" → \"when they ask about hours before they ask about price, they usually book\"."
+          }
+        },
+        {
+          "titulo": "Choose the type of case",
+          "sub": "from the priority area",
+          "texto": [
+            "Collect cases from the area that led the matrix in lesson 3. At Vila Serena (fictional): first contact through WhatsApp.",
+            "Three cases of different types don't show any pattern."
+          ]
+        },
+        {
+          "titulo": "Protect the data",
+          "sub": "no names",
+          "texto": [
+            "A case doesn't need a name: \"a patient with lower back pain\" is enough. What you can't do is link health data to who the person is (name, phone number, photo).",
+            "If you look at real WhatsApp conversations to find cases, do it together with the owner, and don't copy names, phone numbers, or health data into your own file."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates: narrative questions and case template",
+      "sub": "Copy one template per case. Replace what's between < > with your own.",
+      "blocos": [
+        {
+          "rot": "perguntas-narrativa.txt",
+          "icone": "chat",
+          "conteudo": "- Tell me about the last <client/patient> who came in new. From first contact until <what happens at the end>.\n- Think of the last <client/patient> who complained. How did that conversation go?\n- Tell me about the last <charge/proposal/reschedule> you made this week.\n- So, how did you decide <the point where they chose something>?\n- If they say \"it depends\": but think of one specific case, from last week."
+        },
+        {
+          "rot": "caso-NN.md",
+          "icone": "arquivo",
+          "conteudo": "# Case <NN> — type: <e.g., first WhatsApp contact> — <case date>\n\nContext: <who the client is, no name; how they arrived>\nInput: <what they asked or said, as literally as possible>\nOwner's analysis: <what the owner thought and what they based it on>\nAction: <what the owner answered or did>\nResult: <what happened afterward>\nWhat they would do differently: <whether the owner would change anything>"
+        },
+        {
+          "rot": "padrao.md (fictional example)",
+          "icone": "lista",
+          "conteudo": "# Pattern — first WhatsApp contact — Clínica Vila Serena (fictional)\n# 3 cases collected with the owner; no names recorded.\n\n- In all 3 cases: asked whether the person has health insurance BEFORE talking about price.\n- In all 3 cases: offered an initial evaluation when it was their first time.\n- In 2 of 3: suggested a late-afternoon time slot.\n- In 1 of 3: called in the physical therapist because the person mentioned recent surgery.\n\n→ Rule candidates (lesson 5): insurance before price; evaluation for first-timers; recent surgery = call the physical therapist."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "How to check",
+            "html": "<ul><li>The 3 cases are of the same type and from the priority area.</li><li>Each case has all 6 fields, with the owner's decision in the \"Analysis\" field.</li><li>The pattern marks what repeats and how many times (3 of 3, 2 of 3).</li></ul>"
+          },
+          {
+            "rot": "Common mistakes",
+            "html": "<ul><li>Accepting \"it depends\" as an answer.</li><li>Mixing case types (one about billing, one about scheduling).</li><li>Recording a client's name, phone number, or diagnosis in the case file.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: 3 Vila Serena cases",
+      "sub": "You write the cases as fictional ones, imitating what the owner would tell you.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Three cases in the template",
+          "min": "25 min",
+          "texto": "Choose a case type from the area that led your matrix. Write 3 fictional Vila Serena cases in the template, with the owner's decision in the \"Analysis\" field. If you can, do it with someone playing the owner.",
+          "pronto": "there are 3 case files of the same type, each with all 6 fields filled in and no names or phone numbers."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · The pattern marked",
+          "min": "10 min",
+          "texto": "Compare the 3 cases and write padrao.md with what repeats and the count (3 of 3, 2 of 3).",
+          "pronto": "padrao.md has at least 2 items that show up in 2 or 3 cases, with the count next to each."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "perguntas": [
+        {
+          "p": "Which question is most likely to reveal the rule the owner uses?",
+          "opcoes": [
+            "What criteria do you use to decide how to handle each new patient?",
+            "Tell me about the last new patient who came in, step by step.",
+            "What is your service process like?",
+            "What does good service need to have?"
+          ],
+          "certa": 1,
+          "explica": "A time anchor, a concrete object, and an invitation to tell the story. The others ask the owner to state the rule on their own, and they answer \"it depends.\"",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "The owner answers, \"oh, it depends on each case.\" What do you do?",
+          "opcoes": [
+            "Write down \"it depends\" as a rule.",
+            "Move on to the next area.",
+            "Explain what tacit knowledge is.",
+            "Press for one specific case from last week."
+          ],
+          "certa": 3,
+          "explica": "The first generic answer is natural resistance. The case usually comes on the second try.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Why do the 3 cases need to be of the same type?",
+          "opcoes": [
+            "Because only what repeats in the same type of situation becomes a pattern.",
+            "Because the template only accepts one type.",
+            "Because the owner gets tired when they have to remember different types of situations.",
+            "Because LGPD (Brazil's data protection law) requires it."
+          ],
+          "certa": 0,
+          "explica": "A billing case, a scheduling case, and a complaint case show no pattern at all. Three of the same type show what repeats.",
+          "ref": "passos"
+        },
+        {
+          "p": "When reviewing real WhatsApp conversations to find cases, what stays out of your file?",
+          "opcoes": [
+            "The decision the owner made and the reason they gave for making it.",
+            "The result of the case.",
+            "Name, phone number, and any data that links health to the person.",
+            "The date of the case."
+          ],
+          "certa": 2,
+          "explica": "The case needs the situation and the decision, not who the person is. Health data is sensitive under LGPD; leave it out.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Case, not rule",
+          "texto": "Ask for the most recent case, with a time anchor, and ask how they decided each point."
+        },
+        {
+          "t": "6-field template",
+          "texto": "Context, input, owner's analysis, action, result, and what they would do differently."
+        },
+        {
+          "t": "Rule of 3",
+          "texto": "Three cases of the same type show the pattern. Mark what repeats and how many times."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Company knowledge as an asset (AI Management · Resources, lesson 3)",
+          "href": "https://inematds.github.io/gestao-ia-recursos-v72/en/aulas/contexto/",
+          "icone": "memoria"
+        },
+        {
+          "t": "Mapping what really happens (AI Management · Processes, lesson 3)",
+          "href": "https://inematds.github.io/gestao-ia-processos-v72/en/aulas/mapear/",
+          "icone": "lupa"
+        }
+      ]
+    }
+  ]
+}

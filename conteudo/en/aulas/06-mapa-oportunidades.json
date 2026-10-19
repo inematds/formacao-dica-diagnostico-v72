@@ -1,0 +1,252 @@
+{
+  "slug": "mapa-oportunidades",
+  "num": 6,
+  "menu": "Map",
+  "titulo": "The opportunity map: 6 axes, 4 quadrants, and what not to recommend",
+  "titulo_curto": "The opportunity map",
+  "minutos": 18,
+  "lead": "Many ideas come out of the interview, and the new consultant picks the most interesting one. The diagnosis picks the one that gives a fast result safely, so the trust pays for the next ones. You score each candidate on 6 axes, place it on the 4-quadrant chart, and also write down what you won't recommend, and why.",
+  "objetivo": "score 5 candidates on the 6 axes, recommend 1, point out 1 that doesn't need AI, and write the reason for each decision.",
+  "competencias": [
+    "pontuar-oportunidades",
+    "recomendar-primeiro-projeto",
+    "dizer-o-que-nao-fazer"
+  ],
+  "aprende": [
+    {
+      "t": "The question before the axes: does it need AI?"
+    },
+    {
+      "t": "The 6 axes from 0 to 3 and how to work out the score"
+    },
+    {
+      "t": "The 4 quadrants and the first project"
+    },
+    {
+      "t": "How to say what stays out"
+    }
+  ],
+  "hero_alt": "A real estate agent and a consultant in front of a whiteboard with four hand-drawn quadrants and sticky notes.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The 4 quadrants",
+      "sub": "Horizontal axis: ease. Vertical axis: impact. Click each quadrant.",
+      "nos": [
+        {
+          "icone": "alvo",
+          "titulo": "First",
+          "sub": "easy and useful",
+          "forte": true,
+          "detalhe": "High impact and high ease. The first project always comes from here: a visible result in weeks builds the trust for the next ones."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Ambitious",
+          "sub": "useful, hard",
+          "detalhe": "High impact, low ease. It waits for a later phase, after the first project has proven its value and the information has been organized."
+        },
+        {
+          "icone": "check",
+          "titulo": "Bonus",
+          "sub": "easy, small",
+          "detalhe": "High ease, low impact. Good as an extra, bad as a priority: it takes time and doesn't change the owner's week."
+        },
+        {
+          "icone": "x",
+          "titulo": "Not now",
+          "sub": "hard, small",
+          "detalhe": "Low ease and low impact. A distraction in disguise. It goes on the list of what you don't recommend, with the reason."
+        }
+      ],
+      "legenda": "The chart answers \"why this one before that one?\" better than any argument."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "From the catalog to the recommendation",
+      "sub": "Four steps, in this order.",
+      "passos": [
+        {
+          "titulo": "Does it need AI?",
+          "sub": "before scoring",
+          "texto": [
+            "For each candidate, ask first: can you stop doing it altogether? Would a fixed rule solve it (a reminder, a spreadsheet, an automatic message from the system itself)?",
+            "If a fixed rule solves it, it is cheaper and more predictable. The full ladder is in prof2030-consultor, lesson 3."
+          ],
+          "exemplo": {
+            "rot": "At Vila Serena (fictional)",
+            "texto": "An appointment reminder the day before is a fixed rule: the scheduling system sends it. It doesn't need AI."
+          }
+        },
+        {
+          "titulo": "The 6 axes",
+          "sub": "0 to 3 each",
+          "texto": [
+            "Impact (hours per week or lost clients, counted by the owner), ease (data ready, a tool that already exists), urgency, the owner's willingness, risk, and dependence on human judgment.",
+            "Risk and human dependence count against: a high score on them makes automation harder and more dangerous. The criteria for each score are in the template below."
+          ]
+        },
+        {
+          "titulo": "The math",
+          "sub": "transparent",
+          "texto": [
+            "Score = (impact + ease + urgency + willingness) − (risk + human dependence).",
+            "The math doesn't decide on its own: it organizes the conversation. If the highest score goes against common sense, revise the criteria, not the sum."
+          ]
+        },
+        {
+          "titulo": "Recommend and cut",
+          "sub": "just one",
+          "texto": [
+            "One recommendation, not five. And one or two that stay out, each with the reason in one line.",
+            "Tell \"not now\" (comes back after the first result) apart from \"doesn't need AI\" (a fixed rule solves it)."
+          ],
+          "exemplo": {
+            "rot": "Comparison (fictional)",
+            "texto": "Imobiliária Ponto Firme: proposal with 3 similar properties right after the visit (first); listing descriptions (bonus); property price forecast (not now: no organized data)."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template: 6-axis matrix",
+      "sub": "One row per candidate; a reason is required for both decisions. Replace what is between < > with your own.",
+      "blocos": [
+        {
+          "rot": "mapa-oportunidades.md",
+          "icone": "grafico",
+          "conteudo": "# Opportunity map — <business> — <date>\n# Scale 0-3. Score = (Imp + Fac + Urg + Will) - (Risk + HumDep)\n# Impact in hours/week or lost clients COUNTED by the owner (no R$).\n#\n# Criteria for each axis (write next to the score what justifies it):\n# Impact      0 = nobody feels it | 1 = annoying, no count | 2 = count shows a loss every week | 3 = loss counted and the owner cites a recent case\n# Ease        0 = no data, closed system | 1 = data in someone's head | 2 = data in a spreadsheet/system | 3 = written rules and a tool that already exists\n# Urgency     0 = can wait until next semester | 1 = this quarter | 2 = this month | 3 = getting in the way now, with a deadline requested\n# Will        0 = \"it's fine\" | 1 = curious | 2 = asks for it to be solved | 3 = asked and set aside time to help\n# Risk        0 = error with no cost | 1 = annoying error, easy to fix | 2 = error involving a client or personal data | 3 = money, contract or health\n# HumDep      0 = a fixed rule solves it | 1 = a person checks sometimes | 2 = a person decides in exceptions | 3 = always requires judgment\n\n| Candidate | Area | Needs AI? | Imp | Fac | Urg | Will | Risk | HumDep | Score | Quadrant |\n|---|---|---|---|---|---|---|---|---|---|---|\n| <1> | <area> | yes / fixed rule / stop doing | | | | | | | | |\n| <2> | | | | | | | | | | |\n| <3> | | | | | | | | | | |\n| <4> | | | | | | | | | | |\n| <5> | | | | | | | | | | |\n\nRecommended: <candidate> — because <reason in 1 line>\nDoesn't need AI: <candidate> — because <fixed rule that solves it>\nNot now: <candidate> — because <reason>; comes back when <condition>"
+        },
+        {
+          "rot": "Feedback session script (10 min)",
+          "icone": "chat",
+          "conteudo": "0-2 min  Reconnect: \"In our conversation you said: '<literal quote>'. Is that still true?\"\n2-5 min  Map: \"These are the 5 ideas that came up, on the impact and ease chart.\"\n5-8 min  Recommendation: \"I suggest starting with <X>, because <reason>. Does that make sense?\"\n         Cuts: \"I considered <Y> and <Z>, but I don't recommend them now: <reason>.\"\n8-10 min Next step: \"The next step is <task with date>.\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "How to check",
+            "html": "<ul><li>All 5 candidates have the \"needs AI?\" column filled in before the scores.</li><li>There is exactly 1 recommended and at least 1 \"doesn't need AI\", each with a reason.</li><li>No impact score is in reais; it is in hours or counted clients.</li></ul>"
+          },
+          {
+            "rot": "Common mistakes",
+            "html": "<ul><li>Picking the most interesting idea, not the fastest and safest one.</li><li>Recommending everything (\"let's tackle all five\").</li><li>Forgetting the risk: financial matters and serious complaints call for a human.</li><li>Closing the feedback session with a contract: price and proposal belong to Selling with AI.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: the Vila Serena map",
+      "sub": "Five candidates from the fictional clinic, scored and decided.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · 6-axis matrix × 5 candidates",
+          "min": "25 min",
+          "texto": "List 5 candidates for Vila Serena (e.g., answering evening questions, appointment reminder, organizing the package spreadsheet, weekly posts, collecting from clients who are late). Fill in the matrix with the \"needs AI?\" column.",
+          "pronto": "the matrix has 5 candidates scored on the 6 axes, with 1 recommended, 1 \"doesn't need AI\" and the reason for both."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Feedback session script",
+          "min": "10 min",
+          "texto": "Adapt the 10-minute script with a literal quote from the owner (from lesson 2) and the cuts from your matrix.",
+          "pronto": "the script has 1 literal quote, 1 recommendation, at least 1 cut with a reason and a next step with a date, without mentioning price."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "perguntas": [
+        {
+          "p": "Which quadrant does the first project come from?",
+          "opcoes": [
+            "High impact and low ease.",
+            "Low impact and high ease.",
+            "High impact and high ease.",
+            "The one with the greatest impact, even if it's hard."
+          ],
+          "certa": 2,
+          "explica": "A quick, safe result builds the trust that authorizes the harder projects later.",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "An appointment reminder the day before, which the scheduling system already sends. How do you classify it?",
+          "opcoes": [
+            "Doesn't need AI: a fixed rule solves it.",
+            "First AI project.",
+            "An ambitious project, for a later phase.",
+            "Not now, for lack of data."
+          ],
+          "certa": 0,
+          "explica": "Before the axes comes the question \"does it need AI?\" A fixed rule is cheaper and more predictable.",
+          "ref": "passos"
+        },
+        {
+          "p": "In the score calculation, why do risk and human dependency subtract?",
+          "opcoes": [
+            "Because they are less important axes.",
+            "Because a high score on them makes automation harder and more dangerous.",
+            "Because a small business owner doesn't like to take any risk.",
+            "Because the scores are given by the owner, not by the consultant."
+          ],
+          "certa": 1,
+          "explica": "A mistake that touches money or a relationship, or a task that calls for judgment, weighs against automating right now.",
+          "ref": "passos"
+        },
+        {
+          "p": "Why does the feedback report list what you do NOT recommend?",
+          "opcoes": [
+            "To make the report shorter.",
+            "To get the other projects sold in advance, since they come right after the first one.",
+            "Because the owner asked for everything.",
+            "Because cutting with a reason shows judgment and builds trust in what stayed."
+          ],
+          "certa": 3,
+          "explica": "A list with everything looks like a salesperson; a list with justified cuts looks like a consultant.",
+          "ref": "codigo"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Does it need AI?",
+          "texto": "Before scoring: don't do it, use a fixed rule, or use AI. A fixed rule solves a lot."
+        },
+        {
+          "t": "6 axes, one calculation",
+          "texto": "Impact, ease, urgency and willingness add up; risk and human dependency subtract."
+        },
+        {
+          "t": "One yes, a few nos",
+          "texto": "One recommendation from the \"first\" quadrant, and the cuts with a reason and a note on when they come back."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Value × feasibility and when NOT to use AI (prof2030-consultor, lesson 3)",
+          "href": "https://inematds.github.io/prof2030-consultor/aulas/valor-viabilidade/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Which technology, and what not to use (Selling with AI 2, lesson 6)",
+          "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/en/aulas/entender-ia/",
+          "icone": "chip"
+        }
+      ]
+    }
+  ]
+}

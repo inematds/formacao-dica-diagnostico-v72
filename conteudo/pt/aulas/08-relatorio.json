@@ -65,7 +65,7 @@
         {"rot": "checklist-antes-de-enviar.txt", "icone": "check",
          "conteudo": "[ ] Cabe em uma página\n[ ] Nenhuma sigla técnica sem explicação\n[ ] Pelo menos 2 frases literais do dono, entre aspas\n[ ] Cada achado tem evidência (caso, contagem ou nota)\n[ ] Uma recomendação, não várias\n[ ] O que fica de fora está escrito, com motivo\n[ ] Cada semana tem um marco que o dono consegue ver\n[ ] O limite da IA está dito\n[ ] Nenhum número sem origem; nenhum dado pessoal de cliente\n[ ] Passou no teste do avô"},
         {"rot": "Plano de 30 dias (exemplo fictício)", "icone": "calendario",
-         "conteudo": "Clínica Vila Serena (fictícia) — dúvidas da noite no WhatsApp\nSemana 1: contagem da semana pronta (linha de base) e arquivo de regras aprovado pela dona\nSemana 2: assistente montado em teste, conferido contra 15 casos escritos\nSemana 3: no ar em nível 1: a recepção aprova de manhã cada resposta preparada à noite\nSemana 4: recepção e dona treinadas; comparação com a contagem da semana 1; decisão de seguir, ajustar ou desligar"}
+         "conteudo": "Clínica Vila Serena (fictícia) — dúvidas da noite no WhatsApp\nSemana 1: contagem da semana pronta (linha de base) e arquivo de regras aprovado pela dona\nSemana 2: assistente montado em teste, conferido contra 15 casos escritos (como fazer: curso 2)\nSemana 3: no ar em nível 1: a recepção aprova de manhã cada resposta preparada à noite\nSemana 4: recepção e dona treinadas (curso 2); comparação com a contagem da semana 1; decisão de seguir, ajustar ou desligar"}
       ],
       "saida": {"selo": "simulacao", "abas": [
         {"rot": "Como conferir", "html": "<ul><li>O relatório cabe em uma página e passou nos 10 itens do checklist.</li><li>Há 3 achados com evidência, 1 recomendação e pelo menos 1 corte com motivo.</li><li>As 4 semanas têm marco visível, e a semana 4 tem uma decisão: seguir, ajustar ou desligar.</li></ul>"},
@@ -126,7 +126,7 @@
          "opcoes": ["Relatório, matriz, entrevista, regras.", "Regras, entrevista, recomendação, matriz.", "Entrevista, matriz, regras, recomendação.", "Recomendação, regras, matriz, entrevista."],
          "certa": 2, "explica": "Cada entrega usa a anterior: sem entrevista não há nota com critério; sem regras escritas não há recomendação segura.", "ref": "mapa", "cert": true},
         {"p": "\"Assistente com base de conhecimento\" na língua do dono vira:",
-         "opcoes": ["\"Sistema de inteligência artificial generativa.\"", "\"Responde igual à recepção, usando a sua tabela.\"", "\"Robô autônomo de atendimento.\"", "\"Plataforma de automação integrada.\""],
+         "opcoes": ["\"Sistema de inteligência artificial generativa com base de dados própria.\"", "\"Responde igual à recepção, usando a sua tabela.\"", "\"Robô autônomo de atendimento.\"", "\"Plataforma de automação integrada.\""],
          "certa": 1, "explica": "Resultado com verbo de rotina, não tecnologia. Passa no teste do avô.", "ref": "passos"},
         {"p": "O que a semana 4 do plano de 30 dias precisa ter?",
          "opcoes": ["A assinatura do contrato de manutenção.", "O lançamento de todos os projetos do mapa.", "Um relatório completo de 12 páginas com tabelas de todas as cinco áreas do negócio.", "Uma comparação com a linha de base e a decisão de seguir, ajustar ou desligar."],

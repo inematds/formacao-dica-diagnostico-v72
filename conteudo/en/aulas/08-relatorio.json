@@ -1,0 +1,353 @@
+{
+  "slug": "relatorio",
+  "num": 8,
+  "menu": "Report",
+  "titulo": "The one-page report in the owner's language + 30-day plan",
+  "titulo_curto": "Report and 30-day plan",
+  "minutos": 20,
+  "lead": "Nobody reads a long report. The owner wants to know what you found, what you recommend, what's left out, and what happens each week. All on one page, in their own words, no acronyms. This lesson pulls together what you did in the course and builds your plan with dates.",
+  "objetivo": "write the one-page report in the owner's language, with 3 findings, 1 recommendation, what's left out, and weekly milestones.",
+  "competencias": [
+    "escrever-relatorio-uma-pagina",
+    "traduzir-para-o-dono",
+    "planejar-30-dias"
+  ],
+  "aprende": [
+    {
+      "icone": "arquivo",
+      "t": "The one-page skeleton"
+    },
+    {
+      "icone": "chat",
+      "t": "Swap jargon for the owner's language"
+    },
+    {
+      "icone": "calendario",
+      "t": "The 4-week plan with a visible milestone"
+    },
+    {
+      "icone": "alvo",
+      "t": "Pull the whole course into a plan with dates"
+    }
+  ],
+  "hero_alt": "The owner of a small clinic reads a single printed sheet while the consultant points to a passage.",
+  "secoes": [
+    {
+      "tipo": "mapa",
+      "titulo": "The diagnosis map",
+      "sub": "The four deliverables that become the report. Click an exercise to see the \"done when\".",
+      "degraus": [
+        {
+          "aula": "entrevista",
+          "icone": "chat",
+          "quando": "Week 1",
+          "titulo": "Interview",
+          "sub": "15 questions and consent",
+          "saida": "Script, word-for-word phrases, and an agreed count.",
+          "passo": "The foundation of everything: without a recent case and a counted number, the rest of the diagnosis becomes opinion."
+        },
+        {
+          "aula": "cinco-areas",
+          "icone": "grafico",
+          "quando": "Week 1",
+          "titulo": "Matrix",
+          "sub": "5 areas with criteria",
+          "saida": "Where to look first, with a reason.",
+          "passo": "Requires the interview. The scores come from what the owner said, and they check them at the debrief."
+        },
+        {
+          "aula": "caso-a-regra",
+          "icone": "memoria",
+          "quando": "Week 2",
+          "titulo": "Rules",
+          "sub": "cases and IF/THEN",
+          "saida": "File of tested rules, with an owner and a date.",
+          "passo": "Requires the matrix. Three cases, the pattern, and the rules tested on new cases (lessons 4 and 5)."
+        },
+        {
+          "aula": "mapa-oportunidades",
+          "icone": "alvo",
+          "quando": "Week 2",
+          "titulo": "Recommendation",
+          "sub": "6 axes and risk",
+          "saida": "One recommended, the cuts, and the risk checklist.",
+          "passo": "Requires the rules. Score, cut with a reason, and check data and channel (lessons 6 and 7) before writing the page."
+        }
+      ],
+      "resultado": {
+        "titulo": "At the end of the diagnosis",
+        "texto": "A page the owner understands, with one safe recommendation and a 30-day plan.",
+        "total": "10 exercises"
+      },
+      "rolagem_fim": {
+        "titulo": "The whole diagnosis",
+        "texto": "Interview, matrix, rules, and recommendation. Each deliverable uses the previous one; the report only puts together what already exists."
+      },
+      "legenda": "Mandatory order: each deliverable uses what the previous one produced."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Write in the owner's language",
+      "sub": "Four rules that apply to the whole page.",
+      "passos": [
+        {
+          "titulo": "Result, not technology",
+          "sub": "routine verb",
+          "texto": [
+            "Swap the technical noun for what changes on their Monday.",
+            "\"Assistant with a knowledge base\" becomes \"answers just like the front desk, using your insurance table\"."
+          ]
+        },
+        {
+          "titulo": "Their words",
+          "sub": "in quotes",
+          "texto": [
+            "Quote the owner at least twice, using the exact sentence you noted in the interview.",
+            "They read it and recognize their own problem, said the way they say it."
+          ]
+        },
+        {
+          "titulo": "The limit, said up front",
+          "sub": "no magic",
+          "texto": [
+            "Say what AI doesn't do: it doesn't decide for them, it doesn't get everything right at the start, it doesn't know what isn't written down, it doesn't update itself.",
+            "That's why the plan starts with human approval. Said up front, this reassures; discovered later, it becomes a complaint."
+          ]
+        },
+        {
+          "titulo": "The grandparent test",
+          "sub": "before sending",
+          "texto": [
+            "Read it out loud to someone who isn't in the field. If the person asks \"what is that?\", rewrite it.",
+            "Would you say that sentence at the counter of the bakery? If not, it's jargon."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates: report, translation, and checklist",
+      "sub": "The report fits on one page. Scope without price: price is a conversation for Selling with AI. Replace what's between < > with your own.",
+      "blocos": [
+        {
+          "rot": "relatorio-1-pagina.md",
+          "icone": "arquivo",
+          "conteudo": "# Diagnosis — <business> — <date>\nPrepared by <consultant> for <owner>\n\n## 1. What I heard (3 to 5 sentences)\n<situation in the owner's words, with 1 literal sentence in quotes>\n\n## 2. Three findings\n1. <finding> — <evidence: case, count, matrix score>\n2. <finding> — <evidence>\n3. <finding> — <evidence>\n\n## 3. The recommendation (just one)\n<what to do, in which area, with what observable result in 30 days>\nAutomation level at the start: <1 / 2 / 3>   Who approves: <person>\n\n## 4. What is left out, and why\n- <candidate>: <doesn't need AI / not now> — <reason>\n\n## 5. 30-day plan\nWeek 1: <visible milestone>\nWeek 2: <visible milestone>\nWeek 3: <visible milestone>\nWeek 4: <visible milestone>\n\n## 6. Scope\nIncludes: <...>\nDoes not include: <...>\nRisks and rules checked on <date>: <personal data, channel>"
+        },
+        {
+          "rot": "traducao-para-o-dono.txt",
+          "icone": "chat",
+          "conteudo": "\"Knowledge-base assistant\"            → \"answers just like the front desk, using your price list\"\n\"Qualification flow with handoff\"     → \"sorts out who wants to book and calls you when it's an exception\"\n\"Event-triggered automation\"          → \"the message goes out on its own when the appointment is booked\"\n\"Examples for the model to learn from\" → \"learns from your cases and repeats your way of doing it\"\n\"Phased human approval\"               → \"at first, nothing goes out without you or the front desk approving it\""
+        },
+        {
+          "rot": "checklist-antes-de-enviar.txt",
+          "icone": "check",
+          "conteudo": "[ ] Fits on one page\n[ ] No technical acronym without an explanation\n[ ] At least 2 literal sentences from the owner, in quotes\n[ ] Each finding has evidence (case, count, or score)\n[ ] One recommendation, not several\n[ ] What is left out is written down, with a reason\n[ ] Each week has a milestone the owner can see\n[ ] The limit of AI is stated\n[ ] No number without a source; no client personal data\n[ ] Passed the grandparent test"
+        },
+        {
+          "rot": "30-day plan (fictional example)",
+          "icone": "calendario",
+          "conteudo": "Clínica Vila Serena (fictional) — after-hours questions on WhatsApp\nWeek 1: count for the week done (baseline) and rules file approved by the owner\nWeek 2: assistant set up in testing, checked against 15 written cases (how to do it: course 2)\nWeek 3: live at level 1: the front desk approves each reply prepared at night, every morning\nWeek 4: front desk and owner trained (course 2); comparison with week 1's count; decision to continue, adjust, or shut it off"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "How to check",
+            "html": "<ul><li>The report fits on one page and passed all 10 checklist items.</li><li>There are 3 findings with evidence, 1 recommendation, and at least 1 cut with a reason.</li><li>All 4 weeks have a visible milestone, and week 4 has a decision: continue, adjust, or shut it off.</li></ul>"
+          },
+          {
+            "rot": "Common mistakes",
+            "html": "<ul><li>A 12-page report with a table of everything.</li><li>Three competing recommendations.</li><li>A savings number with no source (\"it will save 10 hours\").</li><li>A dollar amount in the diagnosis: price and proposal follow Selling with AI.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Generate your plan with dates",
+      "sub": "Pick a start date and how much time you have each week. The plan lists the practices from the 8 lessons in order.",
+      "curso": "DICA 1 · Diagnosis",
+      "horas_padrao": 4,
+      "degraus": [
+        {
+          "titulo": "Lesson 1 · The DICA method",
+          "aula": "metodo-dica"
+        },
+        {
+          "titulo": "Lesson 2 · The interview",
+          "aula": "entrevista"
+        },
+        {
+          "titulo": "Lesson 3 · The 5 areas",
+          "aula": "cinco-areas"
+        },
+        {
+          "titulo": "Lesson 4 · Recent cases",
+          "aula": "caso-recente"
+        },
+        {
+          "titulo": "Lesson 5 · From case to rule",
+          "aula": "caso-a-regra"
+        },
+        {
+          "titulo": "Lesson 6 · The opportunity map",
+          "aula": "mapa-oportunidades"
+        },
+        {
+          "titulo": "Lesson 7 · Risk, data, and channel",
+          "aula": "risco-dado"
+        },
+        {
+          "titulo": "Lesson 8 · The report",
+          "aula": "relatorio"
+        }
+      ],
+      "txt": {
+        "titulo": "Plan — DICA 1 · Diagnosis",
+        "inicio": "Start",
+        "ritmo": "Pace",
+        "termino": "Expected finish",
+        "ate": "by",
+        "pronto": "done when",
+        "semanas": "weeks",
+        "travou": "## What got stuck and the rule I created",
+        "h": "h per week",
+        "exs": "exercises"
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: the Vila Serena report",
+      "sub": "The final deliverable of the course.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · One-page report",
+          "min": "40 min",
+          "texto": "Build the report for Clínica Vila Serena (fictional) with what you produced in lessons 2 to 7, using the template. Mark at the top that the company is fictional.",
+          "pronto": "the report fits on 1 page and has 3 findings with evidence, 1 recommendation, what is left out with a reason, and 4 weekly milestones."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Checklist and grandparent test",
+          "min": "15 min",
+          "texto": "Run the report through the 10-item checklist and read it aloud to someone outside the field.",
+          "pronto": "all 10 items are checked and the person who listened can say, in their own words, what you recommended."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Final test",
+      "sub": "Four questions about the whole diagnosis.",
+      "perguntas": [
+        {
+          "p": "How many recommendations does the one-page report include?",
+          "opcoes": [
+            "One, with what is left out explained.",
+            "All the ones the matrix scored.",
+            "Three, so the owner can pick the one they prefer.",
+            "None: just the findings."
+          ],
+          "certa": 0,
+          "explica": "One clear recommendation. Several competing ones look like a shopping list; cuts with a reason show judgment.",
+          "ref": "codigo",
+          "cert": true
+        },
+        {
+          "p": "What is the order of the diagnosis deliverables?",
+          "opcoes": [
+            "Report, matrix, interview, rules.",
+            "Rules, interview, recommendation, matrix.",
+            "Interview, matrix, rules, recommendation.",
+            "Recommendation, rules, matrix, interview."
+          ],
+          "certa": 2,
+          "explica": "Each deliverable builds on the one before: without an interview there is no grade with criteria; without written rules there is no safe recommendation.",
+          "ref": "mapa",
+          "cert": true
+        },
+        {
+          "p": "\"Assistant with a knowledge base\" in the owner's language becomes:",
+          "opcoes": [
+            "\"Generative artificial intelligence system with its own database.\"",
+            "\"Answers just like the front desk, using your price list.\"",
+            "\"Autonomous customer service robot.\"",
+            "\"Integrated automation platform.\""
+          ],
+          "certa": 1,
+          "explica": "A result with a routine verb, not technology. Passes the grandparent test.",
+          "ref": "passos"
+        },
+        {
+          "p": "What does week 4 of the 30-day plan need to have?",
+          "opcoes": [
+            "The signing of the maintenance contract.",
+            "The launch of every project on the map.",
+            "A complete 12-page report with tables for all five areas of the business.",
+            "A comparison with the baseline and the decision to continue, adjust, or shut it down."
+          ],
+          "certa": 3,
+          "explica": "The pilot ends by measuring against the week 1 count and deciding with the owner. What comes after is course 2.",
+          "ref": "codigo"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "The course in three sentences",
+      "itens": [
+        {
+          "t": "Listen before you propose",
+          "texto": "Interview with consent, a recent case, and silence; a missing number becomes a count."
+        },
+        {
+          "t": "Written criteria",
+          "texto": "Matrix of the 5 areas, tested IF/THEN rules, and 6 axes with what not to recommend."
+        },
+        {
+          "t": "One page",
+          "texto": "In the owner's language, with risk checked, one recommendation, and four weeks with a milestone."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Keep going from here",
+      "links": [
+        {
+          "t": "DICA 2 · Implement, Coach, and Accompany (next course)",
+          "href": "https://inematds.github.io/formacao-dica-entrega-v72/en/",
+          "icone": "seta"
+        },
+        {
+          "t": "30-day pilot with an agent (prof2030-consultor, lesson 5)",
+          "href": "https://inematds.github.io/prof2030-consultor/aulas/piloto-30-dias/",
+          "icone": "calendario"
+        },
+        {
+          "t": "A one-page report for the board (prof2030-base, lesson 8)",
+          "href": "https://inematds.github.io/prof2030-base/aulas/diretoria/",
+          "icone": "arquivo"
+        },
+        {
+          "t": "Pricing, proposal, and first client (Selling with AI 4)",
+          "href": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/en/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Client Map: previous version (2026, PT only)",
+          "href": "https://inematds.github.io/mapacliente/",
+          "icone": "voltar"
+        },
+        {
+          "t": "AI Consulting Area",
+          "href": "https://eventos.inema.pro/consultoria-ia/",
+          "icone": "camadas"
+        }
+      ]
+    }
+  ]
+}

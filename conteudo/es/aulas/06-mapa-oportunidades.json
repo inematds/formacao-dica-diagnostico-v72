@@ -1,0 +1,252 @@
+{
+  "slug": "mapa-oportunidades",
+  "num": 6,
+  "menu": "Mapa",
+  "titulo": "El mapa de oportunidades: 6 ejes, 4 cuadrantes y lo que no se debe recomendar",
+  "titulo_curto": "El mapa de oportunidades",
+  "minutos": 18,
+  "lead": "De la entrevista salen varias ideas, y el consultor novato elige la más interesante. El diagnóstico elige la que da resultado rápido con seguridad, para que la confianza pague las siguientes. Tú puntúas cada candidata en 6 ejes, la ubicas en el gráfico de 4 cuadrantes y escribes también lo que no vas a recomendar, y por qué.",
+  "objetivo": "puntuar 5 candidatas en los 6 ejes, recomendar 1, señalar 1 que no necesita IA y escribir el motivo de cada decisión.",
+  "competencias": [
+    "pontuar-oportunidades",
+    "recomendar-primeiro-projeto",
+    "dizer-o-que-nao-fazer"
+  ],
+  "aprende": [
+    {
+      "t": "La pregunta antes de los ejes: ¿necesita IA?"
+    },
+    {
+      "t": "Los 6 ejes de 0 a 3 y la cuenta de la nota"
+    },
+    {
+      "t": "Los 4 cuadrantes y el primer proyecto"
+    },
+    {
+      "t": "Cómo decir lo que queda fuera"
+    }
+  ],
+  "hero_alt": "Corredor de inmuebles y consultora frente a una pizarra blanca con cuatro cuadrantes dibujados a mano y post-its.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Los 4 cuadrantes",
+      "sub": "Eje horizontal: facilidad. Eje vertical: impacto. Haz clic en cada cuadrante.",
+      "nos": [
+        {
+          "icone": "alvo",
+          "titulo": "Primero",
+          "sub": "fácil y útil",
+          "forte": true,
+          "detalhe": "Alto impacto y alta facilidad. El primer proyecto sale siempre de aquí: un resultado visible en semanas crea la confianza para los siguientes."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Ambicioso",
+          "sub": "útil, difícil",
+          "detalhe": "Alto impacto, baja facilidad. Queda para una fase siguiente, después de que el primer proyecto haya probado su valor y la información esté ordenada."
+        },
+        {
+          "icone": "check",
+          "titulo": "Bonus",
+          "sub": "fácil, poco",
+          "detalhe": "Alta facilidad, bajo impacto. Bueno como complemento, malo como prioridad: ocupa tiempo y no cambia la semana del dueño."
+        },
+        {
+          "icone": "x",
+          "titulo": "No ahora",
+          "sub": "difícil, poco",
+          "detalhe": "Baja facilidad y bajo impacto. Distracción disfrazada. Entra en la lista de lo que no recomiendas, con el motivo."
+        }
+      ],
+      "legenda": "El gráfico responde \"¿por qué este antes que aquel?\" mejor que cualquier argumento."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Del catálogo a la recomendación",
+      "sub": "Cuatro pasos, en este orden.",
+      "passos": [
+        {
+          "titulo": "¿Necesita IA?",
+          "sub": "antes de puntuar",
+          "texto": [
+            "Para cada candidata, pregunta primero: ¿se puede dejar de hacer? ¿Una regla fija lo resuelve (recordatorio, hoja de cálculo, mensaje automático del propio sistema)?",
+            "Si la regla fija lo resuelve, es más barata y más predecible. La escalera completa está en prof2030-consultor, clase 3."
+          ],
+          "exemplo": {
+            "rot": "En Vila Serena (ficticia)",
+            "texto": "El recordatorio de consulta la víspera es una regla fija: lo envía el sistema de la agenda. No necesita IA."
+          }
+        },
+        {
+          "titulo": "Los 6 ejes",
+          "sub": "0 a 3 cada uno",
+          "texto": [
+            "Impacto (horas por semana o clientes perdidos, contados por el dueño), facilidad (datos listos, una herramienta que ya existe), urgencia, ganas del dueño, riesgo y dependencia del juicio humano.",
+            "El riesgo y la dependencia humana pesan en contra: una nota alta en ellos hace la automatización más difícil y peligrosa. El criterio de cada nota está en el modelo de abajo."
+          ]
+        },
+        {
+          "titulo": "La cuenta",
+          "sub": "transparente",
+          "texto": [
+            "Nota = (impacto + facilidad + urgencia + ganas) − (riesgo + dependencia humana).",
+            "La cuenta no decide sola: organiza la conversación. Si la nota más alta contradice el sentido común, revisa el criterio, no la suma."
+          ]
+        },
+        {
+          "titulo": "Recomendar y descartar",
+          "sub": "una sola",
+          "texto": [
+            "Una recomendación, no cinco. Y una o dos que quedan fuera, cada una con el motivo en una línea.",
+            "Diferencia \"no ahora\" (vuelve después del primer resultado) de \"no necesita IA\" (una regla fija lo resuelve)."
+          ],
+          "exemplo": {
+            "rot": "Comparación (ficticia)",
+            "texto": "Imobiliária Ponto Firme: propuesta con 3 inmuebles parecidos justo después de la visita (primero); descripción de anuncios (extra); predicción de precio de inmuebles (no ahora: sin datos organizados)."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo: matriz de 6 ejes",
+      "sub": "Una línea por candidata; motivo obligatorio en las dos decisiones. Cambia lo que está entre < > por lo tuyo.",
+      "blocos": [
+        {
+          "rot": "mapa-oportunidades.md",
+          "icone": "grafico",
+          "conteudo": "# Mapa de oportunidades — <negocio> — <fecha>\n# Escala 0-3. Nota = (Imp + Fac + Urg + Vol) - (Riesgo + DepHum)\n# Impacto en horas/semana o clientes perdidos CONTADOS por el dueño (sin R$).\n#\n# Criterio de cada eje (escribe junto a la nota lo que la justifica):\n# Impacto     0 = nadie lo siente | 1 = molesta, sin conteo | 2 = el conteo muestra pérdida toda semana | 3 = pérdida contada y el dueño cita un caso reciente\n# Facilidad   0 = sin datos, sistema cerrado | 1 = dato en la cabeza de alguien | 2 = dato en planilla/sistema | 3 = reglas escritas y herramienta que ya existe\n# Urgencia    0 = puede esperar al semestre | 1 = este trimestre | 2 = este mes | 3 = estorbando ahora, con plazo pedido\n# Voluntad    0 = \"está bien\" | 1 = curioso | 2 = pide resolverlo | 3 = lo pidió y apartó tiempo para ayudar\n# Riesgo      0 = error sin costo | 1 = error molesto, fácil de corregir | 2 = error con cliente o dato personal | 3 = dinero, contrato o salud\n# DepHum      0 = una regla fija lo resuelve | 1 = una persona revisa a veces | 2 = una persona decide en las excepciones | 3 = pide juicio siempre\n\n| Candidata | Área | ¿Necesita IA? | Imp | Fac | Urg | Vol | Riesgo | DepHum | Nota | Cuadrante |\n|---|---|---|---|---|---|---|---|---|---|---|\n| <1> | <área> | sí / regla fija / dejar de hacer | | | | | | | | |\n| <2> | | | | | | | | | | |\n| <3> | | | | | | | | | | |\n| <4> | | | | | | | | | | |\n| <5> | | | | | | | | | | |\n\nRecomendada: <candidata> — porque <motivo en 1 línea>\nNo necesita IA: <candidata> — porque <regla fija que lo resuelve>\nNo ahora: <candidata> — porque <motivo>; vuelve cuando <condición>"
+        },
+        {
+          "rot": "Guion de la devolución (10 min)",
+          "icone": "chat",
+          "conteudo": "0-2 min  Reconectar: \"En nuestra conversación dijiste: '<frase literal>'. ¿Sigue siendo así?\"\n2-5 min  Mapa: \"Estas son las 5 ideas que aparecieron, en el gráfico de impacto y facilidad.\"\n5-8 min  Recomendación: \"Propongo empezar por <X>, porque <motivo>. ¿Tiene sentido?\"\n         Descartes: \"Consideré <Y> y <Z>, pero no las recomiendo ahora: <motivo>.\"\n8-10 min Próximo paso: \"El próximo paso es <tarea con fecha>.\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Cómo revisar",
+            "html": "<ul><li>Las 5 candidatas tienen la columna \"¿necesita IA?\" completa antes de las notas.</li><li>Hay exactamente 1 recomendada y al menos 1 \"no necesita IA\", cada una con motivo.</li><li>Ninguna nota de impacto está en reales; está en horas o clientes contados.</li></ul>"
+          },
+          {
+            "rot": "Errores comunes",
+            "html": "<ul><li>Elegir la idea más interesante, no la más rápida y segura.</li><li>Recomendar todo (\"vamos a atacar las cinco\").</li><li>Olvidar el riesgo: lo financiero y los reclamos serios piden a un humano.</li><li>Cerrar la devolución con un contrato: el precio y la propuesta son de Ventas con IA.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica: el mapa de Vila Serena",
+      "sub": "Cinco candidatas de la clínica ficticia, puntuadas y decididas.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Matriz de 6 ejes × 5 candidatas",
+          "min": "25 min",
+          "texto": "Lista 5 candidatas de Vila Serena (ej.: responder dudas de la noche, recordatorio de consulta, ordenar la hoja de paquetes, publicaciones semanales, cobro a quien se atrasó). Completa la matriz con la columna \"¿necesita IA?\".",
+          "pronto": "la matriz tiene 5 candidatas puntuadas en los 6 ejes, con 1 recomendada, 1 \"no necesita IA\" y el motivo de las dos."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Guion de la devolución",
+          "min": "10 min",
+          "texto": "Adapta el guion de 10 minutos con una frase literal de la dueña (de la clase 2) y los descartes de tu matriz.",
+          "pronto": "el guion tiene 1 frase literal, 1 recomendación, al menos 1 descarte con motivo y un próximo paso con fecha, sin hablar de precio."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba lo que aprendiste",
+      "perguntas": [
+        {
+          "p": "¿De qué cuadrante sale el primer proyecto?",
+          "opcoes": [
+            "Alto impacto y baja facilidad.",
+            "Bajo impacto y alta facilidad.",
+            "Alto impacto y alta facilidad.",
+            "El de mayor impacto, aunque sea difícil."
+          ],
+          "certa": 2,
+          "explica": "Un resultado rápido y seguro crea la confianza que autoriza los proyectos difíciles después.",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "Recordatorio de consulta la víspera, que el sistema de la agenda ya envía. ¿Cómo clasificarlo?",
+          "opcoes": [
+            "No necesita IA: una regla fija lo resuelve.",
+            "Primer proyecto de IA.",
+            "Proyecto ambicioso, para una fase posterior.",
+            "Ahora no, por falta de datos."
+          ],
+          "certa": 0,
+          "explica": "Antes de los ejes viene la pregunta \"¿necesita IA?\". Una regla fija es más barata y más predecible.",
+          "ref": "passos"
+        },
+        {
+          "p": "En el cálculo de la nota, ¿por qué el riesgo y la dependencia humana restan?",
+          "opcoes": [
+            "Porque son ejes menos importantes.",
+            "Porque una nota alta en ellos hace que la automatización sea más difícil y peligrosa.",
+            "Porque al dueño de un negocio pequeño no le gusta correr ningún riesgo.",
+            "Porque son notas dadas por el dueño, no por el consultor."
+          ],
+          "certa": 1,
+          "explica": "Un error que toca dinero o la relación con el cliente, o una tarea que pide criterio, pesa en contra de automatizar ahora.",
+          "ref": "passos"
+        },
+        {
+          "p": "¿Por qué la devolución lista lo que NO recomiendas?",
+          "opcoes": [
+            "Para acortar el informe.",
+            "Para dejar ya vendidos los otros proyectos, que entran justo después del primero.",
+            "Porque el dueño lo pidió todo.",
+            "Porque recortar con un motivo muestra criterio y aumenta la confianza en lo que quedó."
+          ],
+          "certa": 3,
+          "explica": "Una lista con todo parece de vendedor; una lista con recortes justificados parece de consultor.",
+          "ref": "codigo"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "¿Necesita IA?",
+          "texto": "Antes de puntuar: dejar de hacerlo, regla fija o IA. Una regla fija resuelve muchas cosas."
+        },
+        {
+          "t": "6 ejes, una cuenta",
+          "texto": "Impacto, facilidad, urgencia y ganas suman; riesgo y dependencia humana restan."
+        },
+        {
+          "t": "Un sí, algunos noes",
+          "texto": "Una recomendación del cuadrante \"primero\", y los recortes con motivo y con cuándo vuelven."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Valor × viabilidad y cuándo NO usar IA (prof2030-consultor, clase 3)",
+          "href": "https://inematds.github.io/prof2030-consultor/aulas/valor-viabilidade/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Qué tecnología usar, y qué no usar (Ventas con IA 2, clase 6)",
+          "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/es/aulas/entender-ia/",
+          "icone": "chip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "slug": "caso-a-regra",
+  "num": 5,
+  "menu": "Rules",
+  "titulo": "From case to rule: validate with 3 new cases and save it in the context pack",
+  "titulo_curto": "From case to rule",
+  "minutos": 18,
+  "lead": "The pattern from the cases is still in your own words. Now it becomes an IF/THEN rule in the owner's words. It goes through three cases the owner didn't use to teach you, then it goes into a file with an owner, a date, and a version. This is the file any assistant will read later, and it's the one the company keeps.",
+  "objetivo": "turn the pattern from the cases into IF/THEN rules, test them on 3 new cases, and save them in a file with an owner and a date.",
+  "competencias": [
+    "escrever-regra-se-entao",
+    "validar-regra-com-casos-novos",
+    "manter-pacote-de-contexto"
+  ],
+  "aprende": [
+    {
+      "t": "Write a checkable IF/THEN rule"
+    },
+    {
+      "t": "Read the rule to the owner and accept their changes"
+    },
+    {
+      "t": "Test on 3 new cases, on paper"
+    },
+    {
+      "t": "Save in the context pack with an owner, a date, and a version"
+    }
+  ],
+  "hero_alt": "Hands writing short rules in a lined notebook, next to three paper cards.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The rule cycle",
+      "sub": "Each rule goes through the five steps before it goes into the file.",
+      "nos": [
+        {
+          "icone": "lista",
+          "titulo": "Pattern",
+          "sub": "from lesson 4",
+          "detalhe": "Start with what repeated across the 3 cases (3 of 3 or 2 of 3). Anything that showed up only once stays out for now."
+        },
+        {
+          "icone": "caneta",
+          "titulo": "IF/THEN",
+          "sub": "the rule",
+          "detalhe": "IF [condition you can see in the message] THEN [specific action]. Use the owner's words. No \"serve them well\" or \"it depends.\""
+        },
+        {
+          "icone": "chat",
+          "titulo": "Read to the owner",
+          "sub": "is this right?",
+          "detalhe": "Read the rule out loud and ask: \"is this exactly how you would do it?\" The change they make is the real rule."
+        },
+        {
+          "icone": "check",
+          "titulo": "3 new cases",
+          "sub": "on paper",
+          "forte": true,
+          "detalhe": "Take 3 cases that weren't used to create the rule. For each one: what does the rule say to do? Would the owner do the same? When all 3 match, the rule is mature."
+        },
+        {
+          "icone": "memoria",
+          "titulo": "File",
+          "sub": "owner and date",
+          "detalhe": "The mature rule goes into the company's rules file, with the person who answers for it, the date, and the version. This file is part of the context pack the company keeps."
+        }
+      ],
+      "volta": "a rule that fails on a new case goes back to IF/THEN",
+      "legenda": "Without validation, the assistant's first week exposes the mistake in front of the customer."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Good rule, bad rule",
+      "sub": "The test: can someone who doesn't know the company apply it?",
+      "passos": [
+        {
+          "titulo": "Visible condition",
+          "sub": "you can see it",
+          "texto": [
+            "The condition has to show up in what the customer wrote or in the system: \"asks about price,\" \"mentions surgery,\" \"is the first time.\"",
+            "\"When the customer seems serious\" is not a condition: nobody can see that."
+          ]
+        },
+        {
+          "titulo": "Specific action",
+          "sub": "no \"it depends\"",
+          "texto": [
+            "The action says what to do and, when it matters, what not to do: \"ask about the insurance plan; don't send a price.\"",
+            "An action with two outcomes becomes two rules."
+          ],
+          "exemplo": {
+            "rot": "Narrative → rule (fictional)",
+            "texto": "\"When people ask about the price of a package, I never send a number; I ask about the insurance plan, because it changes.\" → IF they ask about the price of a package AND haven't said their insurance plan THEN ask about the insurance plan; do NOT send a price."
+          }
+        },
+        {
+          "titulo": "Exception with an owner",
+          "sub": "who decides",
+          "texto": [
+            "Every rule that can go wrong at a high cost points to a person: \"IF they mention recent surgery THEN call the physical therapist\".",
+            "In the file, each rule has someone who answers for it."
+          ]
+        },
+        {
+          "titulo": "Signs of a mature rule",
+          "sub": "when to stop",
+          "texto": [
+            "The owner approves the 3 new cases without changes, or the change is a word, not the structure.",
+            "They can already predict what the rule will do before you show it."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates: rule, test, and file",
+      "sub": "The rules file is plain text: any tool can read it. Replace what is between < > with your own.",
+      "blocos": [
+        {
+          "rot": "teste-regra.md",
+          "icone": "check",
+          "conteudo": "# Rule test <RNN> — <date>\nRule: IF <condition> THEN <action>\n\n| New case (no name) | What the rule says to do | What the owner would do | Match? |\n|---|---|---|---|\n| <case 1> | <...> | <...> | yes/no |\n| <case 2> | <...> | <...> | yes/no |\n| <case 3> | <...> | <...> | yes/no |\n\nOwner's change: <word or structure; what changed>\nResult: mature / back to IF/THEN"
+        },
+        {
+          "rot": "regras-NEGOCIO.md",
+          "icone": "memoria",
+          "conteudo": "# Rules for <area> — <business>\nFile owner: <name and role>   Version: <v1>   Updated on: <date>\nSource: cases collected with <owner> on <date>; each tested on 3 new cases.\nDo not keep any client's name, phone number, or health data here.\n\n## R01 — <short name>\nIF: <visible condition>\nTHEN: <action>\nDON'T: <what not to do, if any>\nWho answers: <person>\nTested on: <date> (3/3)\n\n## R02 — <short name>\n...\n\n## History\n- <date> v1: created with <N> rules\n- <date> v2: <what changed and why>"
+        },
+        {
+          "rot": "Example (fictional)",
+          "icone": "lista",
+          "conteudo": "# Rules for customer service — Clínica Vila Serena (fictional)\nFile owner: the owner (proprietor)   Version: v1   Updated on: <date>\n\n## R01 — Insurance before price\nIF: asks the price of a package AND hasn't said their insurance plan\nTHEN: ask which insurance plan, or whether it's private pay\nDON'T: send a price before that\nWho answers: front desk\nTested on: <date> (3/3)\n\n## R02 — Recent surgery\nIF: mentions surgery in the last 6 months\nTHEN: say the physical therapist will answer, and notify the physical therapist\nWho answers: physical therapist on duty\nTested on: <date> (3/3, word change)"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "How to check",
+            "html": "<ul><li>Each rule has an IF, a THEN, and who answers.</li><li>Each rule has a test table with 3 new cases and the result.</li><li>The file has an owner, version, and date at the top, and no personal client data.</li></ul>"
+          },
+          {
+            "rot": "Where to keep it",
+            "html": "<p>Somewhere in the company, not just on your computer: a shared folder for the business, with the owner as the file's owner. The consultant leaves; the rules stay.</p><p>How to organize this context pack (what goes in, who updates it, how often) is covered in AI Management · Resources, lesson 3. If the file cites examples of conversations, remove names and health data: the care required by LGPD (Brazil's data protection law) applies to your drafts too.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: 5 tested rules",
+      "sub": "Continue with Vila Serena (fictional) from the pattern in lesson 4.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Five IF/THEN rules",
+          "min": "20 min",
+          "texto": "Starting from padrao.md, write 5 rules in the template. Include at least one exception that calls a person.",
+          "pronto": "the file has 5 rules, each with a visible condition, a specific action, and who answers."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Three new cases per rule",
+          "min": "30 min",
+          "texto": "For each rule, write 3 new cases (fictional, different from the ones in lesson 4), with at least 1 designed to break the rule (the exception, the edge case). Ask someone else to play the owner and say what they would do in each case, without seeing the rule. Adjust any rule that fails and test again.",
+          "pronto": "all 5 rules have a test table with 3 new cases, one of them an edge case, the \"what the owner would do\" column filled in by someone else, and the result \"mature.\""
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · File with owner and version",
+          "min": "5 min",
+          "texto": "Build regras-vila-serena.md with the complete header and the history.",
+          "pronto": "the file has owner, version, date, and history at the top, and a search for a name or phone number finds nothing."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "perguntas": [
+        {
+          "p": "Which of these is a rule condition you can actually check?",
+          "opcoes": [
+            "When the patient seems truly interested in booking an evaluation.",
+            "When the service is important.",
+            "When the person asks the price and hasn't said their insurance plan.",
+            "When it makes sense."
+          ],
+          "certa": 2,
+          "explica": "The condition has to be visible in the message or in the system. No one can check \"seems interested\" or \"makes sense\".",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "Why test the rule on cases that weren't used to create it?",
+          "opcoes": [
+            "To find out whether it works outside the examples that originated it.",
+            "Because the old cases have already been deleted.",
+            "To have more material and examples to fill in the one-page report.",
+            "Because the owner asked for it."
+          ],
+          "certa": 0,
+          "explica": "A rule tested only on its own examples always gets it right. The new case shows whether it generalizes.",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "The owner hears the rule and changes one word. What does that indicate?",
+          "opcoes": [
+            "That the rule should be discarded.",
+            "That you misunderstood the case and need to redo the interview from the start.",
+            "That you need to collect 10 more cases.",
+            "That the rule is close to mature; the adjustment shows how they really do it."
+          ],
+          "certa": 3,
+          "explica": "A wording adjustment is a sign of a mature rule. A structural adjustment sends the rule back to IF/THEN.",
+          "ref": "passos"
+        },
+        {
+          "p": "Where should the rules file live?",
+          "opcoes": [
+            "Only on the consultant's computer, to protect the work.",
+            "In a place at the company, with the owner as the owner of the file.",
+            "Inside the assistant, with no copy.",
+            "In a WhatsApp group for the team."
+          ],
+          "certa": 1,
+          "explica": "The rules are the company's knowledge. If they stay only with the consultant, the company depends on them forever.",
+          "ref": "codigo"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "IF/THEN in their own words",
+          "texto": "Visible condition, specific action, what not to do, and who answers."
+        },
+        {
+          "t": "3 new cases",
+          "texto": "The rule is only mature when it gets right cases that didn't create it, with the owner checking."
+        },
+        {
+          "t": "Company file",
+          "texto": "Owner, version, date, and history. No client names or health data."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Company knowledge as an asset: the context pack (AI Management · Resources, lesson 3)",
+          "href": "https://inematds.github.io/gestao-ia-recursos-v72/en/aulas/contexto/",
+          "icone": "memoria"
+        },
+        {
+          "t": "Data guard: where data can go (prof2030-auditor, lesson 6)",
+          "href": "https://inematds.github.io/prof2030-auditor/aulas/data-guard/",
+          "icone": "escudo"
+        }
+      ]
+    }
+  ]
+}

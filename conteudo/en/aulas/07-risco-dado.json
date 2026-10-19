@@ -1,0 +1,264 @@
+{
+  "slug": "risco-dado",
+  "num": 7,
+  "menu": "Risk",
+  "titulo": "Risk, data and human dependency before you recommend",
+  "titulo_curto": "Risk, data and channel",
+  "minutos": 18,
+  "lead": "The candidate you picked is not ready to go into the report yet. First, four questions: how much can it do on its own, what personal data passes through it, who answers if it makes a mistake, and whether the channel is the official WhatsApp. In a small business, WhatsApp sits in the middle of almost everything, and its rules changed in 2025 and 2026.",
+  "objetivo": "check the chosen candidate for automation level, personal data, who answers if it makes a mistake, and WhatsApp rules before you recommend it.",
+  "competencias": [
+    "definir-nivel-de-automacao",
+    "identificar-dado-pessoal",
+    "checar-regras-do-canal"
+  ],
+  "aprende": [
+    {
+      "t": "The 3 automation levels"
+    },
+    {
+      "t": "The minimum LGPD (Brazil's data protection law) for a small business"
+    },
+    {
+      "t": "The current WhatsApp Business rules"
+    },
+    {
+      "t": "The 4-question checklist before you recommend"
+    }
+  ],
+  "hero_alt": "A clinic receptionist helps a patient at the front desk; beside them, a closed file cabinet.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The 3 automation levels",
+      "sub": "The more risk and judgment involved, the lower the level. Click each one.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "caneta",
+          "titulo": "Level 1",
+          "sub": "AI drafts",
+          "forte": true,
+          "detalhe": "The AI writes; a person approves everything before it goes out. For billing, pricing, replies to serious complaints and any exception. Every project starts here."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Level 2",
+          "sub": "approve what matters",
+          "detalhe": "The AI answers the simple things (hours, address, frequent questions) and hands to a person whatever the rule marks as important. You only move up to this level using criteria agreed with the owner (course 2)."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Level 3",
+          "sub": "runs on its own",
+          "detalhe": "No approval: sorting, classifying, reminders. Only for tasks with no financial, contractual or health risk."
+        }
+      ],
+      "legenda": "Showing where the person still approves answers the owner's fear before they ask."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Data and channel: what holds today",
+      "sub": "Rules with dates and sources. This is not legal advice: when in doubt, consult a specialist.",
+      "passos": [
+        {
+          "titulo": "Personal data",
+          "sub": "LGPD",
+          "texto": [
+            "A customer's name, phone number, and conversation are personal data. Health data is <b>sensitive data</b> (LGPD — Brazil's data protection law, Law 13.709/2018, art. 5, II): at a clinic, almost every patient message is sensitive.",
+            "Sensitive data can only be processed under the cases in art. 11, such as specific and highlighted consent. And the person can ask for human review of a decision made only by a machine (art. 20)."
+          ]
+        },
+        {
+          "titulo": "Small business",
+          "sub": "ANPD",
+          "texto": [
+            "ANPD Resolution CD/ANPD No. 2/2022 simplifies obligations for micro and small businesses: simplified record-keeping (art. 9), data protection officer waived if there is a channel for the data subject (art. 11), and double deadlines (art. 14).",
+            "But anyone carrying out <b>high-risk</b> processing loses these simplifications (art. 3). High risk = one general criterion (large scale or significantly affecting rights) <b>and</b> one specific criterion, such as new technology or sensitive data (art. 4). AI reading patient messages can get there: confirm with a specialist before recommending it."
+          ]
+        },
+        {
+          "titulo": "WhatsApp: cost",
+          "sub": "per message",
+          "texto": [
+            "Since 07/01/2025, Meta charges for the WhatsApp Business API per delivered message, with a rate by category (marketing, utility, authentication, service) and by country; service messages have a free tier each month. Check the current rate table before estimating cost.",
+            "Free-form messages only within 24 hours after the customer wrote; outside that, only an approved template. And you only message people who agreed to receive messages."
+          ]
+        },
+        {
+          "titulo": "WhatsApp: AI",
+          "sub": "since 15/01/2026",
+          "texto": [
+            "Since 15/01/2026, the API terms prohibit general-purpose AI chatbots (an open assistant, like free conversation with a model) as the main function.",
+            "AI for service, scheduling, orders, and sales for the business itself is still allowed. Meta decides what counts as \"main,\" so the assistant's scope must be the business, not chat about any topic."
+          ],
+          "exemplo": {
+            "rot": "Official channel or not",
+            "texto": "A tool that connects to WhatsApp without being Meta's official API (or an official provider, that is, a company partner authorized by Meta) goes against WhatsApp's terms of use, and the company's number can be blocked. Don't recommend it. In the diagnosis, mark the channel as official or unofficial and, if it's unofficial, write down that risk."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template: checklist before recommending",
+      "sub": "One sheet for the candidate chosen in lesson 6. Replace what is between < > with your own.",
+      "blocos": [
+        {
+          "rot": "checklist-risco.md",
+          "icone": "escudo",
+          "conteudo": "# Risk checklist — <candidate> — <business> — <date>\n\n1. Automation level: <1 / 2 / 3>\n   Why: <what happens if it gets it wrong; who approves>\n\n2. Personal data involved:\n   - Types: <name, phone, conversation, health data, financial>\n   - Is any of it sensitive (health, religion, biometrics...)? <yes/no: which>\n   - Basis for processing: <consent / contract / other; confirm with a specialist>\n   - Vendor that receives the data: <which tool; where it stores it; does it use it for training?>\n\n3. Who answers if it gets it wrong:\n   - Person: <name/role>\n   - How the customer asks for a person: <word, button, hours>\n   - Human review of automated decision: <how>\n\n4. Channel:\n   - WhatsApp: <official API / official provider / unofficial / not used>\n   - Messages outside the 24-hour window? <yes/no: which templates>\n   - Did the customer agree to receive messages? <how it was recorded>\n   - Does the assistant stay within the business scope (not free conversation)? <yes/no>\n\nConclusion: <recommend as is / recommend at level 1 / do not recommend now> — <reason>\nSources checked on <date>: <links to the rules>"
+        },
+        {
+          "rot": "Example (fictional)",
+          "icone": "lista",
+          "conteudo": "# Risk checklist — after-hours questions on WhatsApp — Clínica Vila Serena (fictional)\n\n1. Level: 1 in the first weeks (the front desk approves in the morning the replies prepared at night)\n2. Data: name, phone number, conversation; health data shows up (pain, surgery) → sensitive\n   Basis for processing: specific consent from the patient or another case under art. 11; confirm with a specialist\n   High risk (ANPD Res. 2/2022, art. 4)? assess with a specialist: there is sensitive data and new technology\n   Vendor: <to be defined>; check where it stores data and whether it uses it for training\n3. Who replies: the receptionist; the owner in exceptions; R02 calls the physical therapist\n4. Channel: today it's regular WhatsApp on the front desk's phone; to automate, only the official API\n   Scope: hours, insurance plans, initial assessment; no free-form conversation\n\nConclusion: recommend at level 1, after writing the rules (lesson 5)"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "How to check",
+            "html": "<ul><li>The 4 questions have answers, not \"to be seen.\"</li><li>The channel is marked as official or unofficial.</li><li>If there is sensitive data, it says which kind and who confirms the basis for processing.</li><li>The sources have the date you checked them.</li></ul>"
+          },
+          {
+            "rot": "Why the date matters",
+            "html": "<p>Platform rules change. Per-message pricing started on 01/07/2025 and the ban on general-purpose chatbots on 15/01/2026. Before each diagnosis, open the official pages (links at the end of the lesson) and note the date you checked.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: the candidate's checklist",
+      "sub": "Use the candidate recommended in your lesson 6 matrix.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · 4-question checklist",
+          "min": "20 min",
+          "texto": "Fill in the risk checklist for the recommended candidate at Vila Serena (fictional).",
+          "pronto": "the 4 questions have answers, the channel is marked official or not, and the conclusion states the automation level with the reason."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Check the sources today",
+          "min": "10 min",
+          "texto": "Open the WhatsApp Business pricing page and Resolution CD/ANPD No. 2/2022 (links at the end) and note in the checklist the date you checked and whether anything changed.",
+          "pronto": "the checklist has both sources with today's date and one \"changed / did not change\" line."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "perguntas": [
+        {
+          "p": "An assistant will prepare payment reminder messages. What level does it start at?",
+          "opcoes": [
+            "Level 3, because payment reminders are repetitive.",
+            "Level 2, approving only the high amounts.",
+            "Level 1: the AI prepares and a person approves everything.",
+            "None, payment reminders can't use AI."
+          ],
+          "certa": 2,
+          "explica": "Money and customer relationships call for human approval on everything at the start. Move up a level only with an agreed criterion.",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "At a clinic, the message \"I've had lower back pain since my surgery\" is:",
+          "opcoes": [
+            "Sensitive data, because it is health data.",
+            "Public data, because the patient sent it.",
+            "Just ordinary personal data.",
+            "Anonymous data."
+          ],
+          "certa": 0,
+          "explica": "LGPD (Brazil's data protection law) (art. 5, II) lists health data among sensitive data, with stricter legal bases for processing (art. 11).",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "What changed on WhatsApp Business on 01/15/2026?",
+          "opcoes": [
+            "It started charging per conversation.",
+            "It banned any use of artificial intelligence in customer service, including for scheduling and answering questions.",
+            "It allowed messages without consent.",
+            "It banned general-purpose AI chatbots; customer service for your own business is still allowed."
+          ],
+          "certa": 3,
+          "explica": "The rule targets open, free-conversation assistants. Customer service, scheduling, and sales for your own business are still allowed, and Meta decides what counts as \"primary.\"",
+          "ref": "passos"
+        },
+        {
+          "p": "Since 07/01/2025, how does Meta charge for the WhatsApp Business API?",
+          "opcoes": [
+            "Per month, at a fixed price, no matter how many messages the company sends.",
+            "Per delivered message, with a rate by category and country.",
+            "Only per 24-hour conversation.",
+            "It doesn't charge small businesses."
+          ],
+          "certa": 1,
+          "explica": "Per-conversation pricing was replaced by per-message pricing on 07/01/2025. Check the current rate table before estimating cost.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Level 1 first",
+          "texto": "The AI prepares, the person approves. Level 3 only for what carries no risk."
+        },
+        {
+          "t": "Health data is sensitive",
+          "texto": "LGPD arts. 5 and 11; small businesses have simplified rules, but AI with sensitive data calls for extra care."
+        },
+        {
+          "t": "WhatsApp, with dates",
+          "texto": "Per message since 07/01/2025; general-purpose chatbots banned since 01/15/2026; 24-hour window and consent to receive messages."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "WhatsApp Business platform pricing (Meta)",
+          "href": "https://developers.facebook.com/docs/whatsapp/pricing",
+          "icone": "chat"
+        },
+        {
+          "t": "General-purpose chatbots on WhatsApp: what changes in 2026 (respond.io)",
+          "href": "https://respond.io/blog/whatsapp-general-purpose-chatbots-ban",
+          "icone": "arquivo"
+        },
+        {
+          "t": "WhatsApp bans AI chatbots from its business API (9to5Mac, 10/20/2025)",
+          "href": "https://9to5mac.com/2025/10/20/whatsapp-bans-ai-chatbots-from-using-its-business-api/",
+          "icone": "arquivo"
+        },
+        {
+          "t": "Resolution CD/ANPD No. 2/2022: small-scale agents",
+          "href": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/resolucao-cd-anpd-no-2-de-27-de-janeiro-de-2022",
+          "icone": "escudo"
+        },
+        {
+          "t": "Data guard: data, vendors, and models (prof2030-auditor, lesson 6)",
+          "href": "https://inematds.github.io/prof2030-auditor/aulas/data-guard/",
+          "icone": "cadeado"
+        },
+        {
+          "t": "The risks that sink projects (prof2030-base, lesson 4)",
+          "href": "https://inematds.github.io/prof2030-base/aulas/riscos/",
+          "icone": "escudo"
+        }
+      ]
+    }
+  ]
+}

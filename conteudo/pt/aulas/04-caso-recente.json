@@ -48,7 +48,7 @@
         {"titulo": "Escolher o tipo de caso", "sub": "da área prioritária",
          "texto": ["Colete casos da área que liderou a matriz da aula 3. Na Vila Serena (fictícia): primeiro atendimento pelo WhatsApp.", "Três casos de tipos diferentes não mostram padrão nenhum."]},
         {"titulo": "Cuidar do dado", "sub": "sem nome",
-         "texto": ["Caso não precisa de nome: \"uma paciente de 50 anos, com dor lombar\" basta.", "Se for olhar conversas reais no WhatsApp para achar casos, faça junto com o dono e não copie nome, telefone nem dado de saúde para o seu arquivo."]}
+         "texto": ["Caso não precisa de nome: \"uma paciente com dor lombar\" basta. O que não pode é ligar o dado de saúde a quem é a pessoa (nome, telefone, foto).", "Se for olhar conversas reais no WhatsApp para achar casos, faça junto com o dono e não copie nome, telefone nem dado de saúde para o seu arquivo."]}
       ]
     },
     {
@@ -86,7 +86,7 @@
       "titulo": "Teste o que aprendeu",
       "perguntas": [
         {"p": "Qual pergunta tem mais chance de revelar a regra que o dono usa?",
-         "opcoes": ["Quais critérios você usa para atender?", "Me conta o último paciente novo que chegou, passo a passo.", "Como é o seu processo de atendimento?", "O que um bom atendimento precisa ter?"],
+         "opcoes": ["Quais critérios você usa para decidir como atender cada paciente novo?", "Me conta o último paciente novo que chegou, passo a passo.", "Como é o seu processo de atendimento?", "O que um bom atendimento precisa ter?"],
          "certa": 1, "explica": "Âncora no tempo, objeto concreto e convite a narrar. As outras pedem que o dono formule a regra sozinho, e ele responde \"depende\".", "ref": "diagrama", "cert": true},
         {"p": "O dono responde \"ah, depende de cada caso\". O que fazer?",
          "opcoes": ["Anotar \"depende\" como regra.", "Passar para a próxima área.", "Explicar o que é conhecimento tácito.", "Insistir num caso específico da semana passada."],
@@ -95,7 +95,7 @@
          "opcoes": ["Porque só o que se repete no mesmo tipo de situação vira padrão.", "Porque o template só aceita um tipo.", "Porque o dono se cansa quando precisa lembrar de tipos diferentes de situação.", "Porque a LGPD exige."],
          "certa": 0, "explica": "Um caso de cobrança, um de agendamento e um de reclamação não mostram padrão nenhum. Três do mesmo tipo mostram o que se repete.", "ref": "passos"},
         {"p": "Ao revisar conversas reais do WhatsApp atrás de casos, o que fica fora do seu arquivo?",
-         "opcoes": ["A decisão do dono.", "O resultado do caso.", "Nome, telefone e dado de saúde do cliente.", "A data do caso."],
+         "opcoes": ["A decisão que o dono tomou e o motivo que ele deu para tomá-la.", "O resultado do caso.", "Nome, telefone e qualquer dado que ligue a saúde à pessoa.", "A data do caso."],
          "certa": 2, "explica": "O caso precisa da situação e da decisão, não de quem é a pessoa. Dado de saúde é sensível na LGPD; deixe fora.", "ref": "passos"}
       ]
     },

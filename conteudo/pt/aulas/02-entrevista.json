@@ -37,8 +37,8 @@
     },
     {
       "tipo": "passos",
-      "titulo": "Os 5 blocos de perguntas",
-      "sub": "Três perguntas por bloco. A ordem importa mais que a redação.",
+      "titulo": "Os blocos de perguntas e o teste da dor",
+      "sub": "Três perguntas por bloco, em 5 blocos. A ordem importa mais que a redação.",
       "passos": [
         {"titulo": "Contexto e fluxo", "sub": "perguntas 1 a 6",
          "texto": ["Começa pelo que o dono gosta de contar: o que a empresa faz, como começou, quem é a equipe.", "Depois o caminho do cliente, do primeiro contato ao pagamento, e o que para quando ele não está."]},
@@ -48,7 +48,7 @@
          "texto": ["Sonho antes do medo: o que precisa estar diferente em 12 meses, o que faria com tempo livre.", "Por último: o que já deu errado com tecnologia, o que preocupa na IA e quem mais precisa concordar."]},
         {"titulo": "Dor real ou falsa", "sub": "o teste das 3",
          "texto": ["Dor real tem caso recente, custo (em tempo, cliente perdido ou dinheiro) e alguma pressa. Dor falsa soa como palestra: \"queria melhorar tudo um pouco\".", "Na dúvida, faça três perguntas: \"me dá um exemplo da última vez\", \"quanto isso te custa em tempo ou cliente\", \"se nada mudar, como estará em 6 meses\"."],
-         "exemplo": {"rot": "Quando ele não sabe o número", "texto": "Não chute. Combine uma contagem simples por uma semana (um papel na recepção, uma marca por mensagem perdida) e use esse número no relatório."}}
+         "exemplo": {"rot": "Quando ele não sabe o número", "texto": "Não chute. Combine uma contagem simples por uma semana (um papel na recepção, uma marca por mensagem perdida) e use esse número no relatório. Ele vira a linha de base: o ponto de partida para comparar depois."}}
       ]
     },
     {
@@ -59,13 +59,13 @@
         {"rot": "roteiro-15-perguntas.md", "icone": "lista",
          "conteudo": "# Entrevista de diagnóstico — <negócio> — <data>\n# Preparação (20 min): 3 hipóteses de dor + 2 perguntas específicas\nHipóteses: 1) <...> 2) <...> 3) <...>\nPerguntas específicas: a) <...> b) <...>\n\n## Bloco 1 — Contexto\n1. Me conta em uma frase o que a <empresa> faz e para quem.\n2. Há quanto tempo vocês funcionam? Como começou?\n3. Quantas pessoas são hoje? Qual é o seu papel no dia a dia?\n\n## Bloco 2 — Fluxo\n4. Me descreve o caminho de um <cliente/paciente> desde que conhece vocês até pagar.\n5. Por quais canais ele fala com vocês? Quantas mensagens chegam num dia normal?\n6. Quando você não está, o que para?\n\n## Bloco 3 — Gargalo\n7. Qual a coisa mais chata da semana que você gostaria de não fazer?\n8. Onde vocês perdem <cliente/paciente>: antes, durante ou depois do atendimento?\n9. Tem alguma tarefa que você refaz toda semana?\n\n## Bloco 4 — Sonho\n10. Daqui a 12 meses, o que precisa estar diferente para você ficar satisfeita(o)?\n11. Se ganhasse algumas horas livres por semana, no que usaria?\n12. Que tipo de <cliente/paciente> você queria ter mais?\n\n## Bloco 5 — Medo\n13. Já tentou alguma tecnologia que não deu certo? O que aconteceu?\n14. O que te preocupa quando pensa em IA atendendo <cliente/paciente>?\n15. Quem mais precisa concordar para a gente avançar?\n\n## Frases literais (anotar entre aspas)\n- \"<...>\"\n## Números que ele citou / que vamos contar\n- <...>"},
         {"rot": "consentimento-gravacao.txt", "icone": "cadeado",
-         "conteudo": "Antes de começar: posso gravar a nossa conversa?\nÉ só para eu não perder nenhuma frase sua quando montar o relatório.\n- Quem ouve: só eu.\n- Ferramenta: <nome da ferramenta> vai transformar o áudio em texto.\n- Onde fica: <pasta/conta>, sem compartilhar com ninguém.\n- Quando apago: o áudio em <N> dias; o texto fica só até o relatório ser entregue.\nUm pedido: não diga nome de paciente ou cliente; fale \"uma paciente\", \"um cliente\".\nSe preferir que eu não grave, sem problema: anoto à mão.\nPosso gravar?\n\n[registro] Consentimento dado em <data, hora>, por <nome>, para <finalidade>."},
+         "conteudo": "Antes de começar: posso gravar a nossa conversa?\nÉ só para eu não perder nenhuma frase sua quando montar o relatório.\n- Quem ouve: só eu (e a ferramenta de transcrição processa o áudio).\n- Ferramenta: <nome da ferramenta> vai transformar o áudio em texto; <guarda ou não o áudio; usa ou não para treinar>.\n- Onde fica: <pasta/conta>, sem compartilhar com ninguém.\n- Quando apago: o áudio em <N> dias; o texto fica só até o relatório ser entregue.\nUm pedido: não diga nome de paciente ou cliente; fale \"uma paciente\", \"um cliente\".\nSe preferir que eu não grave, sem problema: anoto à mão.\nPosso gravar?\n\n[registro] Consentimento dado em <data, hora>, por <nome>, para <finalidade>."},
         {"rot": "encerramento.txt", "icone": "calendario",
          "conteudo": "Resumo: \"Deixa eu te devolver em 3 frases o que entendi: <1>, <2>, <3>.\"\nValidação: \"É isso? Ficou faltando algo importante?\"\nEntrega: \"Em <N> dias úteis eu te mostro uma página com o que achei e uma recomendação.\"\nAgenda: \"Qual o seu próximo horário livre para eu te apresentar ao vivo?\"\nTarefa: \"Até lá, a recepção marca num papel <o que vamos contar>, tudo bem?\""}
       ],
       "saida": {"selo": "simulacao", "abas": [
         {"rot": "Como conferir", "html": "<ul><li>O roteiro tem as 15 perguntas com as palavras do nicho (paciente, comprador, cliente).</li><li>O consentimento diz finalidade, ferramenta, onde fica e quando apaga.</li><li>O encerramento tem data de devolutiva e uma tarefa de contagem, quando faltar número.</li></ul>"},
-        {"rot": "Por que tanto cuidado com a gravação", "html": "<p>A voz e o que o dono conta são dados pessoais. Numa clínica, a conversa pode chegar em dado de saúde de paciente, que a LGPD (Lei 13.709/2018, art. 5º, II) chama de dado sensível. Por isso o pedido para não citar nomes e o prazo para apagar. Para escolher a ferramenta de transcrição pelo lado dos dados, veja o Data guard do curso Auditor (link no fim da aula).</p>"}
+        {"rot": "Por que tanto cuidado com a gravação", "html": "<p>A voz e o que o dono conta são dados pessoais. Numa clínica, a conversa pode chegar em dado de saúde de paciente, que a LGPD (Lei 13.709/2018, art. 5º, II) chama de dado sensível.</p><p>Por isso o pedido para não citar nomes e o prazo para apagar. Para escolher a ferramenta de transcrição pelo lado dos dados, veja o Data guard do curso Auditor (link no fim da aula).</p>"}
       ]}
     },
     {
@@ -120,7 +120,7 @@
           ]
         },
         "numero": {
-          "cliente": "Já pus mensagem automática de ausência e não adiantou. Número eu não sei: ninguém conta. Uns dias são muitos, outros nem tanto.",
+          "cliente": "Número eu não sei: ninguém conta. Uns dias são muitos, outros nem tanto.",
           "opcoes": [
             {"t": "Vou estimar umas cinquenta por semana, é o normal em clínica.", "vai": "fim-inventa", "nota": 0,
              "comenta": "Número inventado no relatório é o começo da desconfiança. Se o dono não sabe, ninguém sabe ainda: é preciso contar."},
@@ -173,7 +173,7 @@
       "titulo": "Teste o que aprendeu",
       "perguntas": [
         {"p": "Por que o bloco do medo vem por último na entrevista?",
-         "opcoes": ["Porque é a parte menos importante da conversa e pode ser cortada se faltar tempo.", "Porque o dono só fala do que preocupa depois de confiar em você.", "Porque medo não aparece no relatório.", "Porque é a pergunta mais curta do roteiro."],
+         "opcoes": ["Porque é a parte menos importante da conversa e pode ser cortada se faltar tempo.", "Porque o dono só fala do que preocupa depois de confiar em você.", "Porque medo não aparece no relatório.", "Porque o medo se resolve mostrando o assistente."],
          "certa": 1, "explica": "A ordem cria confiança: contexto, fluxo, gargalo, sonho e só então medo. Abrir pelo medo fecha o dono logo no começo.", "ref": "passos"},
         {"p": "O dono diz \"queria melhorar tudo um pouquinho\". O que você faz?",
          "opcoes": ["Pede um exemplo da última vez em que algo deu errado.", "Aceita e propõe começar pelo atendimento.", "Encerra a entrevista por falta de dor.", "Mostra o que um assistente consegue fazer."],

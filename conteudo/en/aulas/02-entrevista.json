@@ -1,0 +1,450 @@
+{
+  "slug": "entrevista",
+  "num": 2,
+  "menu": "Interview",
+  "titulo": "The interview with the owner: prepare in 20 minutes, the 15 questions, the silence",
+  "titulo_curto": "The interview with the owner",
+  "minutos": 20,
+  "lead": "The diagnosis has already been agreed on; now comes the conversation that decides whether it will be a good one. You show up prepared, ask to record and say what it's for, ask 15 questions always in the same order, and let the owner talk. The real pain shows up in a case from last week, almost never in the first answer.",
+  "objetivo": "run the diagnosis interview with the 15 questions, ask for recording with clear consent, and tell real pain from false pain.",
+  "competencias": [
+    "preparar-entrevista",
+    "ask-for-recording-consent",
+    "tell-real-pain-from-false",
+    "close-with-next-step"
+  ],
+  "aprende": [
+    {
+      "t": "Prepare for the conversation in 20 minutes"
+    },
+    {
+      "t": "Ask to record, stating the purpose, the tool, and the deadline"
+    },
+    {
+      "t": "Ask the 15 questions in 5 blocks and use silence"
+    },
+    {
+      "t": "Practice in a mock interview with the clinic owner"
+    }
+  ],
+  "hero_alt": "A clinic owner talks with her hands while the consultant listens with a notebook on her lap.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The path of the interview",
+      "sub": "Five moments, always in this order. Click each one.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "lupa",
+          "titulo": "Prepare",
+          "sub": "20 min",
+          "detalhe": "Website, social media profile, Google Maps reviews, and a message to the company's WhatsApp (with the owner knowing) to see how they respond. Walk away with 3 pain hypotheses and 2 questions specific to the business."
+        },
+        {
+          "icone": "cadeado",
+          "titulo": "Get consent",
+          "sub": "minute 1",
+          "detalhe": "Before question 1, ask to record and say what it's for, where it's stored, whether an AI tool will transcribe it, and when you delete it. Ask them not to name any patient or client."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Ask",
+          "sub": "5 blocks",
+          "forte": true,
+          "detalhe": "15 questions: context, flow, bottleneck, dream, fear. Always in this order: the owner starts by talking about what they like and only gets to the fear once they trust you."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Listen",
+          "sub": "silence",
+          "detalhe": "The consultant's rule of thumb: the owner talks most of the time. Repeat their words, ask \"tell me more,\" and count to three before you speak."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Close",
+          "sub": "with a date",
+          "detalhe": "Sum up in 3 sentences, ask \"is that right?\", say what you will deliver and when, and book the follow-up meeting right there. No solutions in this conversation."
+        }
+      ],
+      "legenda": "This is the delivery interview. The call that sells the diagnosis is a different one and is covered in Selling with AI 2."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Question blocks and the pain test",
+      "sub": "Three questions per block, in 5 blocks. The order matters more than the wording.",
+      "passos": [
+        {
+          "titulo": "Context and flow",
+          "sub": "questions 1 to 6",
+          "texto": [
+            "Start with what the owner likes to talk about: what the business does, how it started, who is on the team.",
+            "Then the customer's path, from first contact to payment, and what stalls when the owner isn't there."
+          ]
+        },
+        {
+          "titulo": "Bottleneck",
+          "sub": "questions 7 to 9",
+          "texto": [
+            "Only once the owner is at ease: the most tedious task of the week, where customers get lost, what gets redone every week.",
+            "This is where the candidates for an assistant show up. Write them down, don't propose anything."
+          ]
+        },
+        {
+          "titulo": "Dream and fear",
+          "sub": "questions 10 to 15",
+          "texto": [
+            "Dream before fear: what needs to be different in 12 months, what they would do with free time.",
+            "Last: what has already gone wrong with technology, what worries them about AI, and who else needs to agree."
+          ]
+        },
+        {
+          "titulo": "Real or false pain",
+          "sub": "the 3-question test",
+          "texto": [
+            "Real pain has a recent case, a cost (in time, lost customers, or money), and some urgency. False pain sounds like a speech: \"I'd like to improve everything a little.\"",
+            "When in doubt, ask three questions: \"give me an example from the last time,\" \"how much does that cost you in time or customers,\" \"if nothing changes, where will you be in 6 months.\""
+          ],
+          "exemplo": {
+            "rot": "When they don't know the number",
+            "texto": "Don't guess. Agree on a simple count for one week (a sheet of paper at the front desk, a tally mark for each missed message) and use that number in the report. It becomes the baseline: the starting point for comparing later."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates for the interview",
+      "sub": "Copy them, adapt them to the niche, and bring them printed. Swap whatever is between < > for your own details.",
+      "blocos": [
+        {
+          "rot": "roteiro-15-perguntas.md",
+          "icone": "lista",
+          "conteudo": "# Diagnostic interview — <business> — <date>\n# Preparation (20 min): 3 pain hypotheses + 2 specific questions\nHypotheses: 1) <...> 2) <...> 3) <...>\nSpecific questions: a) <...> b) <...>\n\n## Block 1 — Context\n1. Tell me in one sentence what <company> does and who it's for.\n2. How long have you been in business? How did it start?\n3. How many people are on the team today? What's your role day to day?\n\n## Block 2 — Flow\n4. Walk me through the path of a <client/patient> from the moment they find you until they pay.\n5. Which channels do they use to reach you? How many messages come in on a normal day?\n6. When you're not there, what stops?\n\n## Block 3 — Bottleneck\n7. What's the most annoying thing about your week, the one you wish you didn't have to do?\n8. Where do you lose <client/patient>: before, during, or after the service?\n9. Is there any task you redo every week?\n\n## Block 4 — Dream\n10. 12 months from now, what needs to be different for you to be satisfied?\n11. If you gained a few free hours a week, what would you use them for?\n12. What kind of <client/patient> would you like to have more of?\n\n## Block 5 — Fear\n13. Have you ever tried a technology that didn't work out? What happened?\n14. What worries you when you think about AI serving your <client/patient>?\n15. Who else needs to agree for us to move forward?\n\n## Exact phrases (write them down in quotes)\n- \"<...>\"\n## Numbers they mentioned / that we are going to count\n- <...>"
+        },
+        {
+          "rot": "consentimento-gravacao.txt",
+          "icone": "cadeado",
+          "conteudo": "Before we start: may I record our conversation?\nIt's just so I don't miss a single thing you say when I put the report together.\n- Who listens: only me (and the transcription tool processes the audio).\n- Tool: <tool name> will turn the audio into text; <does or doesn't keep the audio; does or doesn't use it for training>.\n- Where it's kept: <folder/account>, not shared with anyone.\n- When I delete it: the audio after <N> days; the text stays only until the report is delivered.\nOne request: please don't say any patient's or client's name; say \"a patient,\" \"a client.\"\nIf you'd rather I not record, no problem: I'll take notes by hand.\nMay I record?\n\n[record] Consent given on <date, time>, by <name>, for <purpose>."
+        },
+        {
+          "rot": "encerramento.txt",
+          "icone": "calendario",
+          "conteudo": "Summary: \"Let me give back to you in 3 sentences what I understood: <1>, <2>, <3>.\"\nValidation: \"Is that right? Is anything important missing?\"\nDelivery: \"In <N> business days I'll show you a page with what I found and a recommendation.\"\nSchedule: \"What's your next free time slot so I can present it to you live?\"\nTask: \"Until then, the front desk will mark on a sheet of paper <what we're going to count>, all right?\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "How to check",
+            "html": "<ul><li>The script has the 15 questions with the words of the niche (patient, buyer, client).</li><li>The consent states the purpose, the tool, where it's kept, and when it's deleted.</li><li>The closing has a date for the follow-up and a counting task, when a number is missing.</li></ul>"
+          },
+          {
+            "rot": "Why so much care with recording",
+            "html": "<p>Your voice and what the owner tells you are personal data. At a clinic, the conversation can touch on a patient's health data, which LGPD (Brazil's data protection law) (Lei 13.709/2018, art. 5º, II) calls sensitive data.</p><p>That's why you ask them not to mention names, and why there's a deadline to delete. To choose the transcription tool with data in mind, see the Data guard in the Auditor course (link at the end of the lesson).</p>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Simulated interview: the owner of Vila Serena",
+      "sub": "This is a simulated, fictional conversation, for practice. Choose what you would say; the comment appears right after.",
+      "personagem": {
+        "nome": "Owner of Clínica Vila Serena (fictional)",
+        "papel": "physical therapy and aesthetics · 9 people"
+      },
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "You can start. I only have about forty minutes, a patient arrives at three.",
+          "opcoes": [
+            {
+              "t": "Before the first question: may I record? It's so I don't lose your phrases. A tool turns the audio into text, I delete the audio in 30 days, and I ask that you don't say any patient's name.",
+              "vai": "dor",
+              "nota": 2,
+              "comenta": "Complete consent: for what, with which tool, until when, and care with patient data. It takes twenty seconds and avoids problems later."
+            },
+            {
+              "t": "I'm going to leave my phone recording here, all right?",
+              "vai": "dor",
+              "nota": 1,
+              "comenta": "You asked, which is already better than recording in secret. But she doesn't know what it's for, whether an AI will transcribe it, or when you'll delete it."
+            },
+            {
+              "t": "So let's get straight to it: what's the biggest problem? I already have a few ideas for an assistant for you.",
+              "vai": "fim-solucao",
+              "nota": 0,
+              "comenta": "You showed up with the solution before listening. The owner will answer based on your idea, and the diagnosis becomes confirmation of what you already wanted to sell."
+            }
+          ]
+        },
+        "dor": {
+          "cliente": "Sure, you can. Look, the problem is that we need to improve everything a little bit. Everyone talks about AI, right? I don't want to be left behind.",
+          "opcoes": [
+            {
+              "t": "Perfect, AI improves everything. I'll start with customer service.",
+              "vai": "fim-solucao",
+              "nota": 0,
+              "comenta": "\"Improve everything a little bit\" and \"I don't want to be left behind\" are signs of a false pain. Accepting it like this is buying a project with no target."
+            },
+            {
+              "t": "Tell me about the last time, this week, that something went wrong with customer service.",
+              "vai": "caso",
+              "nota": 2,
+              "comenta": "A question anchored in time with a concrete object. It's the first of the three questions in the real pain test."
+            },
+            {
+              "t": "Tell me how your customer service works?",
+              "vai": "caso",
+              "nota": 1,
+              "comenta": "Good intention, but too open: without asking for a specific case, the answer tends to come in adjectives."
+            }
+          ]
+        },
+        "caso": {
+          "cliente": "Last Monday a new patient sent a message at seven in the evening asking about Pilates for back pain. Nobody saw it. By Tuesday she had already booked somewhere else.",
+          "opcoes": [
+            {
+              "t": "How many times does that happen per week?",
+              "vai": "numero",
+              "nota": 1,
+              "comenta": "Good question, but too early: you cut her off. Three seconds of silence usually bring out the rest of the story."
+            },
+            {
+              "t": "Nobody saw it... (and wait, in silence)",
+              "vai": "silencio",
+              "nota": 2,
+              "comenta": "Repeating her word and waiting is the cheapest technique in the interview. She will finish it on her own."
+            },
+            {
+              "t": "So the problem is after hours. An assistant on WhatsApp solves that.",
+              "vai": "fim-solucao",
+              "nota": 0,
+              "comenta": "One case is not a diagnosis. You still don't know how often it happens, who answers at night, or what the assistant could say."
+            }
+          ]
+        },
+        "silencio": {
+          "cliente": "...and the worst part is that I answer at night from my phone, when I remember. But I don't let anyone quote package prices, because they change depending on the insurance plan.",
+          "opcoes": [
+            {
+              "t": "That thing about pricing by insurance plan, the AI learns on its own from the old conversations.",
+              "vai": "fim-solucao",
+              "nota": 0,
+              "comenta": "What nobody wrote down doesn't reach the AI. A price that changes by insurance plan is exactly the rule you'll have to pull out of her head (lessons 4 and 5)."
+            },
+            {
+              "t": "I wrote it down: \"I answer at night, when I remember.\" Have you tried to solve this some other way?",
+              "vai": "numero",
+              "nota": 1,
+              "comenta": "Exact phrase noted and a real-pain question (\"have you tried\"). The size of the problem is still missing."
+            },
+            {
+              "t": "I wrote down your words. And what does this cost you today: how many messages go unanswered in a week, and can anyone count them?",
+              "vai": "numero",
+              "nota": 2,
+              "comenta": "Exact phrase noted and a size question, the second of the test. If she doesn't know, you've already opened the door to agreeing on a count."
+            }
+          ]
+        },
+        "numero": {
+          "cliente": "I don't know the number: nobody counts. Some days are busy, others not so much.",
+          "opcoes": [
+            {
+              "t": "I'll estimate about fifty a week, which is normal for a clinic.",
+              "vai": "fim-inventa",
+              "nota": 0,
+              "comenta": "A made-up number in the report is where distrust starts. If the owner doesn't know, nobody knows yet: you have to count."
+            },
+            {
+              "t": "No problem. For one week, the front desk marks on a sheet of paper every message that comes in after 6 p.m. I'll use that number in the report.",
+              "vai": "encerra",
+              "nota": 2,
+              "comenta": "When a number is missing, the answer is an agreed, simple count, not a guess. The paper at the front desk becomes the baseline."
+            },
+            {
+              "t": "I'll put \"lots of lost messages\" in the report.",
+              "vai": "encerra",
+              "nota": 0,
+              "comenta": "An adjective doesn't support a recommendation. In the debrief, \"lots\" turns into an argument; a one-week count turns into an agreement."
+            }
+          ]
+        },
+        "encerra": {
+          "cliente": "It's almost three hours already. So, what do you think we should do?",
+          "opcoes": [
+            {
+              "t": "I'll send you the report when it's ready.",
+              "vai": "fim-solto",
+              "nota": 1,
+              "comenta": "Without a date, the conversation goes cold. You needed to summarize, validate, and book the debrief right there."
+            },
+            {
+              "t": "I think a WhatsApp assistant will solve it. I'll send you a quote.",
+              "vai": "fim-solucao",
+              "nota": 0,
+              "comenta": "A solution and a price in the interview trample the diagnosis. Map first; price is another conversation."
+            },
+            {
+              "t": "Let me sum up in 3 sentences what I heard... Is that right? In 5 business days I'll show you a page with what I found. What's your next free time slot?",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "Summary, validation, a promise with a deadline, and the debrief on the calendar. She leaves knowing what comes next and when."
+            }
+          ]
+        },
+        "fim-solucao": {
+          "fim": true,
+          "titulo": "Prescription before the exam",
+          "texto": "You left with a solution idea, not a diagnosis. Without a case, a number, and the house rules, any assistant will answer wrong with total confidence, and the owner will blame the AI."
+        },
+        "fim-inventa": {
+          "fim": true,
+          "titulo": "Guesswork number",
+          "texto": "The report will state a number nobody measured. In the first week of use, the math doesn't add up and the owner starts doubting the rest of the diagnosis."
+        },
+        "fim-solto": {
+          "fim": true,
+          "titulo": "Good conversation, no next step",
+          "texto": "You listened well and have material, but you left without a date. The owner's week fills up, the debrief slips, and the agreed count never starts."
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "Diagnosis with a foundation",
+          "texto": "You leave with the real pain described through a case from this week, a word-for-word quote from the owner, an agreed one-week count, and the debrief booked. The report in lesson 8 starts from here."
+        }
+      },
+      "licao": "Clear consent, a recent case, and silence bring out the real pain. The number the owner doesn't know becomes an agreed count, never a guess."
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: your script",
+      "sub": "Use Vila Serena (fictional) or a real business that has authorized you.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Script adapted to the niche",
+          "min": "20 min",
+          "texto": "Copy the 15-question script and swap the words for the niche's vocabulary (patient, student, buyer). Fill in the 3 hypotheses and the 2 Vila Serena-specific questions.",
+          "pronto": "the script has the 15 questions in the 5 blocks, in order, with the niche's vocabulary and the hypotheses filled in."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Consent script",
+          "min": "10 min",
+          "texto": "Adapt the consent script with the tool you actually use and a deletion deadline you will actually keep.",
+          "pronto": "the script states the purpose, the tool, where it is stored, and when it is deleted, and it has the line for recording consent."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Simulated conversation",
+          "min": "10 min",
+          "texto": "Do this lesson's simulated interview until you reach the \"Diagnosis with a foundation\" ending.",
+          "pronto": "your best score in the simulated conversation is the maximum number of points."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "perguntas": [
+        {
+          "p": "Why does the fear block come last in the interview?",
+          "opcoes": [
+            "Because it's the least important part of the conversation and can be cut if time runs short.",
+            "Because the owner only talks about what worries them after they trust you.",
+            "Because fear doesn't show up in the report.",
+            "Because fear is solved by showing the assistant."
+          ],
+          "certa": 1,
+          "explica": "The order builds trust: context, flow, bottleneck, dream, and only then fear. Opening with fear shuts the owner down right at the start.",
+          "ref": "passos"
+        },
+        {
+          "p": "The owner says, \"I'd like to improve everything a little.\" What do you do?",
+          "opcoes": [
+            "Ask for an example from the last time something went wrong.",
+            "Accept it and propose starting with customer service.",
+            "End the interview for lack of pain.",
+            "Show what an assistant can do."
+          ],
+          "certa": 0,
+          "explica": "That's a sign of a false pain, but not a reason to give up. The 3-question test starts by asking for a recent case.",
+          "ref": "simconversa",
+          "cert": true
+        },
+        {
+          "p": "The owner doesn't know how many messages go unanswered. What goes in the report?",
+          "opcoes": [
+            "An average estimate for the industry.",
+            "The word \"many,\" so you don't get it wrong.",
+            "The number that a one-week count shows.",
+            "Nothing about it."
+          ],
+          "certa": 2,
+          "explica": "With no number, set up a simple count (a sheet of paper at the front desk) and use the result. A guess and an adjective don't support the recommendation.",
+          "ref": "passos"
+        },
+        {
+          "p": "What does a complete recording consent tell the owner?",
+          "opcoes": [
+            "That every consultant records and that it's mandatory.",
+            "Only that the conversation will be recorded.",
+            "That the recording will later be used to train the AI assistant you're going to build.",
+            "What it's recorded for, which tool transcribes it, where it's stored, and when it's deleted."
+          ],
+          "certa": 3,
+          "explica": "Purpose, tool, location, and retention period. At a clinic, also ask them not to mention patient names: health data is sensitive data under LGPD (Brazil's data protection law).",
+          "ref": "codigo",
+          "cert": true
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Prepare and ask",
+          "texto": "20 minutes of research, 3 hypotheses, 2 specific questions. In minute 1, consent with purpose, tool, and retention period."
+        },
+        {
+          "t": "Order and silence",
+          "texto": "15 questions in 5 blocks, dream before fear. Repeat their word and wait."
+        },
+        {
+          "t": "Case, number, date",
+          "texto": "Real pain has a recent case and a size. A missing number becomes a count. The conversation ends with the debrief on the calendar."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "The discovery call that sells the diagnosis (Selling with AI 2, lesson 2)",
+          "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/en/aulas/call-descoberta/",
+          "icone": "chat"
+        },
+        {
+          "t": "Data guard: data, vendors, and models (prof2030-auditor, lesson 6)",
+          "href": "https://inematds.github.io/prof2030-auditor/aulas/data-guard/",
+          "icone": "escudo"
+        },
+        {
+          "t": "Data, LGPD, and choosing a vendor (prof2030-base, lesson 5)",
+          "href": "https://inematds.github.io/prof2030-base/aulas/dados-lgpd/",
+          "icone": "cadeado"
+        },
+        {
+          "t": "LGPD, text of the law (Planalto)",
+          "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+          "icone": "arquivo"
+        }
+      ]
+    }
+  ]
+}

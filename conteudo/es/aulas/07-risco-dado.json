@@ -1,0 +1,264 @@
+{
+  "slug": "risco-dado",
+  "num": 7,
+  "menu": "Riesgo",
+  "titulo": "Riesgo, datos y dependencia humana antes de recomendar",
+  "titulo_curto": "Riesgo, datos y canal",
+  "minutos": 18,
+  "lead": "La candidata elegida todavía no está lista para ir al informe. Antes, cuatro preguntas: cuánto puede hacer sola, qué dato personal pasa por ella, quién responde si se equivoca y si el canal es el WhatsApp oficial. En el negocio pequeño, WhatsApp está en medio de casi todo, y sus reglas cambiaron en 2025 y 2026.",
+  "objetivo": "revisar la candidata elegida en nivel de automatización, dato personal, quién responde si se equivoca y reglas de WhatsApp antes de recomendar.",
+  "competencias": [
+    "definir-nivel-de-automacao",
+    "identificar-dado-pessoal",
+    "checar-regras-do-canal"
+  ],
+  "aprende": [
+    {
+      "t": "Los 3 niveles de automatización"
+    },
+    {
+      "t": "Lo mínimo de LGPD para el negocio pequeño"
+    },
+    {
+      "t": "Las reglas actuales de WhatsApp Business"
+    },
+    {
+      "t": "El checklist de 4 preguntas antes de recomendar"
+    }
+  ],
+  "hero_alt": "Una recepcionista de clínica atiende a un paciente en el mostrador; al lado, un archivo de carpetas cerrado.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Los 3 niveles de automatización",
+      "sub": "Cuanto más riesgo y criterio, más bajo el nivel. Haz clic en cada uno.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "caneta",
+          "titulo": "Nivel 1",
+          "sub": "La IA prepara",
+          "forte": true,
+          "detalhe": "La IA escribe; una persona aprueba todo antes de que salga. Para cobros, precios, respuesta a una queja seria y cualquier excepción. Todo proyecto empieza aquí."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Nivel 2",
+          "sub": "aprueba lo importante",
+          "detalhe": "La IA responde lo simple (horario, dirección, duda frecuente) y pasa a una persona lo que la regla marca como importante. Solo se sube a este nivel con un criterio acordado con el dueño (curso 2)."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Nivel 3",
+          "sub": "funciona sola",
+          "detalhe": "Sin aprobación: triaje, clasificación, recordatorio. Solo para tareas sin riesgo financiero, contractual o de salud."
+        }
+      ],
+      "legenda": "Mostrar dónde la persona sigue aprobando responde al miedo del dueño antes de que lo pregunte."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Dato y canal: lo que vale hoy",
+      "sub": "Reglas con fecha y fuente. No es dictamen jurídico: ante la duda, consulta a un especialista.",
+      "passos": [
+        {
+          "titulo": "Dato personal",
+          "sub": "LGPD",
+          "texto": [
+            "Nombre, teléfono y conversación de un cliente son datos personales. Un dato de salud es un <b>dato sensible</b> (LGPD, Ley 13.709/2018, art. 5º, II): en una clínica, casi todo mensaje de un paciente es sensible.",
+            "El dato sensible solo puede tratarse en las hipótesis del art. 11, como el consentimiento específico y destacado. Y la persona puede pedir la revisión humana de una decisión tomada solo por una máquina (art. 20)."
+          ]
+        },
+        {
+          "titulo": "Pequeño porte",
+          "sub": "ANPD",
+          "texto": [
+            "La Resolución CD/ANPD nº 2/2022 simplifica obligaciones para microempresas y empresas de pequeño tamaño: registro simplificado (art. 9º), encargado dispensado si hay un canal para el titular (art. 11) y plazos al doble (art. 14).",
+            "Pero quien hace tratamiento de <b>alto riesgo</b> pierde esas simplificaciones (art. 3º). Alto riesgo = un criterio general (gran escala o afectar derechos de forma significativa) <b>y</b> uno específico, como tecnología nueva o dato sensible (art. 4º). Una IA que lee mensajes de pacientes puede llegar a eso: confirma con un especialista antes de recomendar."
+          ]
+        },
+        {
+          "titulo": "WhatsApp: costo",
+          "sub": "por mensaje",
+          "texto": [
+            "Desde el 01/07/2025 Meta cobra la API de WhatsApp Business por mensaje entregado, con tarifa por categoría (marketing, utilidad, autenticación, servicio) y por país; los mensajes de servicio tienen un tramo gratuito por mes. Revisa la tabla actual antes de estimar el costo.",
+            "Mensaje libre solo dentro de las 24 horas posteriores a que el cliente escribió; fuera de ese plazo, solo plantilla aprobada. Y solo se envían mensajes a quien aceptó recibirlos."
+          ]
+        },
+        {
+          "titulo": "WhatsApp: IA",
+          "sub": "desde el 15/01/2026",
+          "texto": [
+            "Desde el 15/01/2026 los términos de la API prohíben el chatbot de IA de uso general (un asistente abierto, como una conversación libre con un modelo) como función principal.",
+            "La IA de atención, agendamiento, pedidos y ventas del propio negocio sigue permitida. Quien decide qué es \"principal\" es Meta, así que el alcance del asistente tiene que ser el negocio, no una conversación sobre cualquier tema."
+          ],
+          "exemplo": {
+            "rot": "Canal oficial o no",
+            "texto": "Una herramienta que se conecta a WhatsApp sin ser la API oficial de Meta (o un proveedor oficial, es decir, una empresa socia autorizada por Meta) va contra los términos de uso de WhatsApp, y el número de la empresa puede ser bloqueado. No la recomiendes. En el diagnóstico, marca el canal como oficial o no oficial y, si es no oficial, escribe ese riesgo."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo: checklist antes de recomendar",
+      "sub": "Una ficha para la candidata elegida en la clase 6. Cambia lo que está entre < > por lo tuyo.",
+      "blocos": [
+        {
+          "rot": "checklist-risco.md",
+          "icone": "escudo",
+          "conteudo": "# Checklist de riesgo — <candidata> — <negocio> — <fecha>\n\n1. Nivel de automatización: <1 / 2 / 3>\n   Por qué: <qué pasa si se equivoca; quién aprueba>\n\n2. Dato personal que pasa:\n   - Tipos: <nombre, teléfono, conversación, dato de salud, financiero>\n   - ¿Alguno es sensible (salud, religión, biometría...)? <sí/no: cuál>\n   - Base para tratarlo: <consentimiento / contrato / otra; confirmar con un especialista>\n   - Proveedor que recibe el dato: <qué herramienta; dónde lo guarda; ¿lo usa para entrenar?>\n\n3. Quién responde si se equivoca:\n   - Persona: <nombre/rol>\n   - Cómo pide el cliente a una persona: <palabra, botón, horario>\n   - Revisión humana de la decisión automática: <cómo>\n\n4. Canal:\n   - WhatsApp: <API oficial / proveedor oficial / no oficial / no usa>\n   - ¿Mensajes fuera de la ventana de 24 h? <sí/no: qué plantillas>\n   - ¿El cliente aceptó recibir mensajes? <cómo se registró>\n   - ¿El asistente se queda en el alcance del negocio (no es conversación libre)? <sí/no>\n\nConclusión: <recomendar tal como está / recomendar en el nivel 1 / no recomendar ahora> — <motivo>\nFuentes consultadas el <fecha>: <enlaces de las reglas>"
+        },
+        {
+          "rot": "Ejemplo (ficticio)",
+          "icone": "lista",
+          "conteudo": "# Checklist de riesgo — dudas de la noche en WhatsApp — Clínica Vila Serena (ficticia)\n\n1. Nivel: 1 en las primeras semanas (la recepción aprueba por la mañana las respuestas preparadas por la noche)\n2. Dato: nombre, teléfono, conversación; aparece dato de salud (dolor, cirugía) → sensible\n   Base para tratar: consentimiento específico del paciente u otra hipótesis del art. 11; confirmar con un especialista\n   ¿Alto riesgo (Res. ANPD 2/2022, art. 4º)? evaluar con un especialista: hay dato sensible y tecnología nueva\n   Proveedor: <a definir>; revisar dónde guarda y si usa para entrenar\n3. Quién responde: la recepcionista; la dueña en las excepciones; R02 llama a la fisioterapeuta\n4. Canal: hoy es el WhatsApp común en el celular de la recepción; para automatizar, solo API oficial\n   Alcance: horarios, convenios, evaluación inicial; nada de conversación libre\n\nConclusión: recomendar en el nivel 1, después de escribir las reglas (clase 5)"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Cómo revisar",
+            "html": "<ul><li>Las 4 preguntas tienen respuesta, no \"ya veremos\".</li><li>El canal está marcado como oficial o no oficial.</li><li>Si hay dato sensible, está escrito cuál y quién confirma la base para tratarlo.</li><li>Las fuentes tienen la fecha en que las consultaste.</li></ul>"
+          },
+          {
+            "rot": "Por qué importa la fecha",
+            "html": "<p>Las reglas de las plataformas cambian. El cobro por mensaje empezó el 01/07/2025 y la prohibición del chatbot de uso general el 15/01/2026. Antes de cada diagnóstico, abre las páginas oficiales (enlaces al final de la clase) y anota la fecha en que lo revisaste.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica: el checklist de la candidata",
+      "sub": "Usa la candidata recomendada en tu matriz de la clase 6.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Checklist de 4 preguntas",
+          "min": "20 min",
+          "texto": "Completa el checklist de riesgo para la candidata recomendada de Vila Serena (ficticia).",
+          "pronto": "las 4 preguntas tienen respuesta, el canal está marcado como oficial o no, y la conclusión dice el nivel de automatización con el motivo."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Revisar las fuentes hoy",
+          "min": "10 min",
+          "texto": "Abre la página de precios de WhatsApp Business y la Resolución CD/ANPD nº 2/2022 (enlaces al final) y anota en el checklist la fecha de la consulta y si algo cambió.",
+          "pronto": "el checklist tiene las dos fuentes con la fecha de hoy y una línea \"cambió / no cambió\"."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba lo que aprendiste",
+      "perguntas": [
+        {
+          "p": "Un asistente va a preparar mensajes de cobranza. ¿En qué nivel empieza?",
+          "opcoes": [
+            "Nivel 3, porque la cobranza es repetitiva.",
+            "Nivel 2, aprobando solo los montos altos.",
+            "Nivel 1: la IA prepara y una persona aprueba todo.",
+            "Ninguno, la cobranza no puede usar IA."
+          ],
+          "certa": 2,
+          "explica": "El dinero y la relación con el cliente piden aprobación humana en todo al comienzo. Se sube de nivel solo con un criterio acordado.",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "En una clínica, el mensaje \"tengo dolor lumbar desde la cirugía\" es:",
+          "opcoes": [
+            "Dato sensible, por ser un dato de salud.",
+            "Dato público, porque el paciente lo envió.",
+            "Solo un dato personal común.",
+            "Dato anónimo."
+          ],
+          "certa": 0,
+          "explica": "La LGPD (art. 5º, II) incluye los datos de salud entre los sensibles, con hipótesis de tratamiento más restringidas (art. 11).",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "¿Qué cambió en WhatsApp Business el 15/01/2026?",
+          "opcoes": [
+            "Empezó a cobrar por conversación.",
+            "Prohibió cualquier uso de inteligencia artificial en la atención, incluso para agendar citas y resolver dudas.",
+            "Permitió mensajes sin consentimiento.",
+            "Prohibió los chatbots de IA de uso general; la atención del propio negocio sigue permitida."
+          ],
+          "certa": 3,
+          "explica": "La regla apunta a los asistentes abiertos de conversación libre. La atención, el agendamiento y la venta del propio negocio siguen permitidos, y Meta decide qué es \"principal\".",
+          "ref": "passos"
+        },
+        {
+          "p": "Desde el 01/07/2025, ¿cómo cobra Meta la API de WhatsApp Business?",
+          "opcoes": [
+            "Por mes, con valor fijo, sin importar cuántos mensajes envíe la empresa.",
+            "Por mensaje entregado, con tarifa según la categoría y el país.",
+            "Solo por conversación de 24 horas.",
+            "No cobra a las pequeñas empresas."
+          ],
+          "certa": 1,
+          "explica": "El cobro por conversación fue reemplazado por el cobro por mensaje el 01/07/2025. Revisa la tabla actual antes de estimar el costo.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Nivel 1 primero",
+          "texto": "La IA prepara, la persona aprueba. El nivel 3 solo para lo que no tiene riesgo."
+        },
+        {
+          "t": "El dato de salud es sensible",
+          "texto": "LGPD art. 5º y 11; las empresas de pequeño porte tienen reglas simplificadas, pero la IA con datos sensibles exige un cuidado redoblado."
+        },
+        {
+          "t": "WhatsApp con fecha",
+          "texto": "Por mensaje desde el 01/07/2025; chatbot de uso general prohibido desde el 15/01/2026; ventana de 24 h y consentimiento para recibir."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Precios de la plataforma WhatsApp Business (Meta)",
+          "href": "https://developers.facebook.com/docs/whatsapp/pricing",
+          "icone": "chat"
+        },
+        {
+          "t": "Chatbots de uso general en WhatsApp: qué cambia en 2026 (respond.io)",
+          "href": "https://respond.io/blog/whatsapp-general-purpose-chatbots-ban",
+          "icone": "arquivo"
+        },
+        {
+          "t": "WhatsApp bans AI chatbots from its business API (9to5Mac, 20/10/2025)",
+          "href": "https://9to5mac.com/2025/10/20/whatsapp-bans-ai-chatbots-from-using-its-business-api/",
+          "icone": "arquivo"
+        },
+        {
+          "t": "Resolución CD/ANPD nº 2/2022: agentes de pequeño porte",
+          "href": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/resolucao-cd-anpd-no-2-de-27-de-janeiro-de-2022",
+          "icone": "escudo"
+        },
+        {
+          "t": "Data guard: datos, proveedores y modelos (prof2030-auditor, clase 6)",
+          "href": "https://inematds.github.io/prof2030-auditor/aulas/data-guard/",
+          "icone": "cadeado"
+        },
+        {
+          "t": "Los riesgos que derriban proyectos (prof2030-base, clase 4)",
+          "href": "https://inematds.github.io/prof2030-base/aulas/riscos/",
+          "icone": "escudo"
+        }
+      ]
+    }
+  ]
+}

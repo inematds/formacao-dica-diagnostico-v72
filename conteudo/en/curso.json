@@ -1,0 +1,235 @@
+{
+  "id": "formacao-dica-diagnostico-v72",
+  "lang": "en",
+  "url": "https://inematds.github.io/formacao-dica-diagnostico-v72/en/",
+  "nome": "DICA 1 · Diagnosis: the Client Map",
+  "sub": "DICA Program · course 1 of 2",
+  "volta": {
+    "t": "AI Consulting Area",
+    "href": "https://eventos.inema.pro/consultoria-ia/"
+  },
+  "lado_card": {
+    "rot": "DICA Program",
+    "t": "Course 1 of 2",
+    "texto": "After the diagnosis comes course 2: implement the first assistant, coach the owner and the team, and accompany them until they can run it on their own.",
+    "link": "Go to course 2",
+    "href": "https://inematds.github.io/formacao-dica-entrega-v72/en/"
+  },
+  "rodape": "INEMA.CLUB · open and free content · INEMA Learning v7.2 format · <a href=\"https://eventos.inema.pro/consultoria-ia/\">eventos.inema.pro/consultoria-ia</a> · <a href=\"https://eventos.inema.pro/prof2030/\">Professional 2030</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "videos": {
+    "consultoria-na-pratica": {
+      "titulo": "AI Consulting in Practice",
+      "duracao": "4 min 29 s",
+      "mp4": "https://github.com/inematds/consultoria-ia-na-pratica/releases/download/video-v2.0.0/consultoria-ia-na-pratica-completo-16x9.mp4",
+      "poster": "assets/img/video/consultoria-na-pratica.jpg",
+      "vtt": "assets/vtt/consultoria-na-pratica.vtt",
+      "pagina": "https://inematds.github.io/consultoria-ia-na-pratica/videos/",
+      "idiomas": {
+        "en": {
+          "mp4": "https://github.com/inematds/consultoria-ia-na-pratica/releases/download/video-v2.0.0/consultoria-ia-na-pratica-completo-16x9-en.mp4",
+          "vtt": "assets/vtt/consultoria-na-pratica-en.vtt",
+          "duracao": "3 min 18 s",
+          "pagina": "https://inematds.github.io/consultoria-ia-na-pratica/videos/en/"
+        },
+        "es": {
+          "mp4": "https://github.com/inematds/consultoria-ia-na-pratica/releases/download/video-v2.0.0/consultoria-ia-na-pratica-completo-16x9-es.mp4",
+          "vtt": "assets/vtt/consultoria-na-pratica-es.vtt",
+          "duracao": "3 min 38 s",
+          "pagina": "https://inematds.github.io/consultoria-ia-na-pratica/videos/es/"
+        }
+      }
+    }
+  },
+  "inicio": {
+    "kicker": "DICA Program · course 1 of 2 · 8 lessons",
+    "titulo": "Diagnosis: the Client Map",
+    "lead": "Before you put AI into a small business, you need to understand the business. In eight lessons you interview the owner, score the 5 areas, pull out of their head the rules nobody wrote down, and deliver a one-page map with one recommendation and a 30-day plan.",
+    "cta": "Start with lesson 1",
+    "cta2": {
+      "t": "See the AI Consulting Area",
+      "href": "https://eventos.inema.pro/consultoria-ia/"
+    },
+    "capa_alt": "Reception desk of a small clinic with an open notebook and the course title: Diagnosis, the Client Map.",
+    "numeros": [
+      {
+        "v": "8",
+        "t": "short lessons"
+      },
+      {
+        "v": "8",
+        "t": "documents to fill in"
+      },
+      {
+        "v": "1",
+        "t": "simulated interview"
+      },
+      {
+        "v": "1",
+        "t": "fictional company from start to finish"
+      }
+    ],
+    "aulas_titulo": "The lessons",
+    "aulas_sub": "In the order of a diagnosis: understand the business, interview, score, extract the rules, prioritize, check the risk, and deliver one page.",
+    "blocos": [
+      {
+        "t": "Who it's for",
+        "itens": [
+          "Small business owners (clinic, real estate agency, bakery, repair shop, store) who want to bring AI into their own business with a method.",
+          "Beginner consultants who serve small businesses and need to deliver a diagnosis the owner can understand.",
+          "People who have already sold the diagnosis and now need to do it well."
+        ]
+      },
+      {
+        "t": "What you'll be able to do",
+        "itens": [
+          "Run the diagnostic interview with 15 questions and clear consent to record.",
+          "Score the business's 5 areas with a written criterion for each grade.",
+          "Turn cases the owner tells you into tested IF/THEN rules.",
+          "Deliver a one-page report with 1 recommendation, what stays out, and a 30-day plan."
+        ]
+      },
+      {
+        "t": "Where it fits in Professional 2030",
+        "itens": [
+          "<a href=\"https://eventos.inema.pro/prof2030/\">Professional 2030</a> has four roles: Consultant, Auditor, Mentor, and Trainer. All four sell trust, not building.",
+          "The DICA Program is the <b>Consultant</b> role, scaled to the small business: an owner who decides alone, no IT department, with WhatsApp at the center.",
+          "DICA = Diagnose, Implement, Coach, Accompany. This course is the D; <a href=\"https://inematds.github.io/formacao-dica-entrega-v72/en/\">course 2</a> is the I, the C, and the A."
+        ]
+      },
+      {
+        "t": "What was covered in Selling with AI",
+        "itens": [
+          "The 4 roles and \"what you are not\": <a href=\"https://inematds.github.io/formacao-vendas-ia-oportunidades-v72/en/\">Selling with AI 1</a> and <a href=\"https://inematds.github.io/prof2030-base/\">prof2030-base</a>.",
+          "Discovery call to sell: <a href=\"https://inematds.github.io/formacao-vendas-ia-consultoria-v72/en/\">Selling with AI 2</a>.",
+          "Objections and closing: <a href=\"https://inematds.github.io/formacao-vendas-ia-fundamentos-v72/en/\">Selling with AI 3</a>.",
+          "Pricing, proposal, and first client: <a href=\"https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/en/\">Selling with AI 4</a>."
+        ]
+      }
+    ]
+  },
+  "ui": {
+    "pular": "Skip to content",
+    "aulas": "Lessons",
+    "concluido": "completed",
+    "aula": "Lesson",
+    "nesta_aula": "In this lesson, you will learn:",
+    "objetivo": "Goal:",
+    "proxima_aula": "Next lesson",
+    "aula_anterior": "Previous lesson",
+    "voltar_inicio": "Back to the start of the course",
+    "marcar_concluida": "Mark lesson as complete",
+    "dg_dica": "Click each block in the diagram to see what it does.",
+    "copiar": "Copy",
+    "copiado": "Copied",
+    "selo_simulacao": "Simulation: illustrative example",
+    "selo_real": "Example from the repository",
+    "pronto_quando": "Done when:",
+    "fiz": "I did this exercise",
+    "video_pagina": "Video page with script",
+    "pergunta": "Question",
+    "de": "of",
+    "cert_tag": "skill",
+    "correto": "Correct",
+    "errado": "Not this one",
+    "quiz_aguarda": "Pick an answer. The explanation shows up after you try.",
+    "proxima_pergunta": "Next question",
+    "quiz_ver": "See result",
+    "quiz_fim": "Quiz complete",
+    "quiz_total": "You got {a} of {n} right. Get them all right and the lesson is marked as complete.",
+    "aparencia": "Appearance",
+    "tamanho_texto": "Text size",
+    "tema": "Theme",
+    "tema_escuro": "Dark",
+    "tema_papel": "Light paper",
+    "role_dica": "Scroll down: each step below lights up its part of the diagram.",
+    "pre_requisito": "requires",
+    "ver_aula": "See the lesson",
+    "mapa_dica": "Click an exercise to see what to do and the \"done when\".",
+    "etapas": "Steps",
+    "exercicios": "exercises",
+    "rever": "Review:",
+    "revisar_erradas": "Review the wrong ones",
+    "refazer": "Retake the quiz",
+    "h_semana": "h per week",
+    "data_inicio": "Start date",
+    "ritmo": "Time available",
+    "gerar_plano": "Create my plan",
+    "baixar_md": "Download plan.md",
+    "baixar_ics": "Download to calendar (.ics)",
+    "ind_estudo": "Study (lessons)",
+    "ind_pratica": "Declared practice",
+    "ind_nota": "Practice = exercises you marked as done. Proof comes in the certification exam.",
+    "estudo": {
+      "titulo": "Your study",
+      "continuar": "Pick up where I left off",
+      "comecar": "Start with lesson 1",
+      "cta_continuar": "Continue lesson {n}",
+      "hoje": "today",
+      "ontem": "yesterday",
+      "ha_dias": "{n} days ago",
+      "desempenho": "Quiz performance",
+      "notas": "My notes",
+      "dados": "Copy my data",
+      "sem_testes": "No quiz taken yet. The quiz is at the end of each lesson.",
+      "nao_fez": "quiz not taken yet",
+      "ultimo": "Latest",
+      "melhor": "Best",
+      "tentativas": "attempts",
+      "tentativa": "attempt",
+      "tudo_certo": "You got everything right on the latest quiz.",
+      "rever": "To review",
+      "resposta": "Correct answer:",
+      "ir_teste": "Retake the quiz",
+      "sem_notas": "No notes yet. In a lesson, select a passage of text and tap Highlight or Note.",
+      "so_marcado": "(highlight only)",
+      "marcar": "Highlight",
+      "anotar": "Note",
+      "salvar": "Save",
+      "apagar": "Remove highlight",
+      "fechar": "Close",
+      "nota_ph": "Write your note about this passage…",
+      "um_bloco": "Highlight within a single paragraph only.",
+      "nao_marca": "This passage can't be highlighted.",
+      "dados_exp": "Your progress, your notes, and your quiz scores stay only in this browser. Download a copy (.json) to keep or to continue on another computer or browser; there, load the copy. Loading adds to what's already there and doesn't erase anything.",
+      "exportar": "Download copy",
+      "importar": "Load copy",
+      "import_ok": "Copy loaded ({n} items). Refreshing the page…",
+      "import_erro": "File not recognized. Nothing was changed.",
+      "import_outro": "This copy is from a different course. Nothing was changed.",
+      "export_ok": "Copy downloaded."
+    },
+    "conv_dica": "Choose your answer. The feedback appears right after, and the conversation continues based on your choice.",
+    "conv_voce": "You",
+    "conv_escolha": "Your answer",
+    "conv_boa": "Good choice",
+    "conv_meio": "Room to improve",
+    "conv_ruim": "Weak choice",
+    "conv_fim": "End of the conversation",
+    "conv_placar": "You scored {p} out of {m} possible points.",
+    "conv_licao": "Lesson:",
+    "conv_recomecar": "Restart the conversation",
+    "conv_feita": "Your best score: {p} out of {m} points.",
+    "comecar": "Start the lesson",
+    "nesta_vai": "In this lesson you will",
+    "trocar_tema": "Switch light/dark theme",
+    "conf_vazio": "Paste the text or upload the file before checking.",
+    "conf_falta": "Not yet. What's missing:",
+    "conf_campo": "Line {c} is missing: with the description (at least {x} letters).",
+    "conf_planos": "I found {n} numbered shots; the request is for {x} to {y}. Start each shot with its number (1 | ...).",
+    "conf_no_plano": "Shot {i}: missing {g}.",
+    "conf_um_so": "Shot {i}: {n} choices of {g}; pick just one.",
+    "conf_variedade": "Only {n} different type(s) of {g} across the shots; vary it to at least {x}.",
+    "conf_sem_duracao": "Shot {i}: the duration in seconds is missing (e.g., 4 s).",
+    "conf_duracao": "The shots add up to {s} s; the request is for {x} to {y} s.",
+    "conf_termo": "You need to mention {g}.",
+    "conf_mais": "… and {n} more.",
+    "conf_rot": "Paste your file here (or upload the .txt):",
+    "conf_conferir": "Check",
+    "conf_exemplo": "Example that passes",
+    "conf_errado": "Example with an error",
+    "conf_carregar": "Upload .txt",
+    "conf_baixar": "Download the file",
+    "conf_limpar": "Clear"
+  },
+  "icone": "camadas"
+}

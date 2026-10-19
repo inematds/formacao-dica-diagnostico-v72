@@ -1,0 +1,259 @@
+{
+  "slug": "cinco-areas",
+  "num": 3,
+  "menu": "5 areas",
+  "titulo": "The 5 areas: customer service, sales, marketing, management, finance",
+  "titulo_curto": "The 5 areas of the business",
+  "minutos": 18,
+  "lead": "Without scoring, your suggestion sounds like an opinion. With a score, it becomes a diagnosis the owner can discuss. You go through the 5 areas with 3 questions each, score pain, urgency, and readiness from 0 to 3, and write next to each score why you gave it.",
+  "objetivo": "score the business's 5 areas (pain, urgency, readiness) with a written criterion for each score and pick where to look first.",
+  "competencias": [
+    "mapear-cinco-areas",
+    "pontuar-com-criterio",
+    "priorizar-area"
+  ],
+  "aprende": [
+    {
+      "t": "The 3 questions for each area"
+    },
+    {
+      "t": "The symptoms the owner has already gotten used to"
+    },
+    {
+      "t": "The 0–3 matrix with the criterion for each score"
+    },
+    {
+      "t": "Why finance always needs human approval"
+    }
+  ],
+  "hero_alt": "Five sheets of paper side by side on a wooden table, with sticky notes and a pen.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The 5 areas of a small business",
+      "sub": "Click each area: questions, symptoms, and what to watch out for.",
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "Customer service",
+          "sub": "the front door",
+          "detalhe": "Questions: how long does it take to answer a new message? How many channels are active? Who answers after hours? Symptoms: owner glued to their phone at night, messages lost between channels, \"I'll ask and let you know.\""
+        },
+        {
+          "icone": "alvo",
+          "titulo": "Sales",
+          "sub": "the funnel",
+          "detalhe": "Questions: how many contacts come in per month, and from where? How long from the \"hi\" to the proposal? Who follows up with the people who didn't reply, and within how many days? Symptoms: proposal written from scratch every time, forgotten follow-ups, nobody knows where the customer came from."
+        },
+        {
+          "icone": "megafone",
+          "titulo": "Marketing",
+          "sub": "the storefront",
+          "detalhe": "Questions: how many posts per week, is there a calendar? Do they advertise, and on which channel? Do they know which channel brings in customers? Symptoms: posts when they remember, boosted ads with no target, doesn't know where customers come from."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Management",
+          "sub": "the rework",
+          "detalhe": "Questions: does the team ask the same things over and over? What task do you redo every week? When you go on vacation, what stops? Symptoms: everything goes through the owner, procedures live in one person's head."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Finance",
+          "sub": "the sensitive part",
+          "forte": true,
+          "detalhe": "Questions: do you know last month's results? How do you reconcile the bank with the system? Who chases whoever is late, and after how many days? Symptoms: \"I'll pull the report and send it to you,\" collection only when it becomes a problem. Here, every automation goes through human approval."
+        }
+      ],
+      "legenda": "This mapping covers the whole business. To map a single process in depth, see AI Management · Processes (link at the end)."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The 0–3 matrix, with written criteria",
+      "sub": "Three scores per area. The criterion comes before the score.",
+      "passos": [
+        {
+          "titulo": "Pain",
+          "sub": "how much does it hurt?",
+          "texto": [
+            "0 = the owner sees no problem. 1 = complains in general, no specific case. 2 = tells a recent case. 3 = tells a recent case and says what it costs (time, lost customer) or has already tried to fix it.",
+            "The score comes from what they said in the interview, not from your impression."
+          ]
+        },
+        {
+          "titulo": "Urgency",
+          "sub": "by when?",
+          "texto": [
+            "0 = can wait more than six months. 1 = this quarter. 2 = this month. 3 = it's getting in the way right now and they asked for a deadline.",
+            "Urgency without pain is anxiety; pain without urgency gets noted for a later phase."
+          ]
+        },
+        {
+          "titulo": "Readiness",
+          "sub": "do they have what it takes?",
+          "texto": [
+            "0 = nothing written down, nobody knows. 1 = it's in the head of someone who is available. 2 = partly in a spreadsheet or system. 3 = organized in one place, with someone who looks after it.",
+            "Low readiness doesn't rule out the area: it means the first step is to organize the information."
+          ]
+        },
+        {
+          "titulo": "Add up and talk it through",
+          "sub": "the score is theirs",
+          "texto": [
+            "Add up the three scores for each area and show the table to the owner in the feedback session. They agree or correct each score.",
+            "When the owner corrects a score with a case, the criterion gets stronger. When they correct it without a case, note it and keep your criterion."
+          ],
+          "exemplo": {
+            "rot": "Comparison (fictional)",
+            "texto": "At Imobiliária Ponto Firme (4 agents), sales scored higher than customer service: the proposal goes out the day after the visit. At Vila Serena, customer service leads because of the evening messages."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template: the 5-area matrix",
+      "sub": "One row per area; the criterion column is required. Replace what's between < > with your own.",
+      "blocos": [
+        {
+          "rot": "matriz-5-areas.md",
+          "icone": "grafico",
+          "conteudo": "# 5-area matrix — <business> — <date>\n# Scale: 0 to 3. Criterion = what the owner said that justifies the score.\n\n| Area | Pain | Pain criterion | Urgency | Urgency criterion | Readiness | Readiness criterion | Total |\n|---|---|---|---|---|---|---|---|\n| Customer service | <0-3> | <case or owner's phrase> | <0-3> | <deadline mentioned> | <0-3> | <where the information is> | <sum> |\n| Sales | | | | | | | |\n| Marketing | | | | | | | |\n| Management | | | | | | | |\n| Finance | | | | | | | |\n\nWhere to look first: <area> — because <reason in 1 line>\nScore the owner corrected: <area, from X to Y, reason>"
+        },
+        {
+          "rot": "Partial example (fictional)",
+          "icone": "lista",
+          "conteudo": "# 5-area matrix — Clínica Vila Serena (fictional)\n\n| Area | Pain | Pain criterion | Urgency | Criterion | Readiness | Criterion | Total |\n|---|---|---|---|---|---|---|---|\n| Customer service | 3 | case of the patient who booked elsewhere + \"I reply at night, when I remember\" | 3 | asked to fix it before vacation | 1 | prices and insurance plans in the team's heads | 7 |\n| Finance | 1 | \"we get by,\" no case | 1 | no deadline | 2 | bank statement + partner's spreadsheet | 4 |\n\nWhere to look first: customer service — highest pain and urgency; low readiness means sorting out the rules first (lessons 4 and 5)."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "How to check",
+            "html": "<ul><li>All 5 areas have the 3 scores.</li><li>Each score has a written criterion with the owner's words or a case.</li><li>The \"where to look first\" line has a reason, not just the highest sum.</li></ul>"
+          },
+          {
+            "rot": "Common mistakes",
+            "html": "<ul><li>Giving a 3 in pain with no recent case.</li><li>Skipping finance because the owner didn't mention it: ask, they usually recognize it when you touch on it.</li><li>Reading low readiness as \"can't be done\": it's the first job.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: the Vila Serena matrix",
+      "sub": "Use what the owner said in the simulated interview in lesson 2 and make up the rest as fictional.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Complete matrix",
+          "min": "25 min",
+          "texto": "Fill in the 5-area matrix for Clínica Vila Serena (fictional). For the areas the simulated interview didn't cover, write the criterion as \"fictício: ...\".",
+          "pronto": "the matrix has all 5 areas with a 0–3 score for pain, urgency and readiness, and the criterion for each score written next to it."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Where to look first",
+          "min": "5 min",
+          "texto": "Write the \"where to look first\" line with the area and the reason, and say what that area's readiness calls for before any assistant.",
+          "pronto": "the line names an area, a one-sentence reason, and the first cleanup step if readiness is 0 or 1."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "perguntas": [
+        {
+          "p": "The owner says the service \"could be better,\" with no specific case. What pain score?",
+          "opcoes": [
+            "3, because customer service is always critical.",
+            "2, so as not to discourage the owner.",
+            "0, because they didn't cite a number.",
+            "1: a general complaint, with no recent case."
+          ],
+          "certa": 3,
+          "explica": "By the written criterion, a complaint without a case is a 1. Giving a high score out of habit is what turns the matrix into opinion.",
+          "ref": "passos",
+          "cert": true
+        },
+        {
+          "p": "Customer service has readiness 1 (rules live in the team's heads). What does that mean?",
+          "opcoes": [
+            "That the first step is to write down the rules, before any assistant.",
+            "That the area should come off the map.",
+            "That an assistant can simply learn on its own from the old WhatsApp conversations.",
+            "That the score is wrong."
+          ],
+          "certa": 0,
+          "explica": "Low readiness doesn't rule out the area; it points to the first job. Lessons 4 and 5 teach how to draw those rules out of the owner.",
+          "ref": "passos"
+        },
+        {
+          "p": "Why does finance require human approval on every automation?",
+          "opcoes": [
+            "Because it's the area that gets the most customer messages every day.",
+            "Because a mistake there touches money and the relationship with the customer.",
+            "Because the law prohibits automating collections.",
+            "Because the owner doesn't know how to use a spreadsheet."
+          ],
+          "certa": 1,
+          "explica": "Collections, reconciliation, and reports have costly errors. The promise is to prepare the work and leave it ready for approval, never to \"close on its own.\"",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Why show the matrix to the owner in the debrief?",
+          "opcoes": [
+            "To prove you worked hard.",
+            "To justify the price.",
+            "So they can agree with or correct each score, and the priority becomes theirs.",
+            "So they can pick on their own the AI tool they prefer to use in the business."
+          ],
+          "certa": 2,
+          "explica": "A score that has been discussed becomes a commitment. A correction backed by a case makes the criterion firmer.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "5 areas, 3 questions",
+          "texto": "Customer service, sales, marketing, management, and finance, always in the same order."
+        },
+        {
+          "t": "Criterion before score",
+          "texto": "Pain, urgency, and readiness from 0 to 3, each score backed by the case or the owner's phrase that justifies it."
+        },
+        {
+          "t": "Readiness is a task",
+          "texto": "A low readiness score doesn't rule out the area: it says the first step is to get the information in order."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Map a process in depth (AI Management · Processes, lesson 3)",
+          "href": "https://inematds.github.io/gestao-ia-processos-v72/en/aulas/mapear/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Choose the first process (AI Management · Processes, lesson 2)",
+          "href": "https://inematds.github.io/gestao-ia-processos-v72/en/aulas/primeiro-processo/",
+          "icone": "alvo"
+        },
+        {
+          "t": "AI Consulting Area",
+          "href": "https://eventos.inema.pro/consultoria-ia/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

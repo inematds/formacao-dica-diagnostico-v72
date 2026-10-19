@@ -1,0 +1,265 @@
+{
+  "slug": "metodo-dica",
+  "num": 1,
+  "menu": "Method",
+  "titulo": "A small business is not a small company: the DICA method",
+  "titulo_curto": "The DICA method",
+  "minutos": 14,
+  "lead": "A nine-person clinic is not a miniature big company. The owner decides alone, there's no IT, WhatsApp is the front door to everything, and a lot of the rules live in her head. That's why the diagnosis comes before any tool, and it's where the DICA method starts.",
+  "objetivo": "describe the small business in 5 lines and place the diagnosis (D) within the DICA method before proposing any AI.",
+  "competencias": [
+    "descrever-pequeno-negocio",
+    "situar-diagnostico-no-dica",
+    "separar-diagnostico-de-venda"
+  ],
+  "aprende": [
+    {
+      "t": "What changes in a business where the owner decides everything"
+    },
+    {
+      "t": "The four letters of DICA and what comes out of each one"
+    },
+    {
+      "t": "The 5-line sheet that opens every diagnosis"
+    },
+    {
+      "t": "Where the DICA Program fits into Professional 2030"
+    }
+  ],
+  "hero_alt": "A small workshop owner and a consultant looking together at a notebook on the counter.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The DICA method",
+      "sub": "Four steps, in this order. This course is the D. Click each letter.",
+      "nos": [
+        {
+          "icone": "lupa",
+          "titulo": "Diagnose",
+          "sub": "this course",
+          "forte": true,
+          "detalhe": "Interview the owner, score the 5 areas, pull out of their head the rules nobody wrote down, and deliver a one-page map with a recommendation. What comes out of here: the report and the 30-day plan."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Implement",
+          "sub": "course 2",
+          "detalhe": "Choose the first assistant, write its playbook, and turn it on with approval in phases. It only starts once the diagnosis has said what to do and what not to do."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Coach",
+          "sub": "course 2",
+          "detalhe": "Teach the owner and one person on the team how to use it, fix it, and ask for adjustments. Without this, the assistant dies when the consultant leaves."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Accompany",
+          "sub": "course 2",
+          "detalhe": "A short check-in every week, a few indicators, and an alert when something goes off track, until the assistant runs on its own."
+        }
+      ],
+      "volta": "the follow-up brings the next area into a new diagnosis",
+      "legenda": "Building got easy; trusting what was built did not. The D is where trust begins."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The portrait of the small business",
+      "sub": "Four traits that change how you diagnose.",
+      "passos": [
+        {
+          "titulo": "The owner decides alone",
+          "sub": "no committee",
+          "texto": [
+            "There is no board and no purchasing department. The person who answers the interview is the one who approves, pays, and uses it.",
+            "That speeds up the decision, but everything depends on one person's schedule and mood."
+          ],
+          "exemplo": {
+            "rot": "At Clínica Vila Serena (fictional)",
+            "texto": "The owner sees patients in the morning and handles administration in the afternoon. The conversation with you fits between the two."
+          }
+        },
+        {
+          "titulo": "There is no IT",
+          "sub": "nobody takes care of it",
+          "texto": [
+            "The system password, the WhatsApp account, and the spreadsheet stay with whoever set them up, sometimes a nephew.",
+            "Before you think about integrating, find out who has access to what."
+          ]
+        },
+        {
+          "titulo": "WhatsApp is the front door",
+          "sub": "everything goes through it",
+          "texto": [
+            "Scheduling, questions, complaints, and payments all arrive on the same phone.",
+            "That's why the WhatsApp rules (lesson 7) belong in the diagnosis, not only in the build."
+          ]
+        },
+        {
+          "titulo": "The rules live in their head",
+          "sub": "nothing written down",
+          "texto": [
+            "The owner knows how to do it but not how to describe it. Prices, exceptions, and \"the way we do things here\" were never written down.",
+            "Lessons 4 and 5 teach you how to draw this out without asking the owner to come up with rules alone."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template: the 5-line sheet",
+      "sub": "Fill it in before the interview with what you already know; the rest becomes questions. Replace what is between < > with your own.",
+      "blocos": [
+        {
+          "rot": "ficha-5-linhas.md",
+          "icone": "arquivo",
+          "conteudo": "# 5-line sheet — <business name> (<city>, <date>)\n\n1. Who decides: <name and role; who else needs to agree>\n2. Main channel: <how the customer arrives and talks: WhatsApp, phone, counter>\n3. Who answers today: <person, hours, what happens outside hours>\n4. What can't stop: <the activity that, if it stops for a day, costs money>\n5. Where the information lives: <system, spreadsheet, notebook, someone's head>\n\nDon't know yet: <what is missing and which interview question will answer it>"
+        },
+        {
+          "rot": "Filled-in example (fictional)",
+          "icone": "lista",
+          "conteudo": "# 5-line sheet — Clínica Vila Serena (fictional)\n\n1. Who decides: the owner, alone; the partner weighs in on spending\n2. Main channel: the front desk WhatsApp (one phone)\n3. Who answers today: the receptionist, 8 a.m. to 6 p.m.; at night, the owner on her own phone\n4. What can't stop: the physical therapists' schedule\n5. Where the information lives: schedule in the clinic's system; prices and insurance plans in the team's heads\n\nDon't know yet: how many messages arrive per day (interview question 5)"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "How to check",
+            "html": "<ul><li>Each line has a concrete answer (a name, a channel, a place), not an adjective.</li><li>There is at least one \"don't know yet\" line, tied to an interview question.</li><li>No line mentions an AI tool.</li></ul>"
+          },
+          {
+            "rot": "Common mistakes",
+            "html": "<ul><li>Writing the solution on the sheet (\"needs a robot\").</li><li>Leaving line 1 vague: \"the company decides\".</li><li>Making up what you don't know instead of marking \"don't know yet\".</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "video",
+      "titulo": "Video: AI consulting in practice",
+      "sub": "Four and a half minutes: the conversation, the one-page diagnosis, and a clinic example.",
+      "chave": "consultoria-na-pratica"
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: the Vila Serena sheet",
+      "sub": "Clínica Vila Serena is fictional and stays with you throughout the course.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · 5-line sheet",
+          "min": "15 min",
+          "texto": "Copy the template and fill it in for Clínica Vila Serena (physical therapy and aesthetics, 9 people, an owner who sees patients and handles administration, front desk on WhatsApp). If you serve a real business, do theirs too, with permission.",
+          "pronto": "the 5 lines have concrete answers and at least one is marked \"don't know yet\", with the question that will answer it."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · The D separate from the sale",
+          "min": "5 min",
+          "texto": "Write one sentence on what your diagnosis delivers and one sentence on what it does not deliver (price, building, promise of results).",
+          "pronto": "both sentences exist, and the second one names at least one thing that is left for after the diagnosis."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "perguntas": [
+        {
+          "p": "In a small business, the person you interview in the diagnosis is usually:",
+          "opcoes": [
+            "A purchasing committee with three departments.",
+            "The company's IT manager.",
+            "The owner, who decides, pays, and uses it.",
+            "A representative from the system vendor."
+          ],
+          "certa": 2,
+          "explica": "With no board and no IT department, the owner is the one who decides and the one who uses it. The common mistake is preparing the conversation as if it were for a big company, with technical terms and several meetings.",
+          "ref": "passos"
+        },
+        {
+          "p": "What comes out of step D of the DICA method?",
+          "opcoes": [
+            "A one-page report with a recommendation and a 30-day plan.",
+            "The assistant already running on the company's WhatsApp, serving customers.",
+            "The signed contract with a fixed price.",
+            "A 90-minute team training."
+          ],
+          "certa": 0,
+          "explica": "D delivers the map and the recommendation. Building is I, teaching is C, and price belongs to Selling with AI.",
+          "ref": "diagrama",
+          "cert": true
+        },
+        {
+          "p": "In the 5-line sheet, the \"I don't know yet\" line is for:",
+          "opcoes": [
+            "Showing the owner that they forgot to share something.",
+            "Filling in later with a guess.",
+            "Justifying a higher price for the diagnosis.",
+            "Linking what's missing to a question in the interview."
+          ],
+          "certa": 3,
+          "explica": "What you don't know becomes a question. Making up the answer is the mistake that contaminates the rest of the diagnosis.",
+          "ref": "codigo"
+        },
+        {
+          "p": "Why do the WhatsApp rules come into the diagnosis right away?",
+          "opcoes": [
+            "Because the diagnosis already chooses the tool.",
+            "Because almost everything in a small business goes through it, and the rule changes what you can recommend.",
+            "Because Meta requires a written diagnosis before it approves any business account on the platform.",
+            "Because WhatsApp is the only area that matters."
+          ],
+          "certa": 1,
+          "explica": "Scheduling, questions, and payments all come in through the same phone. Recommending something the platform's rules don't allow is a diagnosis mistake, not a building mistake.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Small is not a miniature",
+          "texto": "An owner who decides alone, no IT department, WhatsApp at the center, and the rules in their head. The diagnosis starts from there."
+        },
+        {
+          "t": "D before I",
+          "texto": "Diagnose, Implement, Coach, Accompany. Nothing gets built before D says what to do and what not to do."
+        },
+        {
+          "t": "5-line sheet",
+          "texto": "Who decides, channel, who answers, what can't stop, and where the information lives. What's missing becomes a question."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Professional 2030: the four roles",
+          "href": "https://eventos.inema.pro/prof2030/",
+          "icone": "camadas"
+        },
+        {
+          "t": "What you are not (prof2030-base, lesson 7)",
+          "href": "https://inematds.github.io/prof2030-base/aulas/escopo/",
+          "icone": "escudo"
+        },
+        {
+          "t": "The 4 roles (Selling with AI 1, lesson 1)",
+          "href": "https://inematds.github.io/formacao-vendas-ia-oportunidades-v72/en/aulas/escolha-o-papel/",
+          "icone": "usuario"
+        },
+        {
+          "t": "Video page with script",
+          "href": "https://inematds.github.io/consultoria-ia-na-pratica/videos/",
+          "icone": "video"
+        }
+      ]
+    }
+  ]
+}

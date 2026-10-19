@@ -77,8 +77,8 @@
          "texto": "A partir do padrao.md, escreva 5 regras no modelo. Inclua pelo menos uma exceção que chama uma pessoa.",
          "pronto": "o arquivo tem 5 regras, cada uma com condição visível, ação específica e quem responde."},
         {"id": "e2", "titulo": "E2 · Três casos novos por regra", "min": "30 min",
-         "texto": "Para cada regra, escreva 3 casos novos (fictícios, diferentes dos da aula 4) e preencha a tabela de teste. Ajuste a regra que falhar e teste de novo.",
-         "pronto": "as 5 regras têm tabela de teste com 3 casos novos e o resultado \"madura\"."},
+         "texto": "Para cada regra, escreva 3 casos novos (fictícios, diferentes dos da aula 4), sendo pelo menos 1 feito para quebrar a regra (a exceção, o caso de borda). Peça a outra pessoa que faça o papel da dona e diga o que faria em cada caso, sem ver a regra. Ajuste a regra que falhar e teste de novo.",
+         "pronto": "as 5 regras têm tabela de teste com 3 casos novos, um deles de borda, a coluna \"o que o dono faria\" preenchida por outra pessoa e o resultado \"madura\"."},
         {"id": "e3", "titulo": "E3 · Arquivo com dono e versão", "min": "5 min",
          "texto": "Monte o regras-vila-serena.md com o cabeçalho completo e o histórico.",
          "pronto": "o arquivo tem dono, versão, data e histórico no topo, e uma busca por nome ou telefone não acha nada."}
@@ -89,7 +89,7 @@
       "titulo": "Teste o que aprendeu",
       "perguntas": [
         {"p": "Qual destas é uma condição de regra que dá para verificar?",
-         "opcoes": ["Quando o paciente parece interessado.", "Quando o atendimento for importante.", "Quando a pessoa pergunta preço e não disse o convênio.", "Quando fizer sentido."],
+         "opcoes": ["Quando o paciente parece interessado de verdade em marcar uma avaliação.", "Quando o atendimento for importante.", "Quando a pessoa pergunta preço e não disse o convênio.", "Quando fizer sentido."],
          "certa": 2, "explica": "A condição tem de estar visível na mensagem ou no sistema. \"Parece interessado\" e \"faz sentido\" ninguém consegue checar.", "ref": "passos", "cert": true},
         {"p": "Por que testar a regra em casos que não foram usados para criá-la?",
          "opcoes": ["Para descobrir se ela funciona fora dos exemplos que a originaram.", "Porque os casos antigos já foram apagados.", "Para ter mais material e exemplos para preencher o relatório de uma página.", "Porque o dono pediu."],
